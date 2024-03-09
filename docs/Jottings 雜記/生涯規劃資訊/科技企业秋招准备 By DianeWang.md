@@ -100,3 +100,5 @@ date: 2024-03-03
   欢迎大家体验我司通用语言模型DeepSeek Chat 67B: https://www.deepseek.com/
 
 Github token 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
+
+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
