@@ -1,0 +1,3645 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="['lzliangzh']" name="author"/>
+<link href="http://10.7.13.228:8080/Resources%20%E8%B3%87%E6%BA%90%E5%BA%AB/%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/7.%20%E8%AF%8D%E6%B1%87%E5%AD%A6/" rel="canonical"/>
+<link href="../6.%20%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E4%B8%8E%E6%99%AE%E9%80%9A%E8%AF%9D%E9%9F%B3%E4%BD%8D/" rel="prev"/>
+<link href="../%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%EF%BC%88%E4%B8%8B%EF%BC%89%E7%BB%AA%E8%AE%BA/" rel="next"/>
+<link href="../../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.5.3, mkdocs-material-9.5.9" name="generator"/>
+<title> - 1ntersection 交匯區</title>
+<link href="../../../assets/stylesheets/main.f2e4d321.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.752 1.752 0 0 1 1 7.775Zm1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.5 1.75v11.5c0 .138.112.25.25.25h3.17a.75.75 0 0 1 0 1.5H2.75A1.75 1.75 0 0 1 1 13.25V1.75C1 .784 1.784 0 2.75 0h8.5C12.216 0 13 .784 13 1.75v7.736a.75.75 0 0 1-1.5 0V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13.274 9.537v-.001l-4.557 4.45a.75.75 0 0 1-1.055-.008l-1.943-1.95a.75.75 0 0 1 1.062-1.058l1.419 1.425 4.026-3.932a.75.75 0 1 1 1.048 1.074ZM4.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75Z"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3.499.75a.75.75 0 0 1 1.5 0v.996C5.9 2.903 6.793 3.65 7.662 4.376l.24.202c-.036-.694.055-1.422.426-2.163C9.1.873 10.794-.045 12.622.26 14.408.558 16 1.94 16 4.25c0 1.278-.954 2.575-2.44 2.734l.146.508.065.22c.203.701.412 1.455.476 2.226.142 1.707-.4 3.03-1.487 3.898C11.714 14.671 10.27 15 8.75 15h-6a.75.75 0 0 1 0-1.5h1.376a4.484 4.484 0 0 1-.563-1.191 3.835 3.835 0 0 1-.05-2.063 4.647 4.647 0 0 1-2.025-.293.75.75 0 0 1 .525-1.406c1.357.507 2.376-.006 2.698-.318l.009-.01a.747.747 0 0 1 1.06 0 .748.748 0 0 1-.012 1.074c-.912.92-.992 1.835-.768 2.586.221.74.745 1.337 1.196 1.621H8.75c1.343 0 2.398-.296 3.074-.836.635-.507 1.036-1.31.928-2.602-.05-.603-.216-1.224-.422-1.93l-.064-.221c-.12-.407-.246-.84-.353-1.29a2.425 2.425 0 0 1-.507-.441 3.075 3.075 0 0 1-.633-1.248.75.75 0 0 1 1.455-.364c.046.185.144.436.31.627.146.168.353.305.712.305.738 0 1.25-.615 1.25-1.25 0-1.47-.95-2.315-2.123-2.51-1.172-.196-2.227.387-2.706 1.345-.46.92-.27 1.774.019 3.062l.042.19a.884.884 0 0 1 .01.05c.348.443.666.949.94 1.553a.75.75 0 1 1-1.365.62c-.553-1.217-1.32-1.94-2.3-2.768L6.7 5.527c-.814-.68-1.75-1.462-2.692-2.619a3.737 3.737 0 0 0-1.023.88c-.406.495-.663 1.036-.722 1.508.116.122.306.21.591.239.388.038.797-.06 1.032-.19a.75.75 0 0 1 .728 1.31c-.515.287-1.23.439-1.906.373-.682-.067-1.473-.38-1.879-1.193L.75 5.677V5.5c0-.984.48-1.94 1.077-2.664.46-.559 1.05-1.055 1.673-1.353V.75Z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.92 6.085h.001a.749.749 0 1 1-1.342-.67c.169-.339.436-.701.849-.977C6.845 4.16 7.369 4 8 4a2.756 2.756 0 0 1 1.637.525c.503.377.863.965.863 1.725 0 .448-.115.83-.329 1.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6.24 6.24 0 0 0-.26.16.952.952 0 0 0-.276.245.75.75 0 0 1-1.248-.832c.184-.264.42-.489.692-.661.103-.067.207-.132.313-.195l.007-.004c.1-.061.182-.11.258-.161a.969.969 0 0 0 .277-.245C8.96 6.514 9 6.427 9 6.25a.612.612 0 0 0-.262-.525A1.27 1.27 0 0 0 8 5.5c-.369 0-.595.09-.74.187a1.01 1.01 0 0 0-.34.398ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.344 2.343h-.001a8 8 0 0 1 11.314 11.314A8.002 8.002 0 0 1 .234 10.089a8 8 0 0 1 2.11-7.746Zm1.06 10.253a6.5 6.5 0 1 0 9.108-9.275 6.5 6.5 0 0 0-9.108 9.275ZM6.03 4.97 8 6.94l1.97-1.97a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l1.97 1.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-1.97 1.97a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L6.94 8 4.97 6.03a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018Z"/></svg>');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M9.504.43a1.516 1.516 0 0 1 2.437 1.713L10.415 5.5h2.123c1.57 0 2.346 1.909 1.22 3.004l-7.34 7.142a1.249 1.249 0 0 1-.871.354h-.302a1.25 1.25 0 0 1-1.157-1.723L5.633 10.5H3.462c-1.57 0-2.346-1.909-1.22-3.004L9.503.429Zm1.047 1.074L3.286 8.571A.25.25 0 0 0 3.462 9H6.75a.75.75 0 0 1 .694 1.034l-1.713 4.188 6.982-6.793A.25.25 0 0 0 12.538 7H9.25a.75.75 0 0 1-.683-1.06l2.008-4.418.003-.006a.036.036 0 0 0-.004-.009l-.006-.006-.008-.001c-.003 0-.006.002-.009.004Z"/></svg>');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M4.72.22a.75.75 0 0 1 1.06 0l1 .999a3.488 3.488 0 0 1 2.441 0l.999-1a.748.748 0 0 1 1.265.332.75.75 0 0 1-.205.729l-.775.776c.616.63.995 1.493.995 2.444v.327c0 .1-.009.197-.025.292.408.14.764.392 1.029.722l1.968-.787a.75.75 0 0 1 .556 1.392L13 7.258V9h2.25a.75.75 0 0 1 0 1.5H13v.5c0 .409-.049.806-.141 1.186l2.17.868a.75.75 0 0 1-.557 1.392l-2.184-.873A4.997 4.997 0 0 1 8 16a4.997 4.997 0 0 1-4.288-2.427l-2.183.873a.75.75 0 0 1-.558-1.392l2.17-.868A5.036 5.036 0 0 1 3 11v-.5H.75a.75.75 0 0 1 0-1.5H3V7.258L.971 6.446a.75.75 0 0 1 .558-1.392l1.967.787c.265-.33.62-.583 1.03-.722a1.677 1.677 0 0 1-.026-.292V4.5c0-.951.38-1.814.995-2.444L4.72 1.28a.75.75 0 0 1 0-1.06Zm.53 6.28a.75.75 0 0 0-.75.75V11a3.5 3.5 0 1 0 7 0V7.25a.75.75 0 0 0-.75-.75ZM6.173 5h3.654A.172.172 0 0 0 10 4.827V4.5a2 2 0 1 0-4 0v.327c0 .096.077.173.173.173Z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M5 5.782V2.5h-.25a.75.75 0 0 1 0-1.5h6.5a.75.75 0 0 1 0 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458Zm-2.4 6.565a.75.75 0 0 0 .633 1.153h9.534a.75.75 0 0 0 .633-1.153L12.225 10.5h-8.45ZM9.5 2.5h-3V6c0 .143-.04.283-.117.403L4.73 9h6.54L9.617 6.403A.746.746 0 0 1 9.5 6Z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1.75 2.5h10.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5Zm4 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5ZM2.5 7.75v6a.75.75 0 0 1-1.5 0v-6a.75.75 0 0 1 1.5 0Z"/></svg>');}</style>
+<link href="../../../css/footermatter.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,300i,400,400i,700,700i%7CPT+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Work Sans";--md-code-font:"PT Mono"}</style>
+<link href="../../../stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<!-- Open Graph -->
+<meta content="website" property="og:type">
+<meta content=" - 1ntersection 交匯區" property="og:title">
+<meta content=" - " property="og:description">
+<meta content="http://10.7.13.228:8080/Resources%20%E8%B3%87%E6%BA%90%E5%BA%AB/%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/7.%20%E8%AF%8D%E6%B1%87%E5%AD%A6/" property="og:url">
+<meta content="http://10.7.13.228:8080/assets/banner.jpg" property="og:image"/>
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<!-- Twitter Cards -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content=" - 1ntersection 交匯區" name="twitter:title"/>
+<meta content=" - " name="twitter:description"/>
+<meta content="http://10.7.13.228:8080/assets/banner.jpg" name="twitter:image"/>
+</meta></meta></meta></meta></head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#_1">
+          跳转至
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="页眉" class="md-header__inner md-grid">
+<a aria-label="1ntersection 交匯區" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="1ntersection 交匯區">
+<img alt="logo" src="../../../logo.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            1ntersection 交匯區
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              词汇
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme)" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9h-1.9M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69m-9.15 3.96h2.3L12 9l-1.15 3.65Z"></path></svg>
+</label>
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="white" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"></path></svg>
+</label>
+<input aria-label="Switch to system preference" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="black" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to system preference">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"></path></svg>
+</label>
+</form>
+<script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="搜索" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="搜索" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="查找" class="md-search__options">
+<a aria-label="分享" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="分享">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"></path></svg>
+</a>
+<button aria-label="清空当前内容" class="md-search__icon md-icon" tabindex="-1" title="清空当前内容" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/lzliangzh/lzliangzh" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    lzliangzh
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="标签" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../..">
+        
+  
+    
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../aboutme/">
+        
+  
+    
+  
+  Whoami 關於我
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../tags/">
+        
+  
+    
+  
+  Tags 標籤
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/">
+          
+  
+    
+  
+  Academia 學術
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/C%2B%2B%20%E5%AD%A6%E4%B9%A0/">
+          
+  
+    
+  
+  Jottings 雜記
+
+        </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../../">
+          
+  
+    
+  
+  Resources 資源庫
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="导航栏" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="1ntersection 交匯區" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="1ntersection 交匯區">
+<img alt="logo" src="../../../logo.png"/>
+</a>
+    1ntersection 交匯區
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/lzliangzh/lzliangzh" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    lzliangzh
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../..">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Home
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../aboutme/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Whoami 關於我
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../tags/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Tags 標籤
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox">
+<!-- Toggle to expand nested items -->
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Academia 學術
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- Only render toggle if there's at least one more page -->
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            Academia 學術
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/%E2%80%9C%E9%81%A9%E2%80%9D%E5%AF%A6%E8%A9%9E%E8%A9%9E%E7%BE%A9%E5%BC%95%E7%94%B3%E7%99%BC%E5%B1%95%E8%84%88%E7%B5%A1%E6%A2%B3%E7%90%86/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    “適” 實詞詞義引申發展脈絡梳理
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2023-12-29
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/%E3%80%8A%E5%88%A9%E7%BB%B4%E5%9D%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%3A%E7%A7%8B%E8%8D%89/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《利维坦》读书笔记
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/%E5%8F%A5%E6%B3%95%E7%BB%93%E6%9E%84%3A%E8%AF%BA%E5%A7%86%C2%B7%E4%B9%94%E5%A7%86%E6%96%AF%E5%9F%BA/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Syntactic Structure / 句法结构
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-03
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_4_5" type="checkbox">
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《左傳》精讀
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_4_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_5">
+<span class="md-nav__icon md-icon"></span>
+            《左傳》精讀
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/%E3%80%8A%E5%B7%A6%E5%82%B3%E3%80%8B%E7%B2%BE%E8%AE%80/%E3%80%8A%E5%B7%A6%E4%BC%A0%E3%80%8B%E8%8A%82%E9%80%89%EF%BC%88%E7%AE%80%E4%BD%93%E5%AD%97%E7%89%88%EF%BC%89/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《左传》节选
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-07
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/%E3%80%8A%E5%B7%A6%E5%82%B3%E3%80%8B%E7%B2%BE%E8%AE%80/%E3%80%8A%E5%B7%A6%E5%82%B3%E3%80%8B%E6%A6%82%E8%AB%96/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《左傳》概論
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-07
+          </font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</input></li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_4_6" type="checkbox">
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    漢語音韻學
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_4_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_6">
+<span class="md-nav__icon md-icon"></span>
+            漢語音韻學
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/%E6%BC%A2%E8%AA%9E%E9%9F%B3%E9%9F%BB%E5%AD%B8/%E6%96%B0%E5%BB%BA%20%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    luən mjuən piɛu
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</input></li>
+<!-- Currently active page -->
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</input></li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox">
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Jottings 雜記
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            Jottings 雜記
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/C%2B%2B%20%E5%AD%A6%E4%B9%A0/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    C++ 学习
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-09
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E9%80%92%E5%BD%92%E5%88%B7%E9%A2%98/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    递归刷题
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-09
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_5_3" type="checkbox">
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    折騰
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_5_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_3">
+<span class="md-nav__icon md-icon"></span>
+            折騰
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/Charge%20into%202024/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Charge into 2024
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2023-12-31
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/LAN-server/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    PC/Mac 与 Android Termux 互传实现
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-01-29
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/Operator%27s%20Memo%20%3A%20%E5%BB%BA%E7%AB%99%E7%A2%8E%E7%A2%8E%E5%94%B8/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Operator's Memo / 建站碎碎唸
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-01-07
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/easyuse-terminal/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    易用的 Linux/Unix 终端
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-02-02
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/obsidian-syncing-solution/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    obsidian/git/gitee 三端笔记同步解决方案
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-01-23
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/personal-git-repo/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    个人 Git 仓库使用设置
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-01-23
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/ubuntu-in-termux/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    倒腾札记: Android Termux 环境下 ubuntu 安装、配置与用法
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-01-24
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/%E5%A6%82%E4%BD%95%E6%9B%B4%E6%96%B0%201ntersection%20%E7%9A%84%E6%96%87%E4%BB%B6/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    如何更新 1ntersection 的文件
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-05
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/%E5%BB%BA%E8%A8%AD%E9%80%B2%E5%BA%A6%E5%B0%8F%E7%B5%90/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    建設進度小結
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-04
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/%E8%BF%91%E6%9C%9F%E6%8A%98%E8%85%BE%EF%BC%9A%E7%94%A8%E9%A6%99%E6%A9%99%E6%B4%BE%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1%E5%99%A8/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    近期折腾：用香橙派搭建简易网站服务器
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-02
+          </font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</input></li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_5_4" type="checkbox">
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    日誌
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_5_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_4">
+<span class="md-nav__icon md-icon"></span>
+            日誌
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%97%A5%E8%AA%8C/2024-03-09/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    20240309
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-09
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%97%A5%E8%AA%8C/20240302/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    20240302
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-02
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%97%A5%E8%AA%8C/20240304/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    20240304
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-04
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%97%A5%E8%AA%8C/20240305/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    20240305待办
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-05
+          </font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</input></li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_5_5" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    生涯規劃資訊
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_5_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_5">
+<span class="md-nav__icon md-icon"></span>
+            生涯規劃資訊
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E7%94%9F%E6%B6%AF%E8%A6%8F%E5%8A%83%E8%B3%87%E8%A8%8A/US-AI-PhD-Application/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    搬运清华树洞经验贴
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2023-12-02
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E7%94%9F%E6%B6%AF%E8%A6%8F%E5%8A%83%E8%B3%87%E8%A8%8A/%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%9A%E5%B0%B1%E4%B8%9A%E5%88%86%E4%BA%AB%E2%80%94%E2%80%94%E6%9D%82%E8%AE%B0/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    互联网行业就业分享——杂记
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-03
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E7%94%9F%E6%B6%AF%E8%A6%8F%E5%8A%83%E8%B3%87%E8%A8%8A/%E5%85%B3%E4%BA%8E%E3%80%8C%E6%96%87%E7%A7%91%E7%94%9F%20%E5%9C%A8%20%E4%BA%92%E8%81%94%E7%BD%91%20%E5%B9%B2%20%E6%8A%80%E6%9C%AF%E5%B2%97%E3%80%8D%E7%9A%84%E5%88%86%E4%BA%AB%20By%20%E5%94%90%E4%B9%BE%E6%A1%90/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    关于「文科生 在 互联网 干 技术岗」的分享 By 唐乾桐
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-03
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E7%94%9F%E6%B6%AF%E8%A6%8F%E5%8A%83%E8%B3%87%E8%A8%8A/%E7%A7%91%E6%8A%80%E4%BC%81%E4%B8%9A%E7%A7%8B%E6%8B%9B%E5%87%86%E5%A4%87%20By%20DianeWang/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    科技企业秋招准备 By DianeWang
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-03
+          </font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</input></li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Resources 資源庫
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- Only render toggle if there's at least one more page -->
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<!-- Nested navigation -->
+<nav aria-expanded="true" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            Resources 資源庫
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Cheetsheet_for_CS101_Introduction_to_Computing/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    计算概论 B | Cheetsheet
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA%20%7C%20%E5%A4%8D%E4%B9%A0%E9%A2%98/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    军事理论 | 复习题
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%20C%20%28%E4%B8%80%29%20%7C%20%20%E6%9C%9F%E6%9C%AB%E7%AC%94%E8%AE%B0/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    高等数学 C (一)  | 期末笔记
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%20C%20%28%E4%BA%8C%29%20%7C%20%E7%9F%A5%E8%AF%86%E7%82%B9/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    高等数学 C (II) 知识点
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_6_6" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    MIT 6.006 Introduction to Algorithm
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_6_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_6">
+<span class="md-nav__icon md-icon"></span>
+            MIT 6.006 Introduction to Algorithm
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../MIT%206.006%20Introduction%20to%20Algorithm/MIT%206.006%20Introduction%20to%20Algorithm/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    MIT 6.006 Introduction to Algorithm
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_6_7" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_6_7" id="__nav_6_7_label" tabindex="">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代汉语 | 笔记
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_6_7_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_7">
+<span class="md-nav__icon md-icon"></span>
+            古代汉语 | 笔记
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/000%E5%AD%97%E6%9C%AC%E7%BE%A9%E5%88%86%E6%9E%90/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    字本義分析
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/0%E5%8F%A4%E4%BB%A3%E6%BC%A2%E8%AA%9E%EF%BC%88%E4%B8%8A%EF%BC%89%E6%96%87%E9%81%B8%E8%A4%87%E7%BF%92/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代漢語（上）文選
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/1%E6%B1%89%E5%AD%97%E7%9A%84%E7%BB%93%E6%9E%84%E5%92%8C%E5%8F%91%E5%B1%95/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    第一部分 漢字的結構與發展
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/2%E8%A9%9E%E7%BE%A9%E5%88%86%E6%9E%90/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    第二部分 詞義演變發展
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/3%E8%A9%9E%E9%A1%9E%E7%9A%84%E6%B4%BB%E7%94%A8/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代漢語語法
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/4%E5%8F%A4%E4%BB%A3%E6%BC%A2%E8%AA%9E%E7%9A%84%E8%A9%9E%E5%BA%8F/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代漢語的詞序
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/5%E5%88%A4%E6%96%AD%E5%8F%A5/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    判斷句
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/6%E5%8F%A4%E4%BB%A3%E6%BC%A2%E8%AA%9E%E7%9A%84%E8%A2%AB%E5%8B%95%E8%A1%A8%E7%A4%BA%E6%B3%95/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代漢語的被動表示法
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/7%E5%8F%A4%E4%BB%A3%E6%BC%A2%E8%AA%9E%E8%99%9B%E8%A9%9E/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代漢語虛詞
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/8%E5%8F%A4%E4%BB%A3%E6%BC%A2%E8%AA%9E%EF%BC%88%E4%B8%8B%EF%BC%89%E6%96%87%E9%81%B8%2B%E7%B7%92%E8%AB%96/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代漢語（下）緒論+文選
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/9%E5%8F%A4%E6%9B%B8%E7%9A%84%E6%B3%A8%E8%A7%A3/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古書的注解
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_6_8" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_6_8" id="__nav_6_8_label" tabindex="">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    数据结构与算法 B | 笔记
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_6_8_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_8">
+<span class="md-nav__icon md-icon"></span>
+            数据结构与算法 B | 笔记
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/0.%20%E3%80%8A%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E3%80%8B%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《数据结构与算法》信息汇总
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/1.%20%E3%80%8A%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E3%80%8B%E8%AF%BE%E7%A8%8B%E6%A6%82%E8%AE%BA/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《数据结构与算法》课程概论
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/2.%20Python%20%E5%85%A5%E9%97%A8/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Python 入门
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/3.%20%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%28%E7%BA%BF%E6%80%A7%E8%A1%A8%29/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    基本结构（线性表）
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/4.%20%E9%80%92%E5%BD%92%E4%B8%8E%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    递归与动态规划
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/5.%20KMP%20Algorithm/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    KMP Algorithm
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/6.%20%E6%9F%A5%E6%89%BE%E4%B8%8E%E6%8E%92%E5%BA%8F/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    查找与排序 Find and Sort
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/7.%20%E6%A0%91%E5%8F%8A%E7%AE%97%E6%B3%95/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    树及算法
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    算法分析
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_6_8_10" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_6_8_10" id="__nav_6_8_10_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    作业
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_6_8_10_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_6_8_10">
+<span class="md-nav__icon md-icon"></span>
+            作业
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/%E4%BD%9C%E4%B8%9A/hw1/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    数据结构与算法(python)作业一: 课程引言与概论
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_6_9" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_6_9" id="__nav_6_9_label" tabindex="">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    现代汉语 | 笔记
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="true" aria-labelledby="__nav_6_9_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_9">
+<span class="md-nav__icon md-icon"></span>
+            现代汉语 | 笔记
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../1.%20%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%EF%BC%88%E4%B8%8A%EF%BC%89%E7%BB%AA%E8%AE%BA/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    现代汉语（上）绪论
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../1.4%20%E8%AF%AD%E6%B3%95%E5%8D%95%E4%BD%8D/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    语法
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2.%20%E8%AF%AD%E9%9F%B3%E7%AE%80%E4%BB%8B/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    语音简介
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../3.%20%E5%A3%B0%E6%AF%8D%E3%80%81%E9%9F%B5%E6%AF%8D%E5%92%8C%E5%A3%B0%E8%B0%83/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    声母、韵母和声调
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../4.%20%E6%99%AE%E9%80%9A%E8%AF%9D%E9%9F%B3%E8%8A%82%E7%BB%93%E6%9E%84/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    普通话音节结构
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../5.%20%E6%99%AE%E9%80%9A%E8%AF%9D%E7%9A%84%E8%AF%AD%E6%B5%81%E9%9F%B3%E5%8F%98/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    普通话的语流音变
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../6.%20%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E4%B8%8E%E6%99%AE%E9%80%9A%E8%AF%9D%E9%9F%B3%E4%BD%8D/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    汉语拼音方案与普通话音位
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item md-nav__item--active">
+<!-- State toggle -->
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<!-- Hack: see partials/toc.html for more information -->
+<!-- Navigation link to table of contents -->
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    词汇
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    词汇
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- Table of contents -->
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1">
+<span class="md-ellipsis">
+      1. 词和词汇
+    </span>
+</a>
+<nav aria-label="1. 词和词汇" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#11">
+<span class="md-ellipsis">
+      1.1 什么是“词汇”
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#12">
+<span class="md-ellipsis">
+      1.2 什么是“词”
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#13">
+<span class="md-ellipsis">
+      1.3 确定词的一般方法
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#14">
+<span class="md-ellipsis">
+      1.4 词和语素
+    </span>
+</a>
+<nav aria-label="1.4 词和语素" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#141">
+<span class="md-ellipsis">
+      1.4.1 单音节语素　多音节语素　汉字与语素的对应关系
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#142">
+<span class="md-ellipsis">
+      1.4.2 成词语素和不成词语素
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#143">
+<span class="md-ellipsis">
+      1.4.3 词和语素的异同点
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#15">
+<span class="md-ellipsis">
+      1.5 词和字
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2">
+<span class="md-ellipsis">
+      2. 词的构造
+    </span>
+</a>
+<nav aria-label="2. 词的构造" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#21">
+<span class="md-ellipsis">
+      2.1 单纯词
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#22">
+<span class="md-ellipsis">
+      2.2 合成词
+    </span>
+</a>
+<nav aria-label="2.2 合成词" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#221">
+<span class="md-ellipsis">
+      2.2.1 语素的分类
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#222-16">
+<span class="md-ellipsis">
+      2.2.2 合成词的构造类型（16类）
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#23">
+<span class="md-ellipsis">
+      2.3 合成词的构造层次
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#24">
+<span class="md-ellipsis">
+      2.4 容易混淆的合成词的构造
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3">
+<span class="md-ellipsis">
+      3. 词的意义
+    </span>
+</a>
+<nav aria-label="3. 词的意义" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#31">
+<span class="md-ellipsis">
+      3.1 词义是什么？
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#32">
+<span class="md-ellipsis">
+      3.2 词义的内容
+    </span>
+</a>
+<nav aria-label="3.2 词义的内容" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#321">
+<span class="md-ellipsis">
+      3.2.1 词的概念义
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#322">
+<span class="md-ellipsis">
+      3.2.2 词的附属义
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#33">
+<span class="md-ellipsis">
+      3.3 概念义的分析——词义成分模式分析法（词义内部的分析）
+    </span>
+</a>
+<nav aria-label="3.3 概念义的分析——词义成分模式分析法（词义内部的分析）" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#331">
+<span class="md-ellipsis">
+      3.3.1 表名物的词意义分析
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#332">
+<span class="md-ellipsis">
+      3.3.2 表动作行为的词意义分析
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#333">
+<span class="md-ellipsis">
+      3.3.3 表性质状态的词意义分析
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#34">
+<span class="md-ellipsis">
+      3.4 词义和语素义的关系（词义和构成它的语素的意义的关系）（词义外部的分析）
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#4">
+<span class="md-ellipsis">
+      4. 多义词和同音词
+    </span>
+</a>
+<nav aria-label="4. 多义词和同音词" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#41">
+<span class="md-ellipsis">
+      4.1 词义的单位——义项、多义词和单义词
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#42">
+<span class="md-ellipsis">
+      4.2 多义词的类型
+    </span>
+</a>
+<nav aria-label="4.2 多义词的类型" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#421">
+<span class="md-ellipsis">
+      4.2.1 词义义项和语素义义项
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#422">
+<span class="md-ellipsis">
+      4.2.2 多义词的类型
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#43">
+<span class="md-ellipsis">
+      4.3 本义、基本义、引申义、比喻义
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#44">
+<span class="md-ellipsis">
+      4.4 同音词及其类型
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#45">
+<span class="md-ellipsis">
+      4.5 多义词和同音词的区别
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5">
+<span class="md-ellipsis">
+      5. 同义词、反义词、上下位词
+    </span>
+</a>
+<nav aria-label="5. 同义词、反义词、上下位词" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#51">
+<span class="md-ellipsis">
+      5.1 同义词
+    </span>
+</a>
+<nav aria-label="5.1 同义词" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#511">
+<span class="md-ellipsis">
+      5.1.1 同义词的类型
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#512">
+<span class="md-ellipsis">
+      5.1.2 同义词的辨析框架
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#52">
+<span class="md-ellipsis">
+      5.2 反义词
+    </span>
+</a>
+<nav aria-label="5.2 反义词" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#521">
+<span class="md-ellipsis">
+      5.2.1 反义词的类型
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#522">
+<span class="md-ellipsis">
+      5.2.2 语言反义词与言语反义词
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#6">
+<span class="md-ellipsis">
+      6. 词的释义
+    </span>
+</a>
+<nav aria-label="6. 词的释义" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#61">
+<span class="md-ellipsis">
+      6.1 释义常用的方法
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#62">
+<span class="md-ellipsis">
+      6.2 释义基本要求
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<!-- Navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%EF%BC%88%E4%B8%8B%EF%BC%89%E7%BB%AA%E8%AE%BA/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    现代汉语（下）绪论：语法概说
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_6_10" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_6_10" id="__nav_6_10_label" tabindex="">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    社会科学中的计算方法 | 笔记
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_6_10_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_10">
+<span class="md-nav__icon md-icon"></span>
+            社会科学中的计算方法 | 笔记
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95%20%7C%20%E7%AC%94%E8%AE%B0/%2A.%20%E4%BD%9C%E4%B8%9A/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    作业
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95%20%7C%20%E7%AC%94%E8%AE%B0/0.%20%E3%80%8A%E7%A4%BE%E7%A7%91%E8%AE%A1%E7%AE%97%E3%80%8B%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《社科计算》课程介绍
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95%20%7C%20%E7%AC%94%E8%AE%B0/1.%20%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%9B%BE/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    网络与图论
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95%20%7C%20%E7%AC%94%E8%AE%B0/2.%20%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%9B%BE%E8%AE%BA%E5%8A%A0%E5%BC%BA/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    网络与图论加强
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95%20%7C%20%E7%AC%94%E8%AE%B0/3.%20%E7%A4%BE%E4%BC%9A%E9%80%89%E6%8B%A9%E4%B8%8E%E7%A4%BE%E4%BC%9A%E5%BD%B1%E5%93%8D/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    社会选择与社会影响
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95%20%7C%20%E7%AC%94%E8%AE%B0/5.%20%E5%B0%8F%E4%B8%96%E7%95%8C%E7%8E%B0%E8%B1%A1/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    小世界现象
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+</ul>
+</nav>
+<br/>
+<br/>
+<div class="tag-cloud-nav">
+<style>
+    .tag-cloud {
+        margin-top:1em;
+        margin-bottom: 0.5em;
+    }
+    .tag-cloud-content {
+        padding: 0 0.6rem;
+        
+    }
+</style>
+<p class="md-nav tag-cloud">
+<label class="md-nav__title">Tag cloud</label>
+</p>
+<div class="tag-cloud-content">
+<a class="tag" href="http://10.7.13.228:8080/tags/#home">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkCyan;
+                ">home 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#古代漢語">
+<span class="tag-name" style="
+                    
+                        
+                            
+                        
+                    
+                        font-size:1.0rem;
+                    
+                    color:DarkOrchid;
+                ">古代漢語 
+                </span>
+<!--<sup class="tag-count">12</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#《左傳》">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.6rem;
+                    
+                    color:DarkRed;
+                ">《左傳》 
+                </span>
+<!--<sup class="tag-count">2</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#編程學習">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.6rem;
+                    
+                    color:DarkOrchid;
+                ">編程學習 
+                </span>
+<!--<sup class="tag-count">2</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#年終總結">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkViolet;
+                ">年終總結 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#折騰">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.95rem;
+                    
+                    color:DarkOrchid;
+                ">折騰 
+                </span>
+<!--<sup class="tag-count">9</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#日誌">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.7rem;
+                    
+                    color:DarkOrchid;
+                ">日誌 
+                </span>
+<!--<sup class="tag-count">4</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#生涯規劃資訊">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.7rem;
+                    
+                    color:DarkRed;
+                ">生涯規劃資訊 
+                </span>
+<!--<sup class="tag-count">4</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#課程筆記">
+<span class="tag-name" style="
+                    
+                        
+                            
+                        
+                    
+                        font-size:1.0rem;
+                    
+                    color:DarkOrchid;
+                ">課程筆記 
+                </span>
+<!--<sup class="tag-count">22</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#現代漢語">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.95rem;
+                    
+                    color:DarkSlateGray;
+                ">現代漢語 
+                </span>
+<!--<sup class="tag-count">9</sup>-->
+</a>
+</div>
+</div>
+<br>
+</br></div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1">
+<span class="md-ellipsis">
+      1. 词和词汇
+    </span>
+</a>
+<nav aria-label="1. 词和词汇" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#11">
+<span class="md-ellipsis">
+      1.1 什么是“词汇”
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#12">
+<span class="md-ellipsis">
+      1.2 什么是“词”
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#13">
+<span class="md-ellipsis">
+      1.3 确定词的一般方法
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#14">
+<span class="md-ellipsis">
+      1.4 词和语素
+    </span>
+</a>
+<nav aria-label="1.4 词和语素" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#141">
+<span class="md-ellipsis">
+      1.4.1 单音节语素　多音节语素　汉字与语素的对应关系
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#142">
+<span class="md-ellipsis">
+      1.4.2 成词语素和不成词语素
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#143">
+<span class="md-ellipsis">
+      1.4.3 词和语素的异同点
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#15">
+<span class="md-ellipsis">
+      1.5 词和字
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2">
+<span class="md-ellipsis">
+      2. 词的构造
+    </span>
+</a>
+<nav aria-label="2. 词的构造" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#21">
+<span class="md-ellipsis">
+      2.1 单纯词
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#22">
+<span class="md-ellipsis">
+      2.2 合成词
+    </span>
+</a>
+<nav aria-label="2.2 合成词" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#221">
+<span class="md-ellipsis">
+      2.2.1 语素的分类
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#222-16">
+<span class="md-ellipsis">
+      2.2.2 合成词的构造类型（16类）
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#23">
+<span class="md-ellipsis">
+      2.3 合成词的构造层次
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#24">
+<span class="md-ellipsis">
+      2.4 容易混淆的合成词的构造
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3">
+<span class="md-ellipsis">
+      3. 词的意义
+    </span>
+</a>
+<nav aria-label="3. 词的意义" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#31">
+<span class="md-ellipsis">
+      3.1 词义是什么？
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#32">
+<span class="md-ellipsis">
+      3.2 词义的内容
+    </span>
+</a>
+<nav aria-label="3.2 词义的内容" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#321">
+<span class="md-ellipsis">
+      3.2.1 词的概念义
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#322">
+<span class="md-ellipsis">
+      3.2.2 词的附属义
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#33">
+<span class="md-ellipsis">
+      3.3 概念义的分析——词义成分模式分析法（词义内部的分析）
+    </span>
+</a>
+<nav aria-label="3.3 概念义的分析——词义成分模式分析法（词义内部的分析）" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#331">
+<span class="md-ellipsis">
+      3.3.1 表名物的词意义分析
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#332">
+<span class="md-ellipsis">
+      3.3.2 表动作行为的词意义分析
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#333">
+<span class="md-ellipsis">
+      3.3.3 表性质状态的词意义分析
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#34">
+<span class="md-ellipsis">
+      3.4 词义和语素义的关系（词义和构成它的语素的意义的关系）（词义外部的分析）
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#4">
+<span class="md-ellipsis">
+      4. 多义词和同音词
+    </span>
+</a>
+<nav aria-label="4. 多义词和同音词" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#41">
+<span class="md-ellipsis">
+      4.1 词义的单位——义项、多义词和单义词
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#42">
+<span class="md-ellipsis">
+      4.2 多义词的类型
+    </span>
+</a>
+<nav aria-label="4.2 多义词的类型" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#421">
+<span class="md-ellipsis">
+      4.2.1 词义义项和语素义义项
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#422">
+<span class="md-ellipsis">
+      4.2.2 多义词的类型
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#43">
+<span class="md-ellipsis">
+      4.3 本义、基本义、引申义、比喻义
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#44">
+<span class="md-ellipsis">
+      4.4 同音词及其类型
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#45">
+<span class="md-ellipsis">
+      4.5 多义词和同音词的区别
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5">
+<span class="md-ellipsis">
+      5. 同义词、反义词、上下位词
+    </span>
+</a>
+<nav aria-label="5. 同义词、反义词、上下位词" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#51">
+<span class="md-ellipsis">
+      5.1 同义词
+    </span>
+</a>
+<nav aria-label="5.1 同义词" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#511">
+<span class="md-ellipsis">
+      5.1.1 同义词的类型
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#512">
+<span class="md-ellipsis">
+      5.1.2 同义词的辨析框架
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#52">
+<span class="md-ellipsis">
+      5.2 反义词
+    </span>
+</a>
+<nav aria-label="5.2 反义词" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#521">
+<span class="md-ellipsis">
+      5.2.1 反义词的类型
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#522">
+<span class="md-ellipsis">
+      5.2.2 语言反义词与言语反义词
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#6">
+<span class="md-ellipsis">
+      6. 词的释义
+    </span>
+</a>
+<nav aria-label="6. 词的释义" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#61">
+<span class="md-ellipsis">
+      6.1 释义常用的方法
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#62">
+<span class="md-ellipsis">
+      6.2 释义基本要求
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+<br>
+</br></div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+<!-- Tags -->
+<nav class="md-tags">
+<a class="md-tag" href="../../../tags/#">現代漢語</a>
+</nav>
+<!-- Source file information -->
+<!-- Actions -->
+<!--
+  Hack: check whether the content contains a h1 headline. If it doesn't, the
+  page title (or respectively site name) is used as the main headline.
+-->
+<style>
+    <link rel="stylesheet" href="../../../css/footermatter.css">
+</style>
+<!-- Page content -->
+<h1 id="_1">词汇</h1>
+<h2 id="1">1. 词和词汇</h2>
+<h3 id="11">1.1 什么是“词汇”</h3>
+<p><strong>词汇</strong>是语言中词语（词和固定语，个体概念）的<strong>总和</strong>（集合概念）。</p>
+<blockquote>
+<p>【注意】词汇不仅包括“词”，还包括“语”。</p>
+</blockquote>
+<p><strong>“语”</strong>指长度大于一般的词（即由词和词，或词和语素构成；3个音节以上）、性质作用相当于词（凝固的固定的）的固定语，如<strong>熟语</strong>、<strong>专门用语</strong>、<strong>习用词组等</strong>。</p>
+<p>熟语——成语、歇后语、惯用语；专门用语——专门的学科、部门使用的固定用语；习用词组——总而言之、言而总之（不好归类的）</p>
+<p>讲授重点在<strong>词</strong>。</p>
+<h3 id="12">1.2 什么是“词”</h3>
+<p><strong>词</strong>是语言中 <u>最小的</u> <u>能独立运用的</u> <u>音义结合体</u>，是 <u>造句的基本单位</u>。</p>
+<p><strong>词的性质与功能</strong>：①词都有一定的意义。②词都能独立运用（实词的“单独使用”，指可以单说/充当句子成分，虚词的“单独使用”，指可以单独地表示一定的语法意义作用）③词是<u>最小</u>的造句单位。④词有<u><em>固定的</em>语音形式</u>。</p>
+<blockquote>
+<p>【注意】实词和虚词的意义是不一样的。虚词——语法意义也是意义。</p>
+</blockquote>
+<hr/>
+<blockquote>
+<p>【实例】</p>
+<ol>
+<li>每个字只表音节，无意义：徘/徊，咖/啡，垃/圾，不是词。</li>
+<li>不能单独使用：友，丽，视。</li>
+<li>不是最小的造词单位：大苹果，不新鲜。</li>
+</ol>
+<p>的，和，吗，虽然，但是——可以单独地表示一定的语法意义，是词。</p>
+</blockquote>
+<h3 id="13">1.3 确定词的一般方法</h3>
+<ol>
+<li>
+<p>能单说，能单独回答问题的是词；（仅适用于单音节语言单位。对于多个成分组成的语言单位，这个方法不是充分条件。比较：你买什么？纸/白纸。这种纸好不好？好/不好。你买不买？买/不买）</p>
+</li>
+<li>
+<p>有的词不能单说，但能充当词组/句子成分的是词；</p>
+</li>
+<li>
+<p>现代汉语口语中不单说，但在一般书面语中用作句子成分的语言单位；</p>
+</li>
+<li>现代汉语中单音节的区别词（非谓形容词，不能做谓语的形容词）；</li>
+<li>
+<p>现代汉语中的一些量词和方位词。</p>
+</li>
+<li>
+<p>扩展法</p>
+</li>
+</ol>
+<p>在多个语言成分组成的语言单位中插入<strong>别的语言成分</strong>，如果得到新的语言单位可以接受，则原来的语言单位是词组；如果得到的新的语言单位不可以接受，或者意义有很大改变，则原来的语言单位是词。</p>
+<p>扩展法在应用时，要使插入别的语言成分后产生的语言单位的结构，同原来语言单位的结构一致。</p>
+<p>扩展法有局限。</p>
+<table>
+<thead>
+<tr>
+<th>条目</th>
+<th style="text-align: left;">实例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2(a)</td>
+<td style="text-align: left;">楼（盖楼）、春（一年之计在于春）、房（买房）</td>
+</tr>
+<tr>
+<td>2(b)</td>
+<td style="text-align: left;">金（金戒指，*买金）、男（男的，*这个人是男）</td>
+</tr>
+<tr>
+<td>2©</td>
+<td style="text-align: left;">两，金，内，外</td>
+</tr>
+<tr>
+<td>3</td>
+<td style="text-align: left;">白字→*白的字（错别字）；白纸→白的纸<br/>海带→*海的带（水产品）；海浪→海的浪<br/>改善→*改得善；吃饱→吃得饱<br/>大家→*大的家；小河→小的河<br/>黑板→*黑的板；好书→好的书<br/>山峰→*山的峰；山高→山很高</td>
+</tr>
+<tr>
+<td>扩展法的局限</td>
+<td style="text-align: left;">快走，刚来<br/>鸡蛋，鸭蛋<br/>羊毛，驼毛</td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p>【补充】</p>
+<p>特殊的词——离合词（动词性成分+名词性成分），如结了婚，成了家，是可以扩展的。吃醋有点像离合词（意思也不完全对应）。</p>
+<p>词组——透明的，“字面意思”，词——不透明的，“言外之意”</p>
+<p>最终看区分词和词组的目的是什么。如，面向计算。</p>
+</blockquote>
+<ol>
+<li>剩余法</li>
+</ol>
+<p>把句子中所有可以单说、可以用作句子的主要成分的语言单位除开，剩下不能单说，也不是一个词的一部分的，是词。（是组词造句的一个单位）</p>
+<p>虚词就是用剩余法判定的。</p>
+<blockquote>
+<p>【实例】<u>为</u>美好<u>的</u>明天努力<u>吧</u>！</p>
+</blockquote>
+<h3 id="14">1.4 词和语素</h3>
+<p><strong>语素</strong>是语言中 最小的 音义结合体（允许不能独立运用，不一定能），是构词的基本单位。</p>
+<blockquote>
+<p>【实例】</p>
+<p>黑板，手机，司机，辅导，</p>
+<p>哥哥/妈妈<sup>认为是两个相同语素</sup></p>
+<p>明<sup>公开的</sup>信片，驾驶员，</p>
+<p>胖子<sup>两个语素。词缀“子”是虚词，有语法意义，使形容词“胖”变成名词，也算是意义</sup>，拍子</p>
+<p>老·子<sup>原指父亲，后转指自己。“子”轻声，为词缀，使形容词“老”变成名词</sup></p>
+<p>沙发/巧克力/扑通/麦克风vs沙尘/灵巧/通过/风雨</p>
+<p>【补充】</p>
+<p>词的读音是固定的。如果词的发音发生改变，一般都形成新词。</p>
+<p>同样的汉字在不同的词中的含义是不一样的。有意思，在此处没关系—只表音节</p>
+</blockquote>
+<h4 id="141">1.4.1 单音节语素　多音节语素　汉字与语素的对应关系</h4>
+<ul>
+<li><strong>单音节语素</strong>：人，黑，跳，民，丽，视，吗（绝大多数）</li>
+<li><strong>多音节语素</strong>：</li>
+<li>徘徊，伶俐——联绵词</li>
+<li>咖啡，沙发，巧克力，麦克风，奥林匹克——音译词</li>
+<li>淅淅沥沥——拟声词</li>
+</ul>
+<p>通常一个汉字对应一个语素（语素性文字），但也有其他情况：</p>
+<ul>
+<li><strong>多个汉字对应一个语素</strong>：上面多音节语素的例子。</li>
+<li><strong>一个汉字对应多个语素</strong>：俩，仨，廿，卅，兛（千克），瓩（千瓦），浬（海里）</li>
+</ul>
+<h4 id="142">1.4.2 成词语素和不成词语素</h4>
+<p>根据语素能不能成词进行分类：</p>
+<ul>
+<li><strong>成词语素</strong>——直接成词+跟其他语素结合成词</li>
+<li><strong>不成词语素</strong>——不能直接成词，只能跟其他语素结合成词</li>
+</ul>
+<h4 id="143">1.4.3 词和语素的异同点</h4>
+<ul>
+<li>
+<p>相同点：语言单位（功能上）、音义结合体（性质上；都是有意义的）</p>
+</li>
+<li>
+<p>不同点：性质不同（能独立运用/不一定能独立运用）、功能不同（构词的/造句的）</p>
+</li>
+</ul>
+<h3 id="15">1.5 词和字</h3>
+<p>词是语言单位，字是<strong>记录</strong>语言单位的<strong>书写单位</strong>。字本身的音和义来自于词。</p>
+<p>词、语素和字的关系比较复杂。</p>
+<ol>
+<li>
+<p>一个字表示一个词：山，水，挖，深；</p>
+</li>
+<li>
+<p>两个以上的字表示一个词：</p>
+</li>
+</ol>
+<p>人民/人民币（人民→语素组），研究/研究生（研究→语素组），明信片（明信→语素组）</p>
+<p>咖啡，巧克力，歇斯底里；</p>
+<ol>
+<li>一个字表示不同的词：</li>
+</ol>
+<p>发音一样——米1，米2，打1，打2（打3，量词，读阳平）</p>
+<p>发音不一样——还1，还2，传1，传2</p>
+<ol>
+<li>不同的字表示同一个词：繁简字、异体字。</li>
+</ol>
+<blockquote>
+<p>【案例分析】</p>
+<p>他 喜欢 踢 足球。【4词，6字，6语素】（喜欢→2语素，足球→2语素）</p>
+<p>爱因斯坦 是 世界 著名 的 科学家。【6词，13字，10语素】</p>
+<p>很 多 人 爱 花 钱 买 花。【8词，7字，8语素】（汉字按不同的汉字算）</p>
+</blockquote>
+<h2 id="2">2. 词的构造</h2>
+<h3 id="21">2.1 单纯词</h3>
+<p>单纯词是由一个语素构成的词。</p>
+<p>因此，单纯词不能从语素的角度来分析。我们从音节的角度来分析。</p>
+<blockquote>
+<p>【实例】</p>
+<p>单音节单纯词【绝大多数】：人、美、做、你、那、吗</p>
+<p>多音节单纯词：</p>
+<ul>
+<li>
+<p>联绵词（两个音节连在一起表示一个意义，不能分开解释各个音节意义的词，都来自于古代汉语）：</p>
+</li>
+<li>
+<p>双声词——伶俐，忐忑，吩咐，参差</p>
+</li>
+<li>叠韵词——哆嗦，混沌，徘徊，逍遥</li>
+<li>
+<p>非双声叠韵——蝴蝶，芙蓉，垃圾，鸳鸯</p>
+</li>
+<li>
+<p>叠音词</p>
+</li>
+<li>
+<p>太太，姥姥，猩猩，蝈蝈，依依（《诗经》：树轻柔样，后发展出恋恋不舍义，但都需要重叠为条件）</p>
+<p><strong>注意</strong>：奶奶是单纯词，妈妈是合成词</p>
+</li>
+<li>
+<p>译音词：咖啡，沙发，巧克力，麦克风，奥林匹克</p>
+</li>
+<li>
+<p>拟声词：扑通，咕咚，轰隆隆</p>
+</li>
+</ul>
+</blockquote>
+<h3 id="22">2.2 合成词</h3>
+<p>由两个或两个以上语素构成的词。</p>
+<h4 id="221">2.2.1 语素的分类</h4>
+<p>词根——有<strong>实在</strong><mark><strong>意义</strong></mark>，能自由出现在合成词不同==<strong>位置</strong>==的语素。</p>
+<p>词缀——没有<strong>实在意义</strong>，且不能自由出现在合成词各个<strong>位置</strong>的语素。</p>
+<blockquote>
+<p>【注意】实在意义与意义</p>
+<p>【举例】</p>
+<p>马戏，马夫，骏马，野马，露马脚，千里马</p>
+<p>序数词的“老”</p>
+<p>“老”→构成名词。老师的老不是老头的老，有实在意义</p>
+</blockquote>
+<h4 id="222-16">2.2.2 合成词的构造类型（16类）</h4>
+<p>复合构词：词根+词根</p>
+<p>附加构词：词根+词缀</p>
+<p><img alt="image-20231218172245465" src="https://lzliangzh.github.io/academic-resources/pic/contemporary-chinese/image-20231218172245465.png" style="zoom:50%;"/></p>
+<p>传统6大类，当前扩大为16类。参考了郭锐老师的研究成果</p>
+<p>与<strong>词组</strong>的构造有直接的关系，因为合成词很多是由<strong>词组</strong>演变而来的，与句法紧密相关。</p>
+<p>而且，我们对合成词构造类型的分类，是从意义角度的，而非从所谓“语法”角度。</p>
+<p><strong>注意分析语素</strong></p>
+<p><strong>主谓式（陈述式）</strong>：在意义上，前一个语素是被说明的对象或动作行为的主体，后一个语素表示说明的情况或某种行为动作（0.77%）</p>
+<blockquote>
+<blockquote>
+<p>实例</p>
+</blockquote>
+<p>年轻，地震，心疼，眼花，肉麻，政变</p>
+<blockquote>
+<p>注意</p>
+</blockquote>
+<p>注意“雪白”：状（像雪一样白，比喻）中，不要判断成主谓结构。火热，冰凉，鼠窜，蛇行，鲸吞，蚕食，龟缩，鼎立。</p>
+</blockquote>
+<p><strong>联合式（并列式）</strong>：在意义上前一个语素和后一个语素的地位平等（25.27%）</p>
+<blockquote>
+<blockquote>
+<p>实例</p>
+</blockquote>
+<p>两个同义语素组合：道路教授，离别</p>
+<p>反义：开关，买卖，是非</p>
+<p>相关：手足，江山，国家</p>
+<blockquote>
+<p>注意</p>
+</blockquote>
+<p>注意仔细分辨：头绪（绪→丝头），粉（粉刷）饰，针灸（两种中医的方法），应该</p>
+<p>组合形成的词，词性与原语素所对应词的词性可能不对等。如果是词组，这里是对等的。述宾式、状中式亦同。</p>
+</blockquote>
+<p><strong>述宾式（支配式，动宾式）</strong>：前一个语素表示某种动作行为，后一个语素表示动作行为支配的对象。（11.89%）</p>
+<blockquote>
+<blockquote>
+<p>实例</p>
+</blockquote>
+<p>刺眼，失踪，伤心，悦耳，雪耻，司机（转指人），司仪，司（管理，发布）令</p>
+</blockquote>
+<p><strong>述补式（补充式）：</strong>在意义上，前一个语素表示某种动作行为，后一个语素表示动作行为的结果或趋向，后一个语素是对前一个语素的补充说明。（3.79%）</p>
+<blockquote>
+<blockquote>
+<p>实例</p>
+</blockquote>
+<p>改善，提高，减少，增加，打倒，看见（“见”有结果义），割断，推翻</p>
+</blockquote>
+<p><strong>定中式</strong>：在意义上后一个语素表示一个对象，前一个语素是对这个对象的修饰或限制（39.1%）。</p>
+<blockquote>
+<blockquote>
+<p>实例</p>
+</blockquote>
+<p>火车，电灯，热情，高级</p>
+</blockquote>
+<p><strong>状中式</strong>：在意义上，后一个语素表示一个行为动作或性质状态，前一个语素是对这个行为动作或性质状态的修饰或限制（9.89%）。</p>
+<p>传统观点，偏正（主+修饰性）</p>
+<blockquote>
+<blockquote>
+<p>实例</p>
+</blockquote>
+<p>热爱，公审</p>
+<p>速写，外交</p>
+<p>痛快，痛恨（痛——尽情地）<mark>语素也可能是多义的！</mark></p>
+<p>+冰凉</p>
+</blockquote>
+<p><strong>名量式</strong>：前一语素为名词性语素，后一语素是能与之搭配的量词性语素。这种构词方式在词组中未见，显示出词的构造与词组构造的不同之处（0.12%）。<strong>与述补的区别：体词性vs谓词性</strong></p>
+<blockquote>
+<p>车辆　纸张　船只　人口　花朵</p>
+</blockquote>
+<p><strong>数量式</strong>：数词性+量词性（0.14%）（勉强叫定中也行）</p>
+<blockquote>
+<p>一点儿　一些　一生　两边</p>
+</blockquote>
+<p><strong>方位式</strong>：实词性+方位词性，形成“参照-方位”关系（0.44%）</p>
+<blockquote>
+<p>空中　地上　野外</p>
+</blockquote>
+<p><strong>连谓式</strong>：两个谓词性语素的连用，表示连续发生的行为动作（2.26%）（和联合容易混，<strong><em><mark>有时间先后</mark></em>）</strong></p>
+<blockquote>
+<p>报考，进攻，攻占，入侵，选购，签发，查处</p>
+</blockquote>
+<p><strong>复量式</strong>：多个量词性语素连用（0.01%）</p>
+<blockquote>
+<p>人次，架次，吨公里，千米小时</p>
+</blockquote>
+<p><mark>以上都是实词性语素，下面出现虚词性语素</mark></p>
+<p><strong>介宾式</strong>：两个语素构成介词和介词宾语的关系，通常是前一语素为介词性语素，后一语素为介词宾语。（0.24%）</p>
+<p><strong>虚构式</strong>：虚词性语素与其他语素相结合的构词方式。（0.72%）</p>
+<blockquote>
+<p>有的　所以　除了　虽然</p>
+</blockquote>
+<p><strong>截取式</strong>：两个语素本不构成直接成分（不在一个层面），但在词汇化的过程中发生重新分析，凝固为一个词（1.36%）</p>
+<blockquote>
+<p>动辄　而立　极其</p>
+</blockquote>
+<p><strong>重叠式</strong>：指相同语素的重叠的构词方式（0.59%）</p>
+<blockquote>
+<p>白白　刚刚　偏偏</p>
+<p>妈妈　哥哥　姐姐　娃娃（与<strong><mark>单纯词中的叠音词——奶奶，姥姥</mark></strong>区分！）</p>
+</blockquote>
+<p><strong>附加式</strong>：词缀语素和词根语素相组合的构词方式（3.43%）</p>
+<blockquote>
+<table>
+<thead>
+<tr>
+<th>位置</th>
+<th style="text-align: left;">举例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>前缀</td>
+<td style="text-align: left;">阿姨　阿Q　老师　老公　老鼠<br/>第一　第二　第三　(大年)<strong><mark>初（也是词缀）</mark></strong>二</td>
+</tr>
+<tr>
+<td>后缀</td>
+<td style="text-align: left;">鼻子　瞎子　拍子　夹子<br/>石头　来头　念头　甜头<br/>鸟儿　盖儿　短儿<br/>胖乎乎　圆乎乎　脏兮兮<br/>灰溜溜　稀溜溜　热腾腾【双音节词缀】</td>
+</tr>
+</tbody>
+</table>
+<p>姑娘家，老人家“家”→词缀</p>
+<p>突然，偶然。</p>
+<p>词缀一般都是轻声，然例外。</p>
+</blockquote>
+<p>首先要知道词义→分析语素→得到结构</p>
+<p>定中+状中≈48%</p>
+<p>联合≈25%</p>
+<p>述宾≈11%</p>
+<p>述补≈3.79%（）</p>
+<h3 id="23">2.3 合成词的构造层次</h3>
+<p>一般用二分法<br/>
+$$<br/>
+\underbrace{\underbrace{\text{图　书}}<em 中="中" 定="定">{\text{联 合}}　馆}</em><br/>
+$$</p>
+<h3 id="24">2.4 容易混淆的合成词的构造</h3>
+<p>胖子、拍子——独子，鱼子</p>
+<p>信儿，画儿——孤儿，健儿</p>
+<p>酸<strong>性</strong>、中<strong>性</strong>、会<strong>员</strong>、队<strong>员</strong>、农<strong>夫</strong>、渔<strong>夫</strong>——我们认为只能算“<strong>类词缀</strong>”，把其当成词根分析。</p>
+<h2 id="3">3. 词的意义</h2>
+<h3 id="31">3.1 词义是什么？</h3>
+<p>词义是词的内容，是对客观事物现象的反映</p>
+<p>“自行车”的词义反映着自行车的几个特点——①陆上交通工具②有两个轮子③人骑在上面④用脚蹬着前进</p>
+<div class="mermaid">graph
+意义:--反映--&gt;客观事物对象--命名--&gt;''自行车''音--代表--&gt;意义:</div>
+<h3 id="32">3.2 词义的内容</h3>
+<h4 id="321">3.2.1 词的概念义</h4>
+<p>词的概念义是词义的核心部分，是对客观事物本质特征的反映。</p>
+<ul>
+<li>词义可以反映各种具体的和抽象的物。</li>
+<li>词义可以反映各种动作行为变化。</li>
+<li>词义可以反映各种性质状态。</li>
+<li>词义可以反映客观中并不存在的事物现象。</li>
+</ul>
+<h4 id="322">3.2.2 词的附属义</h4>
+<p>人在表达概念义时所附着的主观态度、语体色彩等特征。</p>
+<ol>
+<li><strong>感情色彩</strong>：词义所附带的人们对客观对象的态度或感受。分成褒义、中性和贬义。【试比较：鼎力—极力—大肆；老人—老骨头；雄心—野心】</li>
+</ol>
+<p>注意，感情色彩的分析<strong>要以义项为单位</strong>。 </p>
+<ol>
+<li><strong>语体色彩</strong>：一些词由于经常在特定的语体中使用，带上了某种语体特有的色彩。【试比较：书面语——通用——口语；恐吓—吓—吓唬；头颅—头—脑袋；洗涤—洗】</li>
+</ol>
+<p><strong>【插图】</strong></p>
+<p>一般来说，包含词缀的词/后一个语素是轻声的，常是口语词。</p>
+<p>如果一个双音节词中包含一个在现代汉语中不能单独使用的语素，这个词一般是书面语词。</p>
+<h3 id="33">3.3 概念义的分析——词义成分模式分析法（词义内部的分析）</h3>
+<h4 id="331">3.3.1 表名物的词意义分析</h4>
+<p>表名物的词意义一般分解为两个方面：特征和类别。</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>特征</th>
+<th>类别</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>渔具</td>
+<td>捕鱼或钓鱼的</td>
+<td>器具</td>
+</tr>
+<tr>
+<td>胖子</td>
+<td>肥胖的</td>
+<td>人</td>
+</tr>
+<tr>
+<td>车库</td>
+<td>专门用来停放车辆的</td>
+<td>库房</td>
+</tr>
+<tr>
+<td>家产</td>
+<td>家庭所有的</td>
+<td>财产</td>
+</tr>
+<tr>
+<td>大路</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>国仇</td>
+<td>因外国的侵略而产生的</td>
+<td>仇恨</td>
+</tr>
+<tr>
+<td>冻灾</td>
+<td>因低温、冻害、冻雨导致的</td>
+<td>灾害</td>
+</tr>
+<tr>
+<td>小惠</td>
+<td>微小的</td>
+<td>恩惠</td>
+</tr>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>什么特征？具体</p>
+<h4 id="332">3.3.2 表动作行为的词意义分析</h4>
+<p>表动作行为的词词义内容复杂，它除了表示一定的动作行为外，往往还包含特定的行为主体、特定的关系对象，包含有对动作行为、对动作行为的主体、对动作行为关系对象的种种限制。</p>
+<ol>
+<li>
+<p>包含动作主体（鸣叫、怒放）</p>
+</li>
+<li>
+<p>词义中也可能包含特定的关系对象（服（药）、捐（款））</p>
+</li>
+<li>
+<p>词义包含有对动作行为的各种限制，如：</p>
+</li>
+</ol>
+<blockquote>
+<p>捣 用棍子等的一端 撞击 工具限制</p>
+<p>扇 用手掌 打 工具限制</p>
+<p>上升 由低处向高处 移动 方向限制</p>
+<p>喝令 大声 命令 方式限制</p>
+<p>冬贮 冬季 贮存 时间限制</p>
+<p>抠 用手指或细小的东西 从里面往外 挖 工具、方向限制</p>
+<p>春游 春天 到郊外 游玩 时间、空间限制</p>
+</blockquote>
+<ol>
+<li>
+<p>词义包含多个动作行为。（勒 用绳子困住或套住 并用力拉紧）</p>
+</li>
+<li>
+<p>词义中包含动作行为产生的条件原因（养伤 因受伤而修养）</p>
+</li>
+<li>
+<p>词义中包含动作行为的目的（鼓掌 拍手，多表示高兴、赞成或欢迎；挂彩 悬挂彩绸，表示庆贺）</p>
+</li>
+</ol>
+<h4 id="333">3.3.3 表性质状态的词意义分析</h4>
+<p>表性状的词的意义一般可以分为两个方面：<strong><u>适用对象</u></strong>和<strong><u>性状特征</u></strong>，如</p>
+<p>肥沃 （土地）含有较多的适合植物生长的养分、水分</p>
+<p>繁茂 （草木）繁密茂盛</p>
+<p>从适用对象看，表性状词的意义特征主要有三种情况：</p>
+<ol>
+<li>适用对象是一种或一类事物（危重、清净）</li>
+<li>适用对象是多个或多种事物（繁华、浓重）</li>
+<li>适用对象广泛，则不出现，如（细微--很小，结实--坚固耐用）</li>
+</ol>
+<p>从性状特征看，表性状词的意义特征主要有三种情况：</p>
+<ol>
+<li>性状特征为一项（高强--武艺高超，优异--特别好）</li>
+<li>性状特征为多项（高亢--声音高而洪亮 繁杂）</li>
+<li>用主谓结构说明性状特征（清通--（文章）层次清楚、文句通顺；干瘪--（文辞等）内容贫乏、枯燥无味）</li>
+</ol>
+<h3 id="34">3.4 词义和语素义的关系（词义和构成它的语素的意义的关系）（词义外部的分析）</h3>
+<p>对于单纯词，构成它的语素的意义，<strong>就是词义</strong>。对于合成词：认错、父母；黑板；口齿；红娘；——耳目；壁画、东西。</p>
+<p>有哪些关系？</p>
+<ol>
+<li>
+<p>语素义直接完全表示词义</p>
+</li>
+<li>
+<p>语素义按照词的语法结构（构词方式）直接组合就是词义</p>
+<blockquote>
+<p>观赏 观看欣赏 受训 接受训练 珍品 珍贵的物品（*珍惜物品）</p>
+<p>定价 确定价格</p>
+</blockquote>
+</li>
+<li>
+<p>语素义同词义相同或相近</p>
+<blockquote>
+<p>洗涤 蹊径 归拢</p>
+</blockquote>
+</li>
+<li>
+<p>用语素义的借代比喻用法表示词义</p>
+</li>
+<li>
+<p>用语素义的借代用法表示词义【都是联合结构】</p>
+<blockquote>
+<p>须眉 巾帼 眉目 山水 嘴笨 卖嘴</p>
+</blockquote>
+</li>
+<li>
+<p>用语素义的比喻用法表示词义</p>
+<blockquote>
+<p>梭鱼 像梭子一样身体细长的鱼</p>
+<p>鼠窜 城府 虎穴 鬼胎 死胡同</p>
+</blockquote>
+</li>
+<li>
+<p>语素义仅表示词义的某些（部分）内容</p>
+</li>
+</ol>
+<blockquote>
+<p>化学 研究物质的组成、结构、性质和<u>变化</u>规律的科学</p>
+<p>红灯 <u>红</u>色信号灯，红灯亮时表示禁止通行</p>
+</blockquote>
+<ol>
+<li>
+<p>合成词中部分语素失落原义</p>
+</li>
+<li>
+<p>复词偏义</p>
+<blockquote>
+<p>窗户 人物 舟楫 忘记</p>
+</blockquote>
+</li>
+<li>
+<p>语素义模糊</p>
+<blockquote>
+<p>奚落 用尖刻的话数落别人的短处，使人难堪</p>
+<p>斯文 文雅</p>
+<p>麻利 敏捷</p>
+</blockquote>
+</li>
+<li>
+<p>语素义不显示词义</p>
+</li>
+</ol>
+<blockquote>
+<p>大方 冬烘 </p>
+<p>（隐语，黑话）二百五 丘八</p>
+<p>（在语言的发展过程中，语音或书写形式发生变化，找不到关系了）</p>
+</blockquote>
+<h2 id="4">4. 多义词和同音词</h2>
+<h3 id="41">4.1 词义的单位——义项、多义词和单义词</h3>
+<p>义项是词或语素在词典中的意义单位。一个词有多少义项，根据这个词在运用中意义的共同点来确定。</p>
+<p><strong>义项的性质</strong>　义项的划分有一定的相对性；</p>
+<p>同一义项在运用中由于上下文、语境的不同会显示出差异，但我们并不给它新的义项。什么样的界限给义项？什么样的界限不给？</p>
+<p><strong>单义词</strong>　只有一个意义的词，在词典中也表现为只有一个义项。</p>
+<p><strong>多义词</strong>　有多个意义的词，在词典中也表现为多个义项。</p>
+<h3 id="42">4.2 <mark>多义词的类型</mark></h3>
+<h4 id="421">4.2.1 词义义项和语素义义项</h4>
+<p><strong>词义义项</strong>　能作为词来运用的义项</p>
+<p><strong>语素义义项</strong>　只存在于合成词、固定结构中的义项。（单音节多义词才可能会有）</p>
+<p>区分词义义项和语素义义项，可以避免把一个词的语素义义项当做词义义项来使用的毛病。</p>
+<p><strong>注意</strong>：<u>给语素义义项标词性是不科学的</u>。</p>
+<h4 id="422">4.2.2 多义词的类型</h4>
+<ol>
+<li>全部义项都是词义义向的多义词（多音节词的义项全是词义意向）</li>
+</ol>
+<blockquote>
+<p>迷——球迷</p>
+</blockquote>
+<h3 id="43">4.3 本义、基本义、引申义、比喻义</h3>
+<p>本义：文献记载的词的最初的意义。</p>
+<p>基本义：词在现代最常用最主要的意义。</p>
+<ul>
+<li>基本义同本义不一致</li>
+<li>基本义同本义一致</li>
+</ul>
+<p>引申义：引申发展出来的意义</p>
+<ul>
+<li>
+<p>有的引申义是从本义/基本义发展出来的（秒杀、锯v）</p>
+</li>
+<li>
+<p>有的引申义是从引申义在发展出来的（冰→寒冷→）</p>
+</li>
+</ul>
+<p>比喻义：</p>
+<div class="mermaid">graph LR
+义项 --&gt; 意义的来源及演变 --&gt; 本义
+意义的来源及演变 --&gt; 非本义 --&gt; 引申义
+非本义 --&gt; 比喻义
+义项 --&gt; 意义在某时代的常用性 --&gt; 基本义
+意义在某时代的常用性 --&gt; 非基本义</div>
+<h3 id="44">4.4 同音词及其类型</h3>
+<ol>
+<li>同音同形</li>
+<li>同音异形</li>
+<li>形全异</li>
+<li>形一同一异</li>
+</ol>
+<h3 id="45">4.5 多义词和同音词的区别</h3>
+<p>区别：看现时词义有无联系</p>
+<p>四种情况：</p>
+<ol>
+<li>词源上有联系，现时感觉有联系——多义词</li>
+<li>词源上无联系，现时感觉无联系——同音词</li>
+<li>词源上有联系，现时感觉无联系：刻1v，刻2（时刻，n）——强调来源多义，重视现实角度同音</li>
+<li>词源上无联系，现时感觉有联系：站1v，（站2，n，站点，来自蒙古语），来源无关，现时感觉有关——还是认为是同音词</li>
+</ol>
+<h2 id="5">5. 同义词、反义词、上下位词</h2>
+<p>同一个层次的词：同义反义</p>
+<p>注意区别——上下位vs整体与部分</p>
+<h3 id="51">5.1 同义词</h3>
+<h4 id="511">5.1.1 同义词的类型</h4>
+<p>等义词。等义词意义完全相同，在任何语境中都能替换，也叫绝对同义词。</p>
+<p>近义词。意义基本相同，但是有细微差别的一组词，也叫相对同义词。</p>
+<blockquote>
+<p><strong>同素逆序词</strong>——式样 样式 拦阻 阻拦；前后名称变；音译词与本土词；方言。</p>
+</blockquote>
+<h4 id="512">5.1.2 同义词的辨析框架</h4>
+<ul>
+<li>
+<p><mark><strong>概念义</strong></mark></p>
+</li>
+<li>
+<p><mark><strong>语义特征</strong></mark></p>
+<ul>
+<li>表名物的同义词：所属类别、事物特征。</li>
+</ul>
+<blockquote>
+<p>流言、谣言；设备、装备</p>
+</blockquote>
+<ul>
+<li>表动作行为的同义词：动作特点、动作行为的主体、动作行为的关系对象<strong>等</strong>。</li>
+</ul>
+<blockquote>
+<p>融化、熔化、溶化；退还、退赔；声援支援</p>
+</blockquote>
+<ul>
+<li>表性状的同义词：适用对象、性状特征。</li>
+</ul>
+<blockquote>
+<p>丰富、丰盛；粗鲁、粗暴；茂盛、旺盛（长势良好；植物vs植物/动物/人；多vs生命力强；还可指人的精力旺盛）</p>
+</blockquote>
+</li>
+<li>
+<p>语义轻重</p>
+<blockquote>
+<p>优良——优秀——优异</p>
+</blockquote>
+</li>
+<li>
+<p>个体与集体</p>
+<blockquote>
+<p>纸——纸张，词——词汇，树——树木，车——车辆，信——信件，人——人口</p>
+</blockquote>
+</li>
+<li>
+<p>附属义</p>
+</li>
+<li>
+<p>感情色彩</p>
+<blockquote>
+<p>教师——教书匠，玉照——相片</p>
+</blockquote>
+</li>
+<li>
+<p>语体色彩</p>
+<blockquote>
+<p>哆嗦——颤抖，吝啬——小气</p>
+</blockquote>
+</li>
+<li>
+<p>功能用法</p>
+</li>
+<li>
+<p>结合的词语</p>
+<blockquote>
+<p>侵犯——侵占，繁荣——繁华，商量——商榷；帮忙——帮助——帮</p>
+</blockquote>
+</li>
+<li>
+<p>充当的句法成分</p>
+<blockquote>
+<p>充分——充足，突然（可作形容词作谓语作定语，也可作副词）——忽然（副词）</p>
+</blockquote>
+</li>
+</ul>
+<p>有的词概念义略有差异，同时感情色彩和语体色彩也有差别，如：</p>
+<blockquote>
+<p>责备——数落，行为——行径</p>
+</blockquote>
+<h3 id="52">5.2 反义词</h3>
+<h4 id="521">5.2.1 反义词的类型</h4>
+<p>绝对反义词：肯定一方必否定另一方，否定一方必肯定另一方的反义词（矛盾关系）</p>
+<p>相对反义词：肯定一方必否定另一方，否定一方不必肯定另一方的反义词（反对关系）</p>
+<blockquote>
+<p>黑白 大小 凉热</p>
+</blockquote>
+<h4 id="522">5.2.2 语言反义词与言语反义词</h4>
+<p>语言反义词这个不讨论</p>
+<p><strong>语言反义词</strong>——脱离上下文皆可成立的反义词，表示的是普遍对立的意义范畴。</p>
+<p><strong>言语反义词</strong>——在一定的上下文中，一定的条件下，表示了现实生活中非此即彼的对立或两极性的对照，成了反义词。</p>
+<blockquote>
+<p>不做风前的杨柳，要做岩上的青松。</p>
+<p>我惭愧，我终于还不知道分别铜和银，还不知道分别布和绸，还不知道分别官和民。</p>
+</blockquote>
+<h2 id="6">6. 词的释义</h2>
+<h3 id="61">6.1 释义常用的方法</h3>
+<ol>
+<li>用同义近义词语——常用词解释非常用词，现代汉语解释古代汉语。</li>
+</ol>
+<p>没有指出本质特征；还会造成互训</p>
+<ol>
+<li>用反义或相关词语的否定式——性状词 半：不完全</li>
+<li>分别解释构词语素的意义——合成词 真诚 真实诚恳</li>
+<li>定义式释义：种差+类词语——名词</li>
+<li>描写说明式：对象+状态（动作特点）</li>
+<li>用“形容……，……的样子”等词语说明描写（强调性状而已，本质还是描写说明）——性状词</li>
+<li>指明比喻义</li>
+</ol>
+<h3 id="62">6.2 释义基本要求</h3>
+<ol>
+<li>准确，恰当</li>
+<li>通俗明了</li>
+<li>避免循环</li>
+<li>词性要一致</li>
+<li>简明扼要，别太啰嗦</li>
+</ol>
+<!-- Was this page helpful? -->
+<!-- Comment system -->
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+  回到页面顶部
+</button>
+</main>
+<footer class="md-footer">
+<nav aria-label="页脚" class="md-footer__inner md-grid">
+<a aria-label="上一页: 汉语拼音方案与普通话音位" class="md-footer__link md-footer__link--prev" href="../6.%20%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E4%B8%8E%E6%99%AE%E9%80%9A%E8%AF%9D%E9%9F%B3%E4%BD%8D/">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                上一页
+              </span>
+<div class="md-ellipsis">
+                汉语拼音方案与普通话音位
+              </div>
+</div>
+</a>
+<a aria-label="下一页: 现代汉语（下）绪论：语法概说" class="md-footer__link md-footer__link--next" href="../%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%EF%BC%88%E4%B8%8B%EF%BC%89%E7%BB%AA%E8%AE%BA/">
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                下一页
+              </span>
+<div class="md-ellipsis">
+                现代汉语（下）绪论：语法概说
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      本站所載文檔僅供參考學習，未同文檔原作者協商溝通謝絕轉載。如有侵權，請即時聯繫我刪除！
+    </div>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://github.com/lzliangzh" rel="noopener" target="_blank" title="github.com">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</a>
+<a class="md-social__link" href="mailto:&lt;lzliangzh@gmail.com&gt;" rel="noopener" target="_blank" title="邮箱地址">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.7l167.6-182.9c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<div class="md-progress" data-md-component="progress" role="progressbar"></div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["announce.dismiss", "content.code.annotate", "content.code.copy", "content.code.select", "content.tooltips", "header.autohide", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.path", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+<script src="../../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
+<script src="../../../javascripts/config.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>mermaid.initialize({});</script></body>
+</html>

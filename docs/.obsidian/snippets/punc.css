@@ -1,0 +1,14 @@
+* {
+  font-feature-settings: 'halt';
+  letter-spacing: 0.05em;
+  text-align: justify;
+}
+
+p {
+  text-indent: 2em;
+}
+
+em {
+  font-family: 'ChillKai';
+  Font-style: normal
+}

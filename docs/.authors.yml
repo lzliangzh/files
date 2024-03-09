@@ -1,0 +1,7 @@
+authors:
+  lzliangzh:
+    name: lzliangzh        # Author name
+    #description: 北京大學學生 # Author description
+    avatar: /profile.jpeg      # Author avatar
+    slug: url           # Author profile slug
+    url: /aboutme            # Author website URL

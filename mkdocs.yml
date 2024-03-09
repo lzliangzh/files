@@ -1,0 +1,254 @@
+site_name: 1ntersection 交匯區
+site_url: http://10.7.13.228:8080
+site_author: lzliang # 作者
+site_description: >- # 项目描述
+site_favicon: 'logo.png'
+
+
+repo_name: lzliangzh # 仓库名称
+repo_url: https://github.com/lzliangzh/lzliangzh # 仓库地址
+
+
+
+copyright: 本站所載文檔僅供參考學習，未同文檔原作者協商溝通謝絕轉載。如有侵權，請即時聯繫我刪除！
+
+theme:
+  name: 'material'
+  custom_dir: overrides
+  language: zh
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      primary: white # 定義主顏色
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      accent: blue
+      primary: black
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+  features:
+    - announce.dismiss # 可以叉掉公告的功能
+    # - content.action.edit # 编辑按钮，似乎没啥用
+    # - content.action.view # 查看按钮，似乎没啥用
+    - content.code.annotate # 代码注释，具体不清楚
+    - content.code.copy # 复制代码按钮
+    - content.code.select # 选择代码按钮
+    # - content.tabs.link # 链接标签
+    - content.tooltips # 不太清楚呢这个
+    - header.autohide # 自动隐藏header
+    # - navigation.expand # 默认展开导航栏
+    - navigation.footer # 底部导航栏
+    - navigation.indexes # 索引按钮可以直接触发文件，而不是只能点击其下属选项浏览，这个功能可以给对应的section提供很好的预览和导航功能
+    #- navigation.instant # 瞬间加载 最好注释掉，多语言切换这个会导致跳回首页
+    - navigation.instant # 瞬间加载 最好注释掉，多语言切换这个会导致跳回首页
+    #- navigation.instant.prefetch # 预加载
+    - navigation.instant.progress # 进度条
+    - navigation.path # 导航路径， 目前好像没啥用
+    # - navigation.prune # 只构建可见的页面
+    - navigation.sections # 导航栏的section
+    - navigation.tabs # 顶级索引被作为tab
+    # - navigation.tabs.sticky # tab始终可见
+    - navigation.top # 开启顶部导航栏
+    - navigation.tracking # 导航栏跟踪
+    - search.highlight # 搜索高亮
+    - search.share # 搜索分享
+    - search.suggest # 搜索建议
+    - toc.follow # 目录跟踪-页面右侧的小目录
+    # - toc.integrate # 目录跟踪集成到左侧大目录中
+  font:
+    text: Work Sans
+    code: PT Mono
+  logo: 'logo.png'
+  icon: 
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+  
+
+markdown_extensions:
+  - attr_list
+  - md_in_html # 按鈕塊
+  - pymdownx.arithmatex:
+      generic: true
+  - nl2br
+  - admonition
+  - footnotes
+  - pymdownx.caret  # 下划线上标
+  - pymdownx.tilde  # 删除线下标
+  - pymdownx.critic  # 增加删除修改高亮注释，可修饰行内或段落
+  - pymdownx.details  # 提示块可折叠
+  - pymdownx.inlinehilite  # 行内代码高亮
+      
+  - pymdownx.mark  # 文本高亮
+  - pymdownx.smartsymbols  # 符号转换
+  - pymdownx.superfences:  # 代码嵌套在列表里
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_div_format
+  - codehilite:    # 代码高亮，显示行号
+      guess_lang: true
+      linenums: true
+      auto_title: true
+  # - toc:  # 锚点，靜態鏈接 PermaLink
+  #    permalink: true
+  
+
+#  - pymdownx.betterem:  # 对加粗和斜体更好的检测
+#      smart_enable: all
+
+  - pymdownx.emoji:  # 表情
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.magiclink  # 自动识别超链接
+  - pymdownx.tasklist:  # 复选框checklist
+      custom_checkbox: true
+  - pymdownx.snippets # 自動識別信息科學術語
+  - pymdownx.blocks.tab
+  - def_list
+
+# PDF导出插件
+plugins:
+  - callouts
+  #- git-revision-date-localized
+  #    fallback_to_build_date: true
+  #- mkpdfs
+  - meta-manager
+  - meta-descriptions:
+      export_csv: false
+      quiet: true
+      enable_checks: false
+      min_length: 50
+      max_length: 160
+      trim: true
+  #- autotag
+  - tags: # 标签功能插件
+      tags_file: tags.md
+      listings: true
+  # - blog: # 博客功能插件
+  #     blog_dir: .
+  #     blog_toc: true
+  #     authors_file: "{blog}/.authors.yml"
+  #     authors_profiles: true
+  #     authors_profiles_name: lzliangzh
+  #     authors_profiles_toc: true
+  #     post_readtime: true
+  #     post_date_format: full
+
+  #     archive: true
+  #     categories: true
+  #     categories_toc: true
+  #     pagination_per_page: 5
+
+  # - rss: # rss订阅插件 - 不太懂是干嘛的目前
+  #     match_path: blog/posts/.* 
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags 
+  #- social:
+  #    cards_layout: default/only/image
+  #    cards_layout_options:
+  #      background_image: 1.png
+  
+  # - minify: # 压缩插件
+  #   minify_html: true
+  # - privacy # 隐私插件
+  - mermaid2:
+      javascript: https://unpkg.com/mermaid@10.4.0/dist/mermaid.esm.min.mjs
+  - add-number:
+      strict_mode: False
+      order: 2
+      excludes: 
+        - sql/
+        - command/rsync
+        - tags.md
+        - index.md
+        - Academia 學術/《左傳》精讀
+      includes:
+        - sql/MySQL
+        - Academia 學術/“適”實詞詞義引申發展脈絡梳理.md
+  #- pdf-export #这个插件还有点问题，没有更新
+  #- print-site
+  - footermatter:
+      locale: zh
+      # key_updated: date
+      timeago_absolute: false
+      author_map:
+        - lzliangzh | profile.jpeg | /aboutme
+        #- Author2 | <path from "custom_dir"> | htts://github.com/author2
+  - search: # 搜索插件
+      lang: zh
+  # - encryptcontent: 
+  #     title_prefix: ''
+  #     #global_password: 'pkuliangz_561'
+  #     summary: '此內容受 AES 加密保護。'
+  #     decryption_failure_message: 'Wrong user name or password.'
+  #     encryption_info_message: 'Legitimation required.'
+  #     encrypted_something: 
+  #       md-post: [article, class]
+
+extra_javascript:
+  - javascripts/config.js
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+  - https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  vssue: true # 評論
+  generator: false # 是否显示生成器 Mkdocs
+  # analytics: # 分析工具， 我反正没用到
+  #     provider: google
+  #     property: !ENV GOOGLE_ANALYTICS_KEY
+  #     feedback: # feedback form
+  #       title: Was this page helpful?
+  #       ratings:
+  #         - icon: material/thumb-up-outline
+  #           name: This page was helpful
+  #           data: 1
+  #           note: >-
+  #             Thanks for your feedback!
+  #         - icon: material/thumb-down-outline
+  #           name: This page could be improved
+  #           data: 0
+  #           note: >- 
+  #             Thanks for your feedback! Help us improve this page by
+  #             using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/lzliangzh
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:<lzliangzh@gmail.com>
+      name: 邮箱地址
+
+
+# pip3 install mkdocs-footermatter

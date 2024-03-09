@@ -1,0 +1,3033 @@
+.calibre {
+    display: block;
+    font-size: 1em;
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0 5pt
+    }
+.calibre1 {
+    display: block
+    }
+.calibre2 {
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: center;
+    margin: 3em 0 2em
+    }
+.calibre3 {
+    height: 150pt;
+    width: 109pt;
+    border: currentColor none 0
+    }
+.calibre4 {
+    font-weight: bold
+    }
+.calibre5 {
+    background-color: black;
+    color: black;
+    display: block;
+    height: 2px;
+    text-align: center;
+    border: currentColor none 0;
+    margin: 0.5em auto
+    }
+.calibre6 {
+    height: 331pt;
+    width: 234pt;
+    border: currentColor none 0
+    }
+.calibre7 {
+    height: 248pt;
+    width: 177pt;
+    border: currentColor none 0
+    }
+.calibre8 {
+    height: 272pt;
+    width: 426pt;
+    border: currentColor none 0
+    }
+.calibre9 {
+    height: 240pt;
+    width: 425pt;
+    border: currentColor none 0
+    }
+.calibre10 {
+    height: 381pt;
+    width: 270pt;
+    border: currentColor none 0
+    }
+.calibre11 {
+    height: 212pt;
+    width: 435pt;
+    border: currentColor none 0
+    }
+.calibre12 {
+    height: 378pt;
+    width: 317pt;
+    border: currentColor none 0
+    }
+.calibre13 {
+    height: 400pt;
+    width: 248pt;
+    border: currentColor none 0
+    }
+.calibre14 {
+    height: 396pt;
+    width: 163pt;
+    border: currentColor none 0
+    }
+.calibre15 {
+    height: 210pt;
+    width: 348pt;
+    border: currentColor none 0
+    }
+.calibre16 {
+    height: 289pt;
+    width: 423pt;
+    border: currentColor none 0
+    }
+.calibre17 {
+    height: 316pt;
+    width: 429pt;
+    border: currentColor none 0
+    }
+.calibre18 {
+    height: 302pt;
+    width: 418pt;
+    border: currentColor none 0
+    }
+.calibre19 {
+    height: 197pt;
+    width: 422pt;
+    border: currentColor none 0
+    }
+.calibre20 {
+    height: 297pt;
+    width: 423pt;
+    border: currentColor none 0
+    }
+.calibre21 {
+    height: 327pt;
+    width: 247pt;
+    border: currentColor none 0
+    }
+.calibre22 {
+    height: 303pt;
+    width: 219pt;
+    border: currentColor none 0
+    }
+.calibre23 {
+    height: 303pt;
+    width: 217pt;
+    border: currentColor none 0
+    }
+.calibre24 {
+    height: 561pt;
+    width: 192pt;
+    border: currentColor none 0
+    }
+.calibre25 {
+    height: 389pt;
+    width: 426pt;
+    border: currentColor none 0
+    }
+.calibre26 {
+    height: 218pt;
+    width: 425pt;
+    border: currentColor none 0
+    }
+.calibre27 {
+    display: block;
+    line-height: 1.2
+    }
+.calibre28 {
+    display: block;
+    margin: 1em 0 1em 2em
+    }
+.calibre29 {
+    line-height: 1.2
+    }
+.calibre30 {
+    display: block;
+    padding-top: 30%
+    }
+.calibre31 {
+    display: block;
+    margin: 1em 2em
+    }
+.calibre32 {
+    height: 100%;
+    width: auto;
+    border: currentColor none 0
+    }
+.calibre33 {
+    font-size: 0.75em;
+    line-height: normal;
+    vertical-align: 4px
+    }
+.calibre34 {
+    height: 150pt;
+    width: 360pt;
+    border: currentColor none 0
+    }
+.calibre35 {
+    height: 269pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre36 {
+    height: 224pt;
+    width: 274pt;
+    border: currentColor none 0
+    }
+.calibre37 {
+    height: 198pt;
+    width: 187pt;
+    border: currentColor none 0
+    }
+.calibre38 {
+    height: 365pt;
+    width: 182pt;
+    border: currentColor none 0
+    }
+.calibre39 {
+    height: 175pt;
+    width: 253pt;
+    border: currentColor none 0
+    }
+.calibre40 {
+    height: auto;
+    vertical-align: middle;
+    width: 1.2em;
+    border: currentColor none 0
+    }
+.calibre41 {
+    height: 323pt;
+    width: 223pt;
+    border: currentColor none 0
+    }
+.calibre42 {
+    height: 248pt;
+    width: 362pt;
+    border: currentColor none 0
+    }
+.calibre43 {
+    height: 195pt;
+    width: 339pt;
+    border: currentColor none 0
+    }
+.calibre44 {
+    height: 261pt;
+    width: 362pt;
+    border: currentColor none 0
+    }
+.calibre45 {
+    height: 196pt;
+    width: 356pt;
+    border: currentColor none 0
+    }
+.calibre46 {
+    height: 237pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre47 {
+    height: 326pt;
+    width: 293pt;
+    border: currentColor none 0
+    }
+.calibre48 {
+    height: 202pt;
+    width: 286pt;
+    border: currentColor none 0
+    }
+.calibre49 {
+    height: 143pt;
+    width: 207pt;
+    border: currentColor none 0
+    }
+.calibre50 {
+    height: 243pt;
+    width: 147pt;
+    border: currentColor none 0
+    }
+.calibre51 {
+    height: 215pt;
+    width: 141pt;
+    border: currentColor none 0
+    }
+.calibre52 {
+    height: 87pt;
+    width: 206pt;
+    border: currentColor none 0
+    }
+.calibre53 {
+    height: 53pt;
+    width: 176pt;
+    border: currentColor none 0
+    }
+.calibre54 {
+    height: 251pt;
+    width: 356pt;
+    border: currentColor none 0
+    }
+.calibre55 {
+    font-size: 0.9em;
+    line-height: 1.2;
+    vertical-align: 4px
+    }
+.calibre56 {
+    height: 231pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre57 {
+    height: 267pt;
+    width: 270pt;
+    border: currentColor none 0
+    }
+.calibre58 {
+    height: 297pt;
+    width: 366pt;
+    border: currentColor none 0
+    }
+.calibre59 {
+    height: 86pt;
+    width: 192pt;
+    border: currentColor none 0
+    }
+.calibre60 {
+    height: 233pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre61 {
+    height: 294pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre62 {
+    height: 253pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre63 {
+    height: 180pt;
+    width: 339pt;
+    border: currentColor none 0
+    }
+.calibre64 {
+    height: 214pt;
+    width: 347pt;
+    border: currentColor none 0
+    }
+.calibre65 {
+    height: 255pt;
+    width: 366pt;
+    border: currentColor none 0
+    }
+.calibre66 {
+    height: 187pt;
+    width: 193pt;
+    border: currentColor none 0
+    }
+.calibre67 {
+    height: 264pt;
+    width: 361pt;
+    border: currentColor none 0
+    }
+.calibre68 {
+    height: 226pt;
+    width: 271pt;
+    border: currentColor none 0
+    }
+.calibre69 {
+    height: 206pt;
+    width: 276pt;
+    border: currentColor none 0
+    }
+.calibre70 {
+    height: 199pt;
+    width: 249pt;
+    border: currentColor none 0
+    }
+.calibre71 {
+    height: 520pt;
+    width: 365pt;
+    border: currentColor none 0
+    }
+.calibre72 {
+    height: 232pt;
+    width: 223pt;
+    border: currentColor none 0
+    }
+.calibre73 {
+    height: 252pt;
+    width: 272pt;
+    border: currentColor none 0
+    }
+.calibre74 {
+    height: 311pt;
+    width: 195pt;
+    border: currentColor none 0
+    }
+.calibre75 {
+    height: 156pt;
+    width: 364pt;
+    border: currentColor none 0
+    }
+.calibre76 {
+    height: 180pt;
+    width: 259pt;
+    border: currentColor none 0
+    }
+.calibre77 {
+    height: 243pt;
+    width: 357pt;
+    border: currentColor none 0
+    }
+.calibre78 {
+    height: 222pt;
+    width: 279pt;
+    border: currentColor none 0
+    }
+.calibre79 {
+    height: 213pt;
+    width: 260pt;
+    border: currentColor none 0
+    }
+.calibre80 {
+    height: 340pt;
+    width: 183pt;
+    border: currentColor none 0
+    }
+.calibre81 {
+    height: 136pt;
+    width: 357pt;
+    border: currentColor none 0
+    }
+.calibre82 {
+    height: 570pt;
+    width: 265pt;
+    border: currentColor none 0
+    }
+.calibre83 {
+    height: 227pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre84 {
+    height: 268pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre85 {
+    height: 218pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre86 {
+    height: 246pt;
+    width: 360pt;
+    border: currentColor none 0
+    }
+.calibre87 {
+    height: 89pt;
+    width: 349pt;
+    border: currentColor none 0
+    }
+.calibre88 {
+    height: 308pt;
+    width: 352pt;
+    border: currentColor none 0
+    }
+.calibre89 {
+    height: 267pt;
+    width: 232pt;
+    border: currentColor none 0
+    }
+.calibre90 {
+    height: 242pt;
+    width: 356pt;
+    border: currentColor none 0
+    }
+.calibre91 {
+    height: 206pt;
+    width: 209pt;
+    border: currentColor none 0
+    }
+.calibre92 {
+    height: 332pt;
+    width: 228pt;
+    border: currentColor none 0
+    }
+.calibre93 {
+    height: 254pt;
+    width: 172pt;
+    border: currentColor none 0
+    }
+.calibre94 {
+    height: 252pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre95 {
+    height: 227pt;
+    width: 287pt;
+    border: currentColor none 0
+    }
+.calibre96 {
+    height: 190pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre97 {
+    height: auto;
+    line-height: 1.2;
+    vertical-align: middle;
+    width: 1.2em;
+    border: currentColor none 0
+    }
+.calibre98 {
+    height: 182pt;
+    width: 225pt;
+    border: currentColor none 0
+    }
+.calibre99 {
+    height: 235pt;
+    width: 174pt;
+    border: currentColor none 0
+    }
+.calibre100 {
+    height: 207pt;
+    width: 243pt;
+    border: currentColor none 0
+    }
+.calibre101 {
+    height: 227pt;
+    width: 343pt;
+    border: currentColor none 0
+    }
+.calibre102 {
+    height: 276pt;
+    width: 153pt;
+    border: currentColor none 0
+    }
+.calibre103 {
+    height: 178pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre104 {
+    height: 558pt;
+    width: 363pt;
+    border: currentColor none 0
+    }
+.calibre105 {
+    height: 265pt;
+    width: 357pt;
+    border: currentColor none 0
+    }
+.calibre106 {
+    height: 370pt;
+    width: 357pt;
+    border: currentColor none 0
+    }
+.calibre107 {
+    height: 294pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre108 {
+    height: 223pt;
+    width: 360pt;
+    border: currentColor none 0
+    }
+.calibre109 {
+    height: 283pt;
+    width: 355pt;
+    border: currentColor none 0
+    }
+.calibre110 {
+    height: 150pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre111 {
+    height: 283pt;
+    width: 356pt;
+    border: currentColor none 0
+    }
+.calibre112 {
+    height: 291pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre113 {
+    height: 211pt;
+    width: 282pt;
+    border: currentColor none 0
+    }
+.calibre114 {
+    height: 255pt;
+    width: 165pt;
+    border: currentColor none 0
+    }
+.calibre115 {
+    height: 212pt;
+    width: 323pt;
+    border: currentColor none 0
+    }
+.calibre116 {
+    height: 250pt;
+    width: 274pt;
+    border: currentColor none 0
+    }
+.calibre117 {
+    height: 246pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre118 {
+    height: 184pt;
+    width: 360pt;
+    border: currentColor none 0
+    }
+.calibre119 {
+    height: 385pt;
+    width: 354pt;
+    border: currentColor none 0
+    }
+.calibre120 {
+    height: 244pt;
+    width: 360pt;
+    border: currentColor none 0
+    }
+.calibre121 {
+    height: 179pt;
+    width: 325pt;
+    border: currentColor none 0
+    }
+.calibre122 {
+    height: 272pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre123 {
+    height: 360pt;
+    width: 150pt;
+    border: currentColor none 0
+    }
+.calibre124 {
+    height: 312pt;
+    width: 361pt;
+    border: currentColor none 0
+    }
+.calibre125 {
+    height: 247pt;
+    width: 172pt;
+    border: currentColor none 0
+    }
+.calibre126 {
+    height: 177pt;
+    width: 182pt;
+    border: currentColor none 0
+    }
+.calibre127 {
+    height: 288pt;
+    width: 182pt;
+    border: currentColor none 0
+    }
+.calibre128 {
+    height: 271pt;
+    width: 355pt;
+    border: currentColor none 0
+    }
+.calibre129 {
+    height: 245pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre130 {
+    height: 241pt;
+    width: 214pt;
+    border: currentColor none 0
+    }
+.calibre131 {
+    height: 151pt;
+    width: 201pt;
+    border: currentColor none 0
+    }
+.calibre132 {
+    height: 163pt;
+    width: 268pt;
+    border: currentColor none 0
+    }
+.calibre133 {
+    height: 178pt;
+    width: 204pt;
+    border: currentColor none 0
+    }
+.calibre134 {
+    height: 285pt;
+    width: 216pt;
+    border: currentColor none 0
+    }
+.calibre135 {
+    height: 238pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre136 {
+    height: 183pt;
+    width: 352pt;
+    border: currentColor none 0
+    }
+.calibre137 {
+    height: 27pt;
+    width: 276pt;
+    border: currentColor none 0
+    }
+.calibre138 {
+    height: 42pt;
+    width: 166pt;
+    border: currentColor none 0
+    }
+.calibre139 {
+    height: 30pt;
+    width: 171pt;
+    border: currentColor none 0
+    }
+.calibre140 {
+    height: 131pt;
+    width: 265pt;
+    border: currentColor none 0
+    }
+.calibre141 {
+    height: 111pt;
+    width: 144pt;
+    border: currentColor none 0
+    }
+.calibre142 {
+    height: 63pt;
+    width: 142pt;
+    border: currentColor none 0
+    }
+.calibre143 {
+    height: 132pt;
+    width: 331pt;
+    border: currentColor none 0
+    }
+.calibre144 {
+    height: 145pt;
+    width: 106pt;
+    border: currentColor none 0
+    }
+.calibre145 {
+    height: 67pt;
+    width: 297pt;
+    border: currentColor none 0
+    }
+.calibre146 {
+    height: 31pt;
+    width: 285pt;
+    border: currentColor none 0
+    }
+.calibre147 {
+    height: 39pt;
+    width: 142pt;
+    border: currentColor none 0
+    }
+.calibre148 {
+    height: 114pt;
+    width: 90pt;
+    border: currentColor none 0
+    }
+.calibre149 {
+    height: 94pt;
+    width: 192pt;
+    border: currentColor none 0
+    }
+.calibre150 {
+    height: 186pt;
+    width: 310pt;
+    border: currentColor none 0
+    }
+.calibre151 {
+    height: 76pt;
+    width: 109pt;
+    border: currentColor none 0
+    }
+.calibre152 {
+    height: 133pt;
+    width: 348pt;
+    border: currentColor none 0
+    }
+.calibre153 {
+    height: 211pt;
+    width: 201pt;
+    border: currentColor none 0
+    }
+.calibre154 {
+    height: 311pt;
+    width: 157pt;
+    border: currentColor none 0
+    }
+.calibre155 {
+    height: 303pt;
+    width: 98pt;
+    border: currentColor none 0
+    }
+.calibre156 {
+    height: 94pt;
+    width: 127pt;
+    border: currentColor none 0
+    }
+.calibre157 {
+    height: 255pt;
+    width: 304pt;
+    border: currentColor none 0
+    }
+.calibre158 {
+    height: 136pt;
+    width: 266pt;
+    border: currentColor none 0
+    }
+.calibre159 {
+    height: 107pt;
+    width: 273pt;
+    border: currentColor none 0
+    }
+.calibre160 {
+    height: 88pt;
+    width: 265pt;
+    border: currentColor none 0
+    }
+.calibre161 {
+    height: 36pt;
+    width: 225pt;
+    border: currentColor none 0
+    }
+.calibre162 {
+    height: 94pt;
+    width: 298pt;
+    border: currentColor none 0
+    }
+.calibre163 {
+    height: 243pt;
+    width: 270pt;
+    border: currentColor none 0
+    }
+.calibre164 {
+    height: 198pt;
+    width: 355pt;
+    border: currentColor none 0
+    }
+.calibre165 {
+    height: 250pt;
+    width: 282pt;
+    border: currentColor none 0
+    }
+.calibre166 {
+    height: 232pt;
+    width: 284pt;
+    border: currentColor none 0
+    }
+.calibre167 {
+    height: 311pt;
+    width: 165pt;
+    border: currentColor none 0
+    }
+.calibre168 {
+    height: 211pt;
+    width: 169pt;
+    border: currentColor none 0
+    }
+.calibre169 {
+    height: 199pt;
+    width: 210pt;
+    border: currentColor none 0
+    }
+.calibre170 {
+    height: 294pt;
+    width: 170pt;
+    border: currentColor none 0
+    }
+.calibre171 {
+    height: 297pt;
+    width: 171pt;
+    border: currentColor none 0
+    }
+.calibre172 {
+    height: 361pt;
+    width: 184pt;
+    border: currentColor none 0
+    }
+.calibre173 {
+    height: 274pt;
+    width: 180pt;
+    border: currentColor none 0
+    }
+.calibre174 {
+    height: 271pt;
+    width: 184pt;
+    border: currentColor none 0
+    }
+.calibre175 {
+    height: 306pt;
+    width: 133pt;
+    border: currentColor none 0
+    }
+.calibre176 {
+    height: 307pt;
+    width: 177pt;
+    border: currentColor none 0
+    }
+.calibre177 {
+    height: 300pt;
+    width: 166pt;
+    border: currentColor none 0
+    }
+.calibre178 {
+    height: 379pt;
+    width: 168pt;
+    border: currentColor none 0
+    }
+.calibre179 {
+    height: 165pt;
+    width: 210pt;
+    border: currentColor none 0
+    }
+.calibre180 {
+    height: 187pt;
+    width: 190pt;
+    border: currentColor none 0
+    }
+.calibre181 {
+    height: 172pt;
+    width: 289pt;
+    border: currentColor none 0
+    }
+.calibre182 {
+    height: 366pt;
+    width: 60pt;
+    border: currentColor none 0
+    }
+.calibre183 {
+    height: 202pt;
+    width: 232pt;
+    border: currentColor none 0
+    }
+.calibre184 {
+    height: 111pt;
+    width: 312pt;
+    border: currentColor none 0
+    }
+.calibre185 {
+    height: 153pt;
+    width: 405pt;
+    border: currentColor none 0
+    }
+.calibre186 {
+    height: 145pt;
+    width: 406pt;
+    border: currentColor none 0
+    }
+.calibre187 {
+    height: 231pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre188 {
+    height: 223pt;
+    width: 290pt;
+    border: currentColor none 0
+    }
+.calibre189 {
+    height: 259pt;
+    width: 365pt;
+    border: currentColor none 0
+    }
+.calibre190 {
+    height: 156pt;
+    width: 176pt;
+    border: currentColor none 0
+    }
+.calibre191 {
+    height: 181pt;
+    width: 167pt;
+    border: currentColor none 0
+    }
+.calibre192 {
+    height: 177pt;
+    width: 360pt;
+    border: currentColor none 0
+    }
+.calibre193 {
+    height: 365pt;
+    width: 172pt;
+    border: currentColor none 0
+    }
+.calibre194 {
+    height: 258pt;
+    width: 368pt;
+    border: currentColor none 0
+    }
+.calibre195 {
+    height: 259pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre196 {
+    height: 460pt;
+    width: 370pt;
+    border: currentColor none 0
+    }
+.calibre197 {
+    height: 242pt;
+    width: 251pt;
+    border: currentColor none 0
+    }
+.calibre198 {
+    height: 177pt;
+    width: 179pt;
+    border: currentColor none 0
+    }
+.calibre199 {
+    height: 396pt;
+    width: 164pt;
+    border: currentColor none 0
+    }
+.calibre200 {
+    height: 232pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre201 {
+    height: 211pt;
+    width: 368pt;
+    border: currentColor none 0
+    }
+.calibre202 {
+    height: 202pt;
+    width: 176pt;
+    border: currentColor none 0
+    }
+.calibre203 {
+    height: 108pt;
+    width: 114pt;
+    border: currentColor none 0
+    }
+.calibre204 {
+    height: 213pt;
+    width: 369pt;
+    border: currentColor none 0
+    }
+.calibre205 {
+    height: 88pt;
+    width: 271pt;
+    border: currentColor none 0
+    }
+.calibre206 {
+    height: 302pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre207 {
+    height: 260pt;
+    width: 203pt;
+    border: currentColor none 0
+    }
+.calibre208 {
+    height: 170pt;
+    width: 356pt;
+    border: currentColor none 0
+    }
+.calibre209 {
+    height: 334pt;
+    width: 202pt;
+    border: currentColor none 0
+    }
+.calibre210 {
+    height: 234pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre211 {
+    height: 306pt;
+    width: 213pt;
+    border: currentColor none 0
+    }
+.calibre212 {
+    height: 274pt;
+    width: 364pt;
+    border: currentColor none 0
+    }
+.calibre213 {
+    height: 282pt;
+    width: 193pt;
+    border: currentColor none 0
+    }
+.calibre214 {
+    height: 241pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre215 {
+    height: 251pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre216 {
+    height: 231pt;
+    width: 178pt;
+    border: currentColor none 0
+    }
+.calibre217 {
+    height: 303pt;
+    width: 143pt;
+    border: currentColor none 0
+    }
+.calibre218 {
+    height: 179pt;
+    width: 243pt;
+    border: currentColor none 0
+    }
+.calibre219 {
+    height: 202pt;
+    width: 91pt;
+    border: currentColor none 0
+    }
+.calibre220 {
+    height: 191pt;
+    width: 282pt;
+    border: currentColor none 0
+    }
+.calibre221 {
+    height: 214pt;
+    width: 142pt;
+    border: currentColor none 0
+    }
+.calibre222 {
+    height: 252pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre223 {
+    height: 251pt;
+    width: 174pt;
+    border: currentColor none 0
+    }
+.calibre224 {
+    height: 243pt;
+    width: 197pt;
+    border: currentColor none 0
+    }
+.calibre225 {
+    height: 263pt;
+    width: 190pt;
+    border: currentColor none 0
+    }
+.calibre226 {
+    height: 208pt;
+    width: 366pt;
+    border: currentColor none 0
+    }
+.calibre227 {
+    height: 280pt;
+    width: 195pt;
+    border: currentColor none 0
+    }
+.calibre228 {
+    height: 233pt;
+    width: 310pt;
+    border: currentColor none 0
+    }
+.calibre229 {
+    height: 335pt;
+    width: 168pt;
+    border: currentColor none 0
+    }
+.calibre230 {
+    height: 228pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre231 {
+    height: 105pt;
+    width: 164pt;
+    border: currentColor none 0
+    }
+.calibre232 {
+    height: 64pt;
+    width: 110pt;
+    border: currentColor none 0
+    }
+.calibre233 {
+    height: 109pt;
+    width: 287pt;
+    border: currentColor none 0
+    }
+.calibre234 {
+    height: 212pt;
+    width: 335pt;
+    border: currentColor none 0
+    }
+.calibre235 {
+    height: 238pt;
+    width: 189pt;
+    border: currentColor none 0
+    }
+.calibre236 {
+    height: 158pt;
+    width: 267pt;
+    border: currentColor none 0
+    }
+.calibre237 {
+    height: 264pt;
+    width: 164pt;
+    border: currentColor none 0
+    }
+.calibre238 {
+    height: 259pt;
+    width: 134pt;
+    border: currentColor none 0
+    }
+.calibre239 {
+    height: 194pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre240 {
+    height: 149pt;
+    width: 254pt;
+    border: currentColor none 0
+    }
+.calibre241 {
+    height: 151pt;
+    width: 220pt;
+    border: currentColor none 0
+    }
+.calibre242 {
+    height: 142pt;
+    width: 180pt;
+    border: currentColor none 0
+    }
+.calibre243 {
+    height: 193pt;
+    width: 259pt;
+    border: currentColor none 0
+    }
+.calibre244 {
+    height: 190pt;
+    width: 142pt;
+    border: currentColor none 0
+    }
+.calibre245 {
+    height: 75pt;
+    width: 368pt;
+    border: currentColor none 0
+    }
+.calibre246 {
+    height: 458pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre247 {
+    height: 271pt;
+    width: 294pt;
+    border: currentColor none 0
+    }
+.calibre248 {
+    height: 232pt;
+    width: 172pt;
+    border: currentColor none 0
+    }
+.calibre249 {
+    height: 279pt;
+    width: 171pt;
+    border: currentColor none 0
+    }
+.calibre250 {
+    height: 267pt;
+    width: 308pt;
+    border: currentColor none 0
+    }
+.calibre251 {
+    height: 300pt;
+    width: 150pt;
+    border: currentColor none 0
+    }
+.calibre252 {
+    height: 213pt;
+    width: 149pt;
+    border: currentColor none 0
+    }
+.calibre253 {
+    height: 349pt;
+    width: 113pt;
+    border: currentColor none 0
+    }
+.calibre254 {
+    height: 350pt;
+    width: 165pt;
+    border: currentColor none 0
+    }
+.calibre255 {
+    height: 235pt;
+    width: 159pt;
+    border: currentColor none 0
+    }
+.calibre256 {
+    height: 237pt;
+    width: 172pt;
+    border: currentColor none 0
+    }
+.calibre257 {
+    height: 236pt;
+    width: 302pt;
+    border: currentColor none 0
+    }
+.calibre258 {
+    height: 237pt;
+    width: 259pt;
+    border: currentColor none 0
+    }
+.calibre259 {
+    height: 270pt;
+    width: 306pt;
+    border: currentColor none 0
+    }
+.calibre260 {
+    height: 272pt;
+    width: 273pt;
+    border: currentColor none 0
+    }
+.calibre261 {
+    height: 257pt;
+    width: 292pt;
+    border: currentColor none 0
+    }
+.calibre262 {
+    height: 158pt;
+    width: 106pt;
+    border: currentColor none 0
+    }
+.calibre263 {
+    height: 293pt;
+    width: 135pt;
+    border: currentColor none 0
+    }
+.calibre264 {
+    height: 275pt;
+    width: 271pt;
+    border: currentColor none 0
+    }
+.calibre265 {
+    height: 306pt;
+    width: 180pt;
+    border: currentColor none 0
+    }
+.calibre266 {
+    height: 248pt;
+    width: 288pt;
+    border: currentColor none 0
+    }
+.calibre267 {
+    height: 325pt;
+    width: 209pt;
+    border: currentColor none 0
+    }
+.calibre268 {
+    height: 338pt;
+    width: 190pt;
+    border: currentColor none 0
+    }
+.calibre269 {
+    height: 286pt;
+    width: 206pt;
+    border: currentColor none 0
+    }
+.calibre270 {
+    height: 252pt;
+    width: 365pt;
+    border: currentColor none 0
+    }
+.calibre271 {
+    height: 206pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre272 {
+    height: 336pt;
+    width: 229pt;
+    border: currentColor none 0
+    }
+.calibre273 {
+    height: 214pt;
+    width: 276pt;
+    border: currentColor none 0
+    }
+.calibre274 {
+    height: 162pt;
+    width: 302pt;
+    border: currentColor none 0
+    }
+.calibre275 {
+    height: 132pt;
+    width: 361pt;
+    border: currentColor none 0
+    }
+.calibre276 {
+    height: 103pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre277 {
+    height: 168pt;
+    width: 282pt;
+    border: currentColor none 0
+    }
+.calibre278 {
+    height: 329pt;
+    width: 179pt;
+    border: currentColor none 0
+    }
+.calibre279 {
+    height: 356pt;
+    width: 252pt;
+    border: currentColor none 0
+    }
+.calibre280 {
+    height: 249pt;
+    width: 361pt;
+    border: currentColor none 0
+    }
+.calibre281 {
+    height: 540pt;
+    width: 375pt;
+    border: currentColor none 0
+    }
+.calibre282 {
+    height: 159pt;
+    width: 363pt;
+    border: currentColor none 0
+    }
+.calibre283 {
+    height: 124pt;
+    width: 365pt;
+    border: currentColor none 0
+    }
+.calibre284 {
+    height: 197pt;
+    width: 366pt;
+    border: currentColor none 0
+    }
+.calibre285 {
+    height: 176pt;
+    width: 357pt;
+    border: currentColor none 0
+    }
+.calibre286 {
+    height: 168pt;
+    width: 267pt;
+    border: currentColor none 0
+    }
+.calibre287 {
+    height: 253pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre288 {
+    height: 218pt;
+    width: 343pt;
+    border: currentColor none 0
+    }
+.calibre289 {
+    height: 480pt;
+    width: 180pt;
+    border: currentColor none 0
+    }
+.calibre290 {
+    height: 301pt;
+    width: 157pt;
+    border: currentColor none 0
+    }
+.calibre291 {
+    height: 134pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre292 {
+    height: 305pt;
+    width: 258pt;
+    border: currentColor none 0
+    }
+.calibre293 {
+    height: 231pt;
+    width: 267pt;
+    border: currentColor none 0
+    }
+.calibre294 {
+    height: 212pt;
+    width: 258pt;
+    border: currentColor none 0
+    }
+.calibre295 {
+    height: 201pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre296 {
+    height: 296pt;
+    width: 237pt;
+    border: currentColor none 0
+    }
+.calibre297 {
+    height: 299pt;
+    width: 168pt;
+    border: currentColor none 0
+    }
+.calibre298 {
+    height: 306pt;
+    width: 327pt;
+    border: currentColor none 0
+    }
+.calibre299 {
+    height: 285pt;
+    width: 222pt;
+    border: currentColor none 0
+    }
+.calibre300 {
+    height: 330pt;
+    width: 243pt;
+    border: currentColor none 0
+    }
+.calibre301 {
+    height: 539pt;
+    width: 366pt;
+    border: currentColor none 0
+    }
+.calibre302 {
+    height: 392pt;
+    width: 404pt;
+    border: currentColor none 0
+    }
+.calibre303 {
+    height: 215pt;
+    width: 294pt;
+    border: currentColor none 0
+    }
+.calibre304 {
+    height: 533pt;
+    width: 180pt;
+    border: currentColor none 0
+    }
+.calibre305 {
+    height: 112pt;
+    width: 223pt;
+    border: currentColor none 0
+    }
+.calibre306 {
+    height: 369pt;
+    width: 222pt;
+    border: currentColor none 0
+    }
+.calibre307 {
+    height: 225pt;
+    width: 222pt;
+    border: currentColor none 0
+    }
+.calibre308 {
+    height: 372pt;
+    width: 203pt;
+    border: currentColor none 0
+    }
+.calibre309 {
+    height: 355pt;
+    width: 156pt;
+    border: currentColor none 0
+    }
+.calibre310 {
+    height: 231pt;
+    width: 135pt;
+    border: currentColor none 0
+    }
+.calibre311 {
+    height: 260pt;
+    width: 195pt;
+    border: currentColor none 0
+    }
+.calibre312 {
+    height: 415pt;
+    width: 202pt;
+    border: currentColor none 0
+    }
+.calibre313 {
+    height: 225pt;
+    width: 216pt;
+    border: currentColor none 0
+    }
+.calibre314 {
+    height: 414pt;
+    width: 360pt;
+    border: currentColor none 0
+    }
+.calibre315 {
+    height: 361pt;
+    width: 116pt;
+    border: currentColor none 0
+    }
+.calibre316 {
+    height: 207pt;
+    width: 360pt;
+    border: currentColor none 0
+    }
+.calibre317 {
+    height: 189pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre318 {
+    height: 116pt;
+    width: 170pt;
+    border: currentColor none 0
+    }
+.calibre319 {
+    font-size: 0.75em;
+    line-height: normal;
+    vertical-align: sub
+    }
+.calibre320 {
+    height: 35pt;
+    width: 150pt;
+    border: currentColor none 0
+    }
+.calibre321 {
+    height: 259pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre322 {
+    height: 138pt;
+    width: 165pt;
+    border: currentColor none 0
+    }
+.calibre323 {
+    height: 136pt;
+    width: 211pt;
+    border: currentColor none 0
+    }
+.calibre324 {
+    height: 212pt;
+    width: 161pt;
+    border: currentColor none 0
+    }
+.calibre325 {
+    height: 248pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre326 {
+    height: 160pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre327 {
+    height: 255pt;
+    width: 363pt;
+    border: currentColor none 0
+    }
+.calibre328 {
+    height: 212pt;
+    width: 173pt;
+    border: currentColor none 0
+    }
+.calibre329 {
+    height: 264pt;
+    width: 210pt;
+    border: currentColor none 0
+    }
+.calibre330 {
+    height: 233pt;
+    width: 356pt;
+    border: currentColor none 0
+    }
+.calibre331 {
+    height: 276pt;
+    width: 199pt;
+    border: currentColor none 0
+    }
+.calibre332 {
+    height: 206pt;
+    width: 199pt;
+    border: currentColor none 0
+    }
+.calibre333 {
+    height: 203pt;
+    width: 275pt;
+    border: currentColor none 0
+    }
+.calibre334 {
+    height: 156pt;
+    width: 272pt;
+    border: currentColor none 0
+    }
+.calibre335 {
+    font-size: 1em;
+    line-height: 1.2;
+    vertical-align: 4px
+    }
+.calibre336 {
+    height: 166pt;
+    width: 270pt;
+    border: currentColor none 0
+    }
+.calibre337 {
+    height: 179pt;
+    width: 133pt;
+    border: currentColor none 0
+    }
+.calibre338 {
+    height: 262pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre339 {
+    height: 242pt;
+    width: 57pt;
+    border: currentColor none 0
+    }
+.calibre340 {
+    height: 228pt;
+    width: 344pt;
+    border: currentColor none 0
+    }
+.calibre341 {
+    height: 137pt;
+    width: 138pt;
+    border: currentColor none 0
+    }
+.calibre342 {
+    height: 132pt;
+    width: 302pt;
+    border: currentColor none 0
+    }
+.calibre343 {
+    height: 191pt;
+    width: 248pt;
+    border: currentColor none 0
+    }
+.calibre344 {
+    height: 213pt;
+    width: 283pt;
+    border: currentColor none 0
+    }
+.calibre345 {
+    height: 200pt;
+    width: 298pt;
+    border: currentColor none 0
+    }
+.calibre346 {
+    height: 150pt;
+    width: 350pt;
+    border: currentColor none 0
+    }
+.calibre347 {
+    height: 122pt;
+    width: 242pt;
+    border: currentColor none 0
+    }
+.calibre348 {
+    height: 182pt;
+    width: 257pt;
+    border: currentColor none 0
+    }
+.calibre349 {
+    height: 161pt;
+    width: 272pt;
+    border: currentColor none 0
+    }
+.calibre350 {
+    height: 236pt;
+    width: 292pt;
+    border: currentColor none 0
+    }
+.calibre351 {
+    height: 312pt;
+    width: 180pt;
+    border: currentColor none 0
+    }
+.calibre352 {
+    height: 269pt;
+    width: 195pt;
+    border: currentColor none 0
+    }
+.calibre353 {
+    height: 305pt;
+    width: 198pt;
+    border: currentColor none 0
+    }
+.calibre354 {
+    height: 312pt;
+    width: 198pt;
+    border: currentColor none 0
+    }
+.calibre355 {
+    height: 176pt;
+    width: 184pt;
+    border: currentColor none 0
+    }
+.calibre356 {
+    height: 82pt;
+    width: 351pt;
+    border: currentColor none 0
+    }
+.calibre357 {
+    height: 103pt;
+    width: 137pt;
+    border: currentColor none 0
+    }
+.calibre358 {
+    height: 293pt;
+    width: 110pt;
+    border: currentColor none 0
+    }
+.calibre359 {
+    height: 271pt;
+    width: 353pt;
+    border: currentColor none 0
+    }
+.calibre360 {
+    height: 237pt;
+    width: 106pt;
+    border: currentColor none 0
+    }
+.calibre361 {
+    height: 198pt;
+    width: 294pt;
+    border: currentColor none 0
+    }
+.calibre362 {
+    height: 199pt;
+    width: 356pt;
+    border: currentColor none 0
+    }
+.calibre363 {
+    height: 378pt;
+    width: 357pt;
+    border: currentColor none 0
+    }
+.calibre364 {
+    height: 95pt;
+    width: 350pt;
+    border: currentColor none 0
+    }
+.calibre365 {
+    height: 259pt;
+    width: 177pt;
+    border: currentColor none 0
+    }
+.calibre366 {
+    height: 187pt;
+    width: 180pt;
+    border: currentColor none 0
+    }
+.calibre367 {
+    height: 268pt;
+    width: 209pt;
+    border: currentColor none 0
+    }
+.calibre368 {
+    height: 158pt;
+    width: 232pt;
+    border: currentColor none 0
+    }
+.calibre369 {
+    height: 186pt;
+    width: 157pt;
+    border: currentColor none 0
+    }
+.calibre370 {
+    height: 112pt;
+    width: 179pt;
+    border: currentColor none 0
+    }
+.calibre371 {
+    height: 136pt;
+    width: 175pt;
+    border: currentColor none 0
+    }
+.calibre372 {
+    height: 166pt;
+    width: 354pt;
+    border: currentColor none 0
+    }
+.calibre373 {
+    height: 241pt;
+    width: 345pt;
+    border: currentColor none 0
+    }
+.calibre374 {
+    height: 135pt;
+    width: 277pt;
+    border: currentColor none 0
+    }
+.calibre375 {
+    height: 193pt;
+    width: 354pt;
+    border: currentColor none 0
+    }
+.calibre376 {
+    height: 195pt;
+    width: 186pt;
+    border: currentColor none 0
+    }
+.calibre377 {
+    height: 271pt;
+    width: 308pt;
+    border: currentColor none 0
+    }
+.calibre378 {
+    height: 87pt;
+    width: 349pt;
+    border: currentColor none 0
+    }
+.calibre379 {
+    height: 212pt;
+    width: 144pt;
+    border: currentColor none 0
+    }
+.calibre380 {
+    height: 108pt;
+    width: 203pt;
+    border: currentColor none 0
+    }
+.calibre381 {
+    height: 215pt;
+    width: 183pt;
+    border: currentColor none 0
+    }
+.calibre382 {
+    height: 221pt;
+    width: 166pt;
+    border: currentColor none 0
+    }
+.calibre383 {
+    height: 121pt;
+    width: 225pt;
+    border: currentColor none 0
+    }
+.calibre384 {
+    height: 105pt;
+    width: 365pt;
+    border: currentColor none 0
+    }
+.calibre385 {
+    height: 142pt;
+    width: 297pt;
+    border: currentColor none 0
+    }
+.calibre386 {
+    height: 119pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre387 {
+    height: 156pt;
+    width: 309pt;
+    border: currentColor none 0
+    }
+.calibre388 {
+    height: 189pt;
+    width: 168pt;
+    border: currentColor none 0
+    }
+.calibre389 {
+    height: 75pt;
+    width: 352pt;
+    border: currentColor none 0
+    }
+.calibre390 {
+    height: 127pt;
+    width: 180pt;
+    border: currentColor none 0
+    }
+.calibre391 {
+    height: 99pt;
+    width: 226pt;
+    border: currentColor none 0
+    }
+.calibre392 {
+    height: 158pt;
+    width: 227pt;
+    border: currentColor none 0
+    }
+.calibre393 {
+    height: 250pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre394 {
+    height: 63pt;
+    width: 282pt;
+    border: currentColor none 0
+    }
+.calibre395 {
+    height: 345pt;
+    width: 207pt;
+    border: currentColor none 0
+    }
+.calibre396 {
+    height: 189pt;
+    width: 262pt;
+    border: currentColor none 0
+    }
+.calibre397 {
+    height: 242pt;
+    width: 149pt;
+    border: currentColor none 0
+    }
+.calibre398 {
+    height: 179pt;
+    width: 362pt;
+    border: currentColor none 0
+    }
+.calibre399 {
+    height: 332pt;
+    width: 365pt;
+    border: currentColor none 0
+    }
+.calibre400 {
+    height: 167pt;
+    width: 275pt;
+    border: currentColor none 0
+    }
+.calibre401 {
+    height: 222pt;
+    width: 362pt;
+    border: currentColor none 0
+    }
+.calibre402 {
+    height: 206pt;
+    width: 260pt;
+    border: currentColor none 0
+    }
+.calibre403 {
+    height: 223pt;
+    width: 354pt;
+    border: currentColor none 0
+    }
+.calibre404 {
+    height: 325pt;
+    width: 135pt;
+    border: currentColor none 0
+    }
+.calibre405 {
+    height: 197pt;
+    width: 197pt;
+    border: currentColor none 0
+    }
+.calibre406 {
+    height: 303pt;
+    width: 363pt;
+    border: currentColor none 0
+    }
+.calibre407 {
+    height: 240pt;
+    width: 216pt;
+    border: currentColor none 0
+    }
+.calibre408 {
+    height: 227pt;
+    width: 245pt;
+    border: currentColor none 0
+    }
+.calibre409 {
+    height: 189pt;
+    width: 362pt;
+    border: currentColor none 0
+    }
+.calibre410 {
+    height: 200pt;
+    width: 219pt;
+    border: currentColor none 0
+    }
+.calibre411 {
+    height: 243pt;
+    width: 249pt;
+    border: currentColor none 0
+    }
+.calibre412 {
+    height: 174pt;
+    width: 351pt;
+    border: currentColor none 0
+    }
+.calibre413 {
+    height: 279pt;
+    width: 237pt;
+    border: currentColor none 0
+    }
+.calibre414 {
+    height: 121pt;
+    width: 305pt;
+    border: currentColor none 0
+    }
+.calibre415 {
+    height: 105pt;
+    width: 232pt;
+    border: currentColor none 0
+    }
+.calibre416 {
+    height: 145pt;
+    width: 288pt;
+    border: currentColor none 0
+    }
+.calibre417 {
+    height: 88pt;
+    width: 138pt;
+    border: currentColor none 0
+    }
+.calibre418 {
+    height: 234pt;
+    width: 362pt;
+    border: currentColor none 0
+    }
+.calibre419 {
+    height: 225pt;
+    width: 266pt;
+    border: currentColor none 0
+    }
+.calibre420 {
+    height: 211pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre421 {
+    height: 483pt;
+    width: 336pt;
+    border: currentColor none 0
+    }
+.calibre422 {
+    height: 242pt;
+    width: 177pt;
+    border: currentColor none 0
+    }
+.calibre423 {
+    height: 175pt;
+    width: 227pt;
+    border: currentColor none 0
+    }
+.calibre424 {
+    height: 215pt;
+    width: 276pt;
+    border: currentColor none 0
+    }
+.calibre425 {
+    height: 166pt;
+    width: 230pt;
+    border: currentColor none 0
+    }
+.calibre426 {
+    height: 276pt;
+    width: 360pt;
+    border: currentColor none 0
+    }
+.calibre427 {
+    font-style: italic
+    }
+.calibre428 {
+    height: 129pt;
+    width: 129pt;
+    border: currentColor none 0
+    }
+.calibre429 {
+    height: 116pt;
+    width: 171pt;
+    border: currentColor none 0
+    }
+.calibre430 {
+    height: 134pt;
+    width: 154pt;
+    border: currentColor none 0
+    }
+.calibre431 {
+    height: 193pt;
+    width: 58pt;
+    border: currentColor none 0
+    }
+.calibre432 {
+    height: 198pt;
+    width: 26pt;
+    border: currentColor none 0
+    }
+.calibre433 {
+    height: 147pt;
+    width: 141pt;
+    border: currentColor none 0
+    }
+.calibre434 {
+    height: 166pt;
+    width: 151pt;
+    border: currentColor none 0
+    }
+.calibre435 {
+    height: 254pt;
+    width: 134pt;
+    border: currentColor none 0
+    }
+.calibre436 {
+    height: 232pt;
+    width: 353pt;
+    border: currentColor none 0
+    }
+.calibre437 {
+    height: 210pt;
+    width: 261pt;
+    border: currentColor none 0
+    }
+.calibre438 {
+    height: 236pt;
+    width: 303pt;
+    border: currentColor none 0
+    }
+.calibre439 {
+    height: 127pt;
+    width: 263pt;
+    border: currentColor none 0
+    }
+.calibre440 {
+    height: 175pt;
+    width: 360pt;
+    border: currentColor none 0
+    }
+.calibre441 {
+    height: 200pt;
+    width: 356pt;
+    border: currentColor none 0
+    }
+.calibre442 {
+    height: 243pt;
+    width: 248pt;
+    border: currentColor none 0
+    }
+.calibre443 {
+    height: 234pt;
+    width: 353pt;
+    border: currentColor none 0
+    }
+.calibre444 {
+    height: 218pt;
+    width: 161pt;
+    border: currentColor none 0
+    }
+.calibre445 {
+    height: 204pt;
+    width: 210pt;
+    border: currentColor none 0
+    }
+.calibre446 {
+    height: 141pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre447 {
+    height: 110pt;
+    width: 266pt;
+    border: currentColor none 0
+    }
+.calibre448 {
+    height: 146pt;
+    width: 166pt;
+    border: currentColor none 0
+    }
+.calibre449 {
+    height: 230pt;
+    width: 203pt;
+    border: currentColor none 0
+    }
+.calibre450 {
+    height: 222pt;
+    width: 200pt;
+    border: currentColor none 0
+    }
+.calibre451 {
+    height: 312pt;
+    width: 156pt;
+    border: currentColor none 0
+    }
+.calibre452 {
+    height: 271pt;
+    width: 191pt;
+    border: currentColor none 0
+    }
+.calibre453 {
+    height: 315pt;
+    width: 184pt;
+    border: currentColor none 0
+    }
+.calibre454 {
+    height: 185pt;
+    width: 348pt;
+    border: currentColor none 0
+    }
+.calibre455 {
+    height: 242pt;
+    width: 213pt;
+    border: currentColor none 0
+    }
+.calibre456 {
+    height: 244pt;
+    width: 190pt;
+    border: currentColor none 0
+    }
+.calibre457 {
+    height: 301pt;
+    width: 181pt;
+    border: currentColor none 0
+    }
+.calibre458 {
+    height: 274pt;
+    width: 181pt;
+    border: currentColor none 0
+    }
+.calibre459 {
+    height: 282pt;
+    width: 219pt;
+    border: currentColor none 0
+    }
+.calibre460 {
+    height: 291pt;
+    width: 134pt;
+    border: currentColor none 0
+    }
+.calibre461 {
+    height: 268pt;
+    width: 115pt;
+    border: currentColor none 0
+    }
+.calibre462 {
+    height: 265pt;
+    width: 149pt;
+    border: currentColor none 0
+    }
+.calibre463 {
+    height: 135pt;
+    width: 185pt;
+    border: currentColor none 0
+    }
+.calibre464 {
+    height: 140pt;
+    width: 182pt;
+    border: currentColor none 0
+    }
+.calibre465 {
+    height: 170pt;
+    width: 188pt;
+    border: currentColor none 0
+    }
+.calibre466 {
+    height: 141pt;
+    width: 300pt;
+    border: currentColor none 0
+    }
+.calibre467 {
+    height: 204pt;
+    width: 357pt;
+    border: currentColor none 0
+    }
+.calibre468 {
+    height: 255pt;
+    width: 252pt;
+    border: currentColor none 0
+    }
+.calibre469 {
+    height: 252pt;
+    width: 357pt;
+    border: currentColor none 0
+    }
+.calibre470 {
+    height: 275pt;
+    width: 332pt;
+    border: currentColor none 0
+    }
+.calibre471 {
+    height: 283pt;
+    width: 296pt;
+    border: currentColor none 0
+    }
+.calibre472 {
+    height: 537pt;
+    width: 326pt;
+    border: currentColor none 0
+    }
+.calibre473 {
+    height: 196pt;
+    width: 286pt;
+    border: currentColor none 0
+    }
+.calibre474 {
+    height: 246pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre475 {
+    height: 188pt;
+    width: 346pt;
+    border: currentColor none 0
+    }
+.calibre476 {
+    height: 312pt;
+    width: 357pt;
+    border: currentColor none 0
+    }
+.calibre477 {
+    height: 174pt;
+    width: 350pt;
+    border: currentColor none 0
+    }
+.calibre478 {
+    height: 330pt;
+    width: 354pt;
+    border: currentColor none 0
+    }
+.calibre479 {
+    height: 235pt;
+    width: 282pt;
+    border: currentColor none 0
+    }
+.calibre480 {
+    height: 365pt;
+    width: 362pt;
+    border: currentColor none 0
+    }
+.calibre481 {
+    height: 250pt;
+    width: 286pt;
+    border: currentColor none 0
+    }
+.calibre482 {
+    height: 278pt;
+    width: 253pt;
+    border: currentColor none 0
+    }
+.calibre483 {
+    height: 218pt;
+    width: 353pt;
+    border: currentColor none 0
+    }
+.calibre484 {
+    height: 300pt;
+    width: 210pt;
+    border: currentColor none 0
+    }
+.calibre485 {
+    height: 202pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre486 {
+    height: 86pt;
+    width: 441pt;
+    border: currentColor none 0
+    }
+.calibre487 {
+    height: 302pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre488 {
+    height: 283pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre489 {
+    height: 524pt;
+    width: 343pt;
+    border: currentColor none 0
+    }
+.calibre490 {
+    height: 255pt;
+    width: 285pt;
+    border: currentColor none 0
+    }
+.calibre491 {
+    height: 274pt;
+    width: 207pt;
+    border: currentColor none 0
+    }
+.calibre492 {
+    height: 289pt;
+    width: 201pt;
+    border: currentColor none 0
+    }
+.calibre493 {
+    height: 276pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre494 {
+    height: 186pt;
+    width: 365pt;
+    border: currentColor none 0
+    }
+.calibre495 {
+    height: 247pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre496 {
+    height: 240pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre497 {
+    height: 262pt;
+    width: 348pt;
+    border: currentColor none 0
+    }
+.calibre498 {
+    height: 161pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre499 {
+    height: 196pt;
+    width: 272pt;
+    border: currentColor none 0
+    }
+.calibre500 {
+    height: 253pt;
+    width: 292pt;
+    border: currentColor none 0
+    }
+.calibre501 {
+    height: 260pt;
+    width: 215pt;
+    border: currentColor none 0
+    }
+.calibre502 {
+    height: 260pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre503 {
+    height: 246pt;
+    width: 362pt;
+    border: currentColor none 0
+    }
+.calibre504 {
+    height: 289pt;
+    width: 290pt;
+    border: currentColor none 0
+    }
+.calibre505 {
+    height: 278pt;
+    width: 575pt;
+    border: currentColor none 0
+    }
+.calibre506 {
+    height: 162pt;
+    width: 211pt;
+    border: currentColor none 0
+    }
+.calibre507 {
+    height: 210pt;
+    width: 231pt;
+    border: currentColor none 0
+    }
+.calibre508 {
+    height: 230pt;
+    width: 290pt;
+    border: currentColor none 0
+    }
+.calibre509 {
+    height: 275pt;
+    width: 357pt;
+    border: currentColor none 0
+    }
+.calibre510 {
+    height: 217pt;
+    width: 309pt;
+    border: currentColor none 0
+    }
+.calibre511 {
+    height: 183pt;
+    width: 300pt;
+    border: currentColor none 0
+    }
+.calibre512 {
+    height: 196pt;
+    width: 237pt;
+    border: currentColor none 0
+    }
+.calibre513 {
+    height: 240pt;
+    width: 357pt;
+    border: currentColor none 0
+    }
+.calibre514 {
+    height: 161pt;
+    width: 216pt;
+    border: currentColor none 0
+    }
+.calibre515 {
+    height: 292pt;
+    width: 271pt;
+    border: currentColor none 0
+    }
+.calibre516 {
+    height: 240pt;
+    width: 354pt;
+    border: currentColor none 0
+    }
+.calibre517 {
+    height: 220pt;
+    width: 277pt;
+    border: currentColor none 0
+    }
+.calibre518 {
+    height: 363pt;
+    width: 197pt;
+    border: currentColor none 0
+    }
+.calibre519 {
+    height: 159pt;
+    width: 361pt;
+    border: currentColor none 0
+    }
+.calibre520 {
+    height: 297pt;
+    width: 277pt;
+    border: currentColor none 0
+    }
+.calibre521 {
+    height: 295pt;
+    width: 277pt;
+    border: currentColor none 0
+    }
+.calibre522 {
+    height: 542pt;
+    width: 364pt;
+    border: currentColor none 0
+    }
+.calibre523 {
+    height: 262pt;
+    width: 361pt;
+    border: currentColor none 0
+    }
+.calibre524 {
+    height: 211pt;
+    width: 209pt;
+    border: currentColor none 0
+    }
+.calibre525 {
+    height: 204pt;
+    width: 287pt;
+    border: currentColor none 0
+    }
+.calibre526 {
+    height: 392pt;
+    width: 70pt;
+    border: currentColor none 0
+    }
+.calibre527 {
+    height: 267pt;
+    width: 150pt;
+    border: currentColor none 0
+    }
+.calibre528 {
+    height: 535pt;
+    width: 331pt;
+    border: currentColor none 0
+    }
+.calibre529 {
+    height: 518pt;
+    width: 393pt;
+    border: currentColor none 0
+    }
+.calibre530 {
+    height: 243pt;
+    width: 203pt;
+    border: currentColor none 0
+    }
+.calibre531 {
+    height: 212pt;
+    width: 274pt;
+    border: currentColor none 0
+    }
+.calibre532 {
+    height: 500pt;
+    width: 400pt;
+    border: currentColor none 0
+    }
+.calibre533 {
+    height: 561pt;
+    width: 305pt;
+    border: currentColor none 0
+    }
+.calibre534 {
+    height: 206pt;
+    width: 327pt;
+    border: currentColor none 0
+    }
+.calibre535 {
+    height: 243pt;
+    width: 184pt;
+    border: currentColor none 0
+    }
+.calibre536 {
+    height: 218pt;
+    width: 221pt;
+    border: currentColor none 0
+    }
+.calibre537 {
+    height: 260pt;
+    width: 167pt;
+    border: currentColor none 0
+    }
+.calibre538 {
+    height: 206pt;
+    width: 211pt;
+    border: currentColor none 0
+    }
+.calibre539 {
+    height: 236pt;
+    width: 357pt;
+    border: currentColor none 0
+    }
+.calibre540 {
+    height: 243pt;
+    width: 250pt;
+    border: currentColor none 0
+    }
+.calibre541 {
+    height: 178pt;
+    width: 352pt;
+    border: currentColor none 0
+    }
+.calibre542 {
+    height: 133pt;
+    width: 171pt;
+    border: currentColor none 0
+    }
+.calibre543 {
+    height: 177pt;
+    width: 176pt;
+    border: currentColor none 0
+    }
+.calibre544 {
+    height: 273pt;
+    width: 119pt;
+    border: currentColor none 0
+    }
+.calibre545 {
+    height: 164pt;
+    width: 259pt;
+    border: currentColor none 0
+    }
+.calibre546 {
+    height: 169pt;
+    width: 364pt;
+    border: currentColor none 0
+    }
+.calibre547 {
+    height: 276pt;
+    width: 183pt;
+    border: currentColor none 0
+    }
+.calibre548 {
+    height: 120pt;
+    width: 166pt;
+    border: currentColor none 0
+    }
+.calibre549 {
+    height: 204pt;
+    width: 359pt;
+    border: currentColor none 0
+    }
+.calibre550 {
+    height: 189pt;
+    width: 186pt;
+    border: currentColor none 0
+    }
+.calibre551 {
+    height: 153pt;
+    width: 180pt;
+    border: currentColor none 0
+    }
+.calibre552 {
+    height: 177pt;
+    width: 337pt;
+    border: currentColor none 0
+    }
+.calibre553 {
+    height: 51pt;
+    width: 362pt;
+    border: currentColor none 0
+    }
+.calibre554 {
+    height: 181pt;
+    width: 176pt;
+    border: currentColor none 0
+    }
+.calibre555 {
+    height: 180pt;
+    width: 160pt;
+    border: currentColor none 0
+    }
+.calibre556 {
+    height: 190pt;
+    width: 218pt;
+    border: currentColor none 0
+    }
+.calibre557 {
+    height: 174pt;
+    width: 175pt;
+    border: currentColor none 0
+    }
+.calibre558 {
+    height: 175pt;
+    width: 185pt;
+    border: currentColor none 0
+    }
+.calibre559 {
+    height: 175pt;
+    width: 180pt;
+    border: currentColor none 0
+    }
+.calibre560 {
+    height: 197pt;
+    width: 283pt;
+    border: currentColor none 0
+    }
+.calibre561 {
+    height: 115pt;
+    width: 356pt;
+    border: currentColor none 0
+    }
+.calibre562 {
+    height: 271pt;
+    width: 221pt;
+    border: currentColor none 0
+    }
+.calibre563 {
+    height: 212pt;
+    width: 194pt;
+    border: currentColor none 0
+    }
+.calibre564 {
+    height: 258pt;
+    width: 358pt;
+    border: currentColor none 0
+    }
+.calibre565 {
+    height: 249pt;
+    width: 197pt;
+    border: currentColor none 0
+    }
+.calibre566 {
+    height: 276pt;
+    width: 178pt;
+    border: currentColor none 0
+    }
+.calibre567 {
+    height: 195pt;
+    width: 360pt;
+    border: currentColor none 0
+    }
+.calibre568 {
+    height: 269pt;
+    width: 137pt;
+    border: currentColor none 0
+    }
+.calibre569 {
+    height: 216pt;
+    width: 210pt;
+    border: currentColor none 0
+    }
+.caption {
+    display: block;
+    font-family: sans-serif;
+    font-size: 0.83333em;
+    line-height: 1.2;
+    text-indent: 0;
+    margin: 0 2em 2em
+    }
+.center {
+    display: block;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0
+    }
+.dropcap {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 1.2
+    }
+.hang {
+    display: block;
+    line-height: 1.2em;
+    text-indent: -2em;
+    margin: 0 0 0 2em
+    }
+.image {
+    display: block;
+    page-break-inside: avoid;
+    text-align: center;
+    margin: 10px 0
+    }
+.inline {
+    height: auto;
+    line-height: 1.2;
+    vertical-align: middle;
+    width: 25pt;
+    border: currentColor none 0
+    }
+.inline1 {
+    height: auto;
+    vertical-align: middle;
+    width: 15pt;
+    border: currentColor none 0
+    }
+.inline2 {
+    height: auto;
+    vertical-align: middle;
+    width: 25pt;
+    border: currentColor none 0
+    }
+.inline3 {
+    height: auto;
+    vertical-align: middle;
+    width: 140pt;
+    border: currentColor none 0
+    }
+.inline4 {
+    height: auto;
+    vertical-align: middle;
+    width: 130pt;
+    border: currentColor none 0
+    }
+.inline5 {
+    height: auto;
+    vertical-align: middle;
+    width: 120pt;
+    border: currentColor none 0
+    }
+.inline6 {
+    height: 30pt;
+    vertical-align: middle;
+    width: 50pt;
+    border: currentColor none 0
+    }
+.inline7 {
+    height: 30pt;
+    vertical-align: middle;
+    width: 20pt;
+    border: currentColor none 0
+    }
+.inline8 {
+    height: 40pt;
+    vertical-align: middle;
+    width: 120pt;
+    border: currentColor none 0
+    }
+.inline9 {
+    height: auto;
+    vertical-align: middle;
+    width: 50pt;
+    border: currentColor none 0
+    }
+.inline10 {
+    height: auto;
+    vertical-align: middle;
+    width: 30pt;
+    border: currentColor none 0
+    }
+.inline11 {
+    height: auto;
+    vertical-align: middle;
+    width: 20pt;
+    border: currentColor none 0
+    }
+.left {
+    display: block;
+    font-size: 1.66667em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin: 3em 0 2em
+    }
+.left1 {
+    display: block;
+    font-size: 1.29167em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin: 1em 0
+    }
+.left2 {
+    display: block;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2em;
+    margin: 1em 0 0
+    }
+.left3 {
+    display: block;
+    line-height: 1.2em;
+    text-align: left;
+    text-indent: 2em;
+    margin: 0
+    }
+.left4 {
+    display: block;
+    font-size: 1.66667em;
+    font-weight: bold;
+    line-height: 1.2;
+    text-align: left;
+    margin: 3em 0 2em
+    }
+.left5 {
+    display: block;
+    font-size: 0.83333em;
+    font-weight: bold;
+    text-align: left;
+    text-indent: 2em;
+    margin: 0
+    }
+.noindent {
+    display: block;
+    line-height: 1.2em;
+    text-indent: 0;
+    margin: 0
+    }
+.noindent1 {
+    display: block;
+    line-height: 1.2em;
+    text-indent: 0;
+    margin: 0 0 0 6em
+    }
+.noindent2 {
+    display: block;
+    line-height: 1.2em;
+    text-indent: 0;
+    margin: 3px 0
+    }
+.pagebreak {
+    display: block;
+    line-height: 1.2em;
+    margin: 0
+    }
+.small {
+    font-size: 0.83333em
+    }
+.title {
+    display: block;
+    font-family: sans-serif;
+    line-height: 1.2em;
+    text-align: center;
+    margin: 0
+    }

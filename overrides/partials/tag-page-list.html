@@ -1,0 +1,93 @@
+{% set tags=[] %}
+
+{# scan all pages #}
+{% for p in pages %}
+  {% set pg = p.page %}
+  {% set hidden = true if (pg.meta and pg.meta.hide and ('in_recent_list' in pg.meta.hide)) %}
+  {% if pg.meta.tags and not hidden %}
+    {# extract tags if available #}
+    {% for tag in pg.meta.tags %}
+      {% if tags|length %}
+        {% set ns = namespace(found=False) %} 
+        {# read more about scope at
+        https://jinja.palletsprojects.com/en/2.11.x/templates/#assignments 
+        #}
+        {# check if tag exists, append to its page list #}
+        {% for item in tags %}
+          {% set t, ps = item %}
+          {% if tag == t %}
+            {% set ns.found = True %}
+            {# use "" to not add spaces in content #}
+            {{ ps.append(pg) or "" }}
+          {% endif %}
+        {% endfor %}
+        {# if tag doesn't exist, create new page list#}
+        {% if not ns.found %}
+          {{ tags.append((tag, [pg])) or "" }}
+        {% endif %}
+      {% else %}
+        {{ tags.append((tag, [pg])) or "" }}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
+
+<style>
+    .tag {
+      font-family: 'Work Sans', 'title';
+      font-weight: 800;
+    }
+    .md-nav .tag-cloud {
+      font-family: 'Work Sans';
+      font-weight: 400;
+    }
+    .tag-name-affiliated {
+      font-family: 'lmroman-it', 'ChillKai';
+      display: inline;
+    }
+    .space {
+      display: inline;
+    }
+</style>
+
+
+
+
+<div class="md-grid">
+  {% for item in tags %}
+    {% set tag, ps = item %}
+    <div class="grid cards" id={{ tag }}>
+      <ul>
+        <li>
+          <h3>
+            {{- tag }} ({{- ps|count -}})
+            <a class="headerlink" href="#{{ tag }}">⚓︎</a>
+          </h3>
+    
+    
+          <ul>
+            {% for p in ps %}
+            <li>
+              <a href="{{ p.canonical_url }}">
+                {%- if p.meta and p.meta.title -%}
+                  {{- p.meta.title -}}
+                {%- else -%}
+                  {{- p.title -}}
+                {%- endif -%}
+              </a>
+               / <div class="tag-name-affiliated">{{- tag -}}</div> / 
+                {%- if p.meta.date -%}
+                  <div class="space"> </div>{{- p.meta.date -}}
+                {%- else -%}
+                  <div class="space"> </div>1970-01-01
+                {%- endif -%}
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+      </ul>
+
+
+    </div>
+  {% endfor %}
+</div>

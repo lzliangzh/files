@@ -1,0 +1,190 @@
+{
+  "main": {
+    "id": "6d843d4ce4ff7f99",
+    "type": "split",
+    "children": [
+      {
+        "id": "0217f80e27062639",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ae59f0a61f11a312",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a836eac99ea81a9a",
+    "type": "split",
+    "children": [
+      {
+        "id": "4897b15853b7c7c4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "83d9893e17ee7703",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e36d0931da87a497",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1ebb06d20ae64ed8",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "08abf3a5eef2457b",
+    "type": "split",
+    "children": [
+      {
+        "id": "52a1749b0ea5df37",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f40cb0e9cda54855",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4bb455139b3025a8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "8c3ca9d8e0d55ac1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "979a16a5df979a05",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "ae59f0a61f11a312",
+  "lastOpenFiles": [
+    "7.jpg",
+    "9831709979776_.pic_hd.jpg",
+    "aboutme~.md",
+    "3.jpg.sb-ee8173f6-X83trd",
+    "6.jpg",
+    "9801709976773_.pic.jpg",
+    "5.jpg",
+    "9791709976622_.pic.jpg",
+    "Academia 學術/漢語音韻學/新建 文本文档.md",
+    "Academia 學術/漢語音韻學",
+    "Academia 學術/“適”實詞詞義引申發展脈絡梳理~.md",
+    "Academia 學術/《左傳》精讀/《左傳》概論/image-20240309145516213.png",
+    "Academia 學術/《左傳》精讀/《左傳》概論",
+    "index~.md",
+    "Jottings 雜記/折騰/近期折腾：用香橙派搭建简易网站服务器.md",
+    "Jottings 雜記/折騰/建設進度小結.md",
+    "Jottings 雜記/折騰/如何更新 1ntersection 的文件.md",
+    "Jottings 雜記/折騰/ubuntu-in-termux.md",
+    "Jottings 雜記/折騰/personal-git-repo.md",
+    "Jottings 雜記/折騰/obsidian-syncing-solution.md",
+    "Jottings 雜記/折騰/easyuse-terminal.md",
+    "Jottings 雜記/折騰/Operator's Memo : 建站碎碎唸.md",
+    "Jottings 雜記/折騰/LAN-server.md",
+    "Jottings 雜記/折騰/4.jpg",
+    "Jottings 雜記/折騰/Charge into 2024.md",
+    "Jottings 雜記/折騰/3.jpg",
+    "Jottings 雜記/折騰/1.jpg",
+    "Jottings 雜記/生涯規劃資訊/科技企业秋招准备 By DianeWang.md",
+    "Jottings 雜記/生涯規劃資訊/关于「文科生 在 互联网 干 技术岗」的分享 By 唐乾桐.md",
+    "Jottings 雜記/生涯規劃資訊/互联网行业就业分享——杂记.md",
+    "Jottings 雜記/生涯規劃資訊/US-AI-PhD-Application.md",
+    "Jottings 雜記/日誌/20240305.md",
+    "Jottings 雜記/日誌/20240304.md",
+    "Jottings 雜記/日誌/20240302.md",
+    "Jottings 雜記/日誌/2024-03-09.md",
+    "Jottings 雜記/递归刷题.md",
+    "Jottings 雜記/讀書札記",
+    "Jottings 雜記/折騰",
+    "Jottings 雜記/生涯規劃資訊",
+    "Jottings 雜記/日誌",
+    "Jottings 雜記/C++ 学习.md",
+    "Jottings 雜記",
+    "Jottings/生涯規劃資訊/科技企业秋招准备 By DianeWang.md",
+    "Jottings/折騰/4.jpg",
+    "Jottings/讀書札記",
+    "Jottings/生涯規劃資訊"
+  ]
+}

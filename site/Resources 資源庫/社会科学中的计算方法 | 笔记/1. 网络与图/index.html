@@ -1,0 +1,2892 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="zh">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="网络的普遍性和多样性" name="description"/>
+<meta content="lzliang" name="author"/>
+<link href="http://10.7.13.228:8080/Resources%20%E8%B3%87%E6%BA%90%E5%BA%AB/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95%20%7C%20%E7%AC%94%E8%AE%B0/1.%20%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%9B%BE/" rel="canonical"/>
+<link href="../0.%20%E3%80%8A%E7%A4%BE%E7%A7%91%E8%AE%A1%E7%AE%97%E3%80%8B%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D/" rel="prev"/>
+<link href="../2.%20%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%9B%BE%E8%AE%BA%E5%8A%A0%E5%BC%BA/" rel="next"/>
+<link href="../../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.5.3, mkdocs-material-9.5.9" name="generator"/>
+<title> - 1ntersection 交匯區</title>
+<link href="../../../assets/stylesheets/main.f2e4d321.min.css" rel="stylesheet"/>
+<link href="../../../assets/stylesheets/palette.06af60db.min.css" rel="stylesheet"/>
+<style>:root{--md-admonition-icon--note:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1 7.775V2.75C1 1.784 1.784 1 2.75 1h5.025c.464 0 .91.184 1.238.513l6.25 6.25a1.75 1.75 0 0 1 0 2.474l-5.026 5.026a1.75 1.75 0 0 1-2.474 0l-6.25-6.25A1.752 1.752 0 0 1 1 7.775Zm1.5 0c0 .066.026.13.073.177l6.25 6.25a.25.25 0 0 0 .354 0l5.025-5.025a.25.25 0 0 0 0-.354l-6.25-6.25a.25.25 0 0 0-.177-.073H2.75a.25.25 0 0 0-.25.25ZM6 5a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg>');--md-admonition-icon--abstract:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.5 1.75v11.5c0 .138.112.25.25.25h3.17a.75.75 0 0 1 0 1.5H2.75A1.75 1.75 0 0 1 1 13.25V1.75C1 .784 1.784 0 2.75 0h8.5C12.216 0 13 .784 13 1.75v7.736a.75.75 0 0 1-1.5 0V1.75a.25.25 0 0 0-.25-.25h-8.5a.25.25 0 0 0-.25.25Zm13.274 9.537v-.001l-4.557 4.45a.75.75 0 0 1-1.055-.008l-1.943-1.95a.75.75 0 0 1 1.062-1.058l1.419 1.425 4.026-3.932a.75.75 0 1 1 1.048 1.074ZM4.75 4h4.5a.75.75 0 0 1 0 1.5h-4.5a.75.75 0 0 1 0-1.5ZM4 7.75A.75.75 0 0 1 4.75 7h2a.75.75 0 0 1 0 1.5h-2A.75.75 0 0 1 4 7.75Z"/></svg>');--md-admonition-icon--info:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/></svg>');--md-admonition-icon--tip:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M3.499.75a.75.75 0 0 1 1.5 0v.996C5.9 2.903 6.793 3.65 7.662 4.376l.24.202c-.036-.694.055-1.422.426-2.163C9.1.873 10.794-.045 12.622.26 14.408.558 16 1.94 16 4.25c0 1.278-.954 2.575-2.44 2.734l.146.508.065.22c.203.701.412 1.455.476 2.226.142 1.707-.4 3.03-1.487 3.898C11.714 14.671 10.27 15 8.75 15h-6a.75.75 0 0 1 0-1.5h1.376a4.484 4.484 0 0 1-.563-1.191 3.835 3.835 0 0 1-.05-2.063 4.647 4.647 0 0 1-2.025-.293.75.75 0 0 1 .525-1.406c1.357.507 2.376-.006 2.698-.318l.009-.01a.747.747 0 0 1 1.06 0 .748.748 0 0 1-.012 1.074c-.912.92-.992 1.835-.768 2.586.221.74.745 1.337 1.196 1.621H8.75c1.343 0 2.398-.296 3.074-.836.635-.507 1.036-1.31.928-2.602-.05-.603-.216-1.224-.422-1.93l-.064-.221c-.12-.407-.246-.84-.353-1.29a2.425 2.425 0 0 1-.507-.441 3.075 3.075 0 0 1-.633-1.248.75.75 0 0 1 1.455-.364c.046.185.144.436.31.627.146.168.353.305.712.305.738 0 1.25-.615 1.25-1.25 0-1.47-.95-2.315-2.123-2.51-1.172-.196-2.227.387-2.706 1.345-.46.92-.27 1.774.019 3.062l.042.19a.884.884 0 0 1 .01.05c.348.443.666.949.94 1.553a.75.75 0 1 1-1.365.62c-.553-1.217-1.32-1.94-2.3-2.768L6.7 5.527c-.814-.68-1.75-1.462-2.692-2.619a3.737 3.737 0 0 0-1.023.88c-.406.495-.663 1.036-.722 1.508.116.122.306.21.591.239.388.038.797-.06 1.032-.19a.75.75 0 0 1 .728 1.31c-.515.287-1.23.439-1.906.373-.682-.067-1.473-.38-1.879-1.193L.75 5.677V5.5c0-.984.48-1.94 1.077-2.664.46-.559 1.05-1.055 1.673-1.353V.75Z"/></svg>');--md-admonition-icon--success:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"/></svg>');--md-admonition-icon--question:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.92 6.085h.001a.749.749 0 1 1-1.342-.67c.169-.339.436-.701.849-.977C6.845 4.16 7.369 4 8 4a2.756 2.756 0 0 1 1.637.525c.503.377.863.965.863 1.725 0 .448-.115.83-.329 1.15-.205.307-.47.513-.692.662-.109.072-.22.138-.313.195l-.006.004a6.24 6.24 0 0 0-.26.16.952.952 0 0 0-.276.245.75.75 0 0 1-1.248-.832c.184-.264.42-.489.692-.661.103-.067.207-.132.313-.195l.007-.004c.1-.061.182-.11.258-.161a.969.969 0 0 0 .277-.245C8.96 6.514 9 6.427 9 6.25a.612.612 0 0 0-.262-.525A1.27 1.27 0 0 0 8 5.5c-.369 0-.595.09-.74.187a1.01 1.01 0 0 0-.34.398ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>');--md-admonition-icon--warning:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M6.457 1.047c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0 1 14.082 15H1.918a1.75 1.75 0 0 1-1.543-2.575Zm1.763.707a.25.25 0 0 0-.44 0L1.698 13.132a.25.25 0 0 0 .22.368h12.164a.25.25 0 0 0 .22-.368Zm.53 3.996v2.5a.75.75 0 0 1-1.5 0v-2.5a.75.75 0 0 1 1.5 0ZM9 11a1 1 0 1 1-2 0 1 1 0 0 1 2 0Z"/></svg>');--md-admonition-icon--failure:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M2.344 2.343h-.001a8 8 0 0 1 11.314 11.314A8.002 8.002 0 0 1 .234 10.089a8 8 0 0 1 2.11-7.746Zm1.06 10.253a6.5 6.5 0 1 0 9.108-9.275 6.5 6.5 0 0 0-9.108 9.275ZM6.03 4.97 8 6.94l1.97-1.97a.749.749 0 0 1 1.275.326.749.749 0 0 1-.215.734L9.06 8l1.97 1.97a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215L8 9.06l-1.97 1.97a.749.749 0 0 1-1.275-.326.749.749 0 0 1 .215-.734L6.94 8 4.97 6.03a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018Z"/></svg>');--md-admonition-icon--danger:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M9.504.43a1.516 1.516 0 0 1 2.437 1.713L10.415 5.5h2.123c1.57 0 2.346 1.909 1.22 3.004l-7.34 7.142a1.249 1.249 0 0 1-.871.354h-.302a1.25 1.25 0 0 1-1.157-1.723L5.633 10.5H3.462c-1.57 0-2.346-1.909-1.22-3.004L9.503.429Zm1.047 1.074L3.286 8.571A.25.25 0 0 0 3.462 9H6.75a.75.75 0 0 1 .694 1.034l-1.713 4.188 6.982-6.793A.25.25 0 0 0 12.538 7H9.25a.75.75 0 0 1-.683-1.06l2.008-4.418.003-.006a.036.036 0 0 0-.004-.009l-.006-.006-.008-.001c-.003 0-.006.002-.009.004Z"/></svg>');--md-admonition-icon--bug:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M4.72.22a.75.75 0 0 1 1.06 0l1 .999a3.488 3.488 0 0 1 2.441 0l.999-1a.748.748 0 0 1 1.265.332.75.75 0 0 1-.205.729l-.775.776c.616.63.995 1.493.995 2.444v.327c0 .1-.009.197-.025.292.408.14.764.392 1.029.722l1.968-.787a.75.75 0 0 1 .556 1.392L13 7.258V9h2.25a.75.75 0 0 1 0 1.5H13v.5c0 .409-.049.806-.141 1.186l2.17.868a.75.75 0 0 1-.557 1.392l-2.184-.873A4.997 4.997 0 0 1 8 16a4.997 4.997 0 0 1-4.288-2.427l-2.183.873a.75.75 0 0 1-.558-1.392l2.17-.868A5.036 5.036 0 0 1 3 11v-.5H.75a.75.75 0 0 1 0-1.5H3V7.258L.971 6.446a.75.75 0 0 1 .558-1.392l1.967.787c.265-.33.62-.583 1.03-.722a1.677 1.677 0 0 1-.026-.292V4.5c0-.951.38-1.814.995-2.444L4.72 1.28a.75.75 0 0 1 0-1.06Zm.53 6.28a.75.75 0 0 0-.75.75V11a3.5 3.5 0 1 0 7 0V7.25a.75.75 0 0 0-.75-.75ZM6.173 5h3.654A.172.172 0 0 0 10 4.827V4.5a2 2 0 1 0-4 0v.327c0 .096.077.173.173.173Z"/></svg>');--md-admonition-icon--example:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M5 5.782V2.5h-.25a.75.75 0 0 1 0-1.5h6.5a.75.75 0 0 1 0 1.5H11v3.282l3.666 5.76C15.619 13.04 14.543 15 12.767 15H3.233c-1.776 0-2.852-1.96-1.899-3.458Zm-2.4 6.565a.75.75 0 0 0 .633 1.153h9.534a.75.75 0 0 0 .633-1.153L12.225 10.5h-8.45ZM9.5 2.5h-3V6c0 .143-.04.283-.117.403L4.73 9h6.54L9.617 6.403A.746.746 0 0 1 9.5 6Z"/></svg>');--md-admonition-icon--quote:url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16"><path d="M1.75 2.5h10.5a.75.75 0 0 1 0 1.5H1.75a.75.75 0 0 1 0-1.5Zm4 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5Zm0 5h8.5a.75.75 0 0 1 0 1.5h-8.5a.75.75 0 0 1 0-1.5ZM2.5 7.75v6a.75.75 0 0 1-1.5 0v-6a.75.75 0 0 1 1.5 0Z"/></svg>');}</style>
+<link href="../../../css/footermatter.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Work+Sans:300,300i,400,400i,700,700i%7CPT+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Work Sans";--md-code-font:"PT Mono"}</style>
+<link href="../../../stylesheets/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<!-- Open Graph -->
+<meta content="website" property="og:type">
+<meta content=" - 1ntersection 交匯區" property="og:title">
+<meta content="网络的普遍性和多样性 - " property="og:description">
+<meta content="http://10.7.13.228:8080/Resources%20%E8%B3%87%E6%BA%90%E5%BA%AB/%E7%A4%BE%E4%BC%9A%E7%A7%91%E5%AD%A6%E4%B8%AD%E7%9A%84%E8%AE%A1%E7%AE%97%E6%96%B9%E6%B3%95%20%7C%20%E7%AC%94%E8%AE%B0/1.%20%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%9B%BE/" property="og:url">
+<meta content="http://10.7.13.228:8080/assets/banner.jpg" property="og:image">
+<meta content="image/png" property="og:image:type"/>
+<meta content="1200" property="og:image:width"/>
+<meta content="630" property="og:image:height"/>
+<!-- Twitter Cards -->
+<meta content="summary_large_image" name="twitter:card"/>
+<meta content=" - 1ntersection 交匯區" name="twitter:title"/>
+<meta content="网络的普遍性和多样性 - " name="twitter:description"/>
+<meta content="http://10.7.13.228:8080/assets/banner.jpg" name="twitter:image"/>
+</meta></meta></meta></meta></meta></head>
+<body data-md-color-accent="indigo" data-md-color-primary="indigo" data-md-color-scheme="default" dir="ltr">
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#_1">
+          跳转至
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="页眉" class="md-header__inner md-grid">
+<a aria-label="1ntersection 交匯區" class="md-header__button md-logo" data-md-component="logo" href="../../.." title="1ntersection 交匯區">
+<img alt="logo" src="../../../logo.png"/>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            1ntersection 交匯區
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              网络与图论
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="indigo" data-md-color-media="(prefers-color-scheme)" data-md-color-primary="indigo" data-md-color-scheme="default" id="__palette_0" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9h-1.9M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69m-9.15 3.96h2.3L12 9l-1.15 3.65Z"></path></svg>
+</label>
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: light)" data-md-color-primary="white" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22Z"></path></svg>
+</label>
+<input aria-label="Switch to system preference" class="md-option" data-md-color-accent="blue" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-primary="black" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_0" hidden="" title="Switch to system preference">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31Z"></path></svg>
+</label>
+</form>
+<script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+<label class="md-header__button md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+</label>
+<div class="md-search" data-md-component="search" role="dialog">
+<label class="md-search__overlay" for="__search"></label>
+<div class="md-search__inner" role="search">
+<form class="md-search__form" name="search">
+<input aria-label="搜索" autocapitalize="off" autocomplete="off" autocorrect="off" class="md-search__input" data-md-component="search-query" name="query" placeholder="搜索" required="" spellcheck="false" type="text"/>
+<label class="md-search__icon md-icon" for="__search">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"></path></svg>
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</label>
+<nav aria-label="查找" class="md-search__options">
+<a aria-label="分享" class="md-search__icon md-icon" data-clipboard="" data-clipboard-text="" data-md-component="search-share" href="javascript:void(0)" tabindex="-1" title="分享">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7 0-.24-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91 1.61 0 2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08Z"></path></svg>
+</a>
+<button aria-label="清空当前内容" class="md-search__icon md-icon" tabindex="-1" title="清空当前内容" type="reset">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"></path></svg>
+</button>
+</nav>
+<div class="md-search__suggest" data-md-component="search-suggest"></div>
+</form>
+<div class="md-search__output">
+<div class="md-search__scrollwrap" data-md-scrollfix="">
+<div class="md-search-result" data-md-component="search-result">
+<div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+<ol class="md-search-result__list" role="presentation"></ol>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="md-header__source">
+<a class="md-source" data-md-component="source" href="https://github.com/lzliangzh/lzliangzh" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    lzliangzh
+  </div>
+</a>
+</div>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<nav aria-label="标签" class="md-tabs" data-md-component="tabs">
+<div class="md-grid">
+<ul class="md-tabs__list">
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../..">
+        
+  
+    
+  
+  Home
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../aboutme/">
+        
+  
+    
+  
+  Whoami 關於我
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../tags/">
+        
+  
+    
+  
+  Tags 標籤
+
+      </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/">
+          
+  
+    
+  
+  Academia 學術
+
+        </a>
+</li>
+<li class="md-tabs__item">
+<a class="md-tabs__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/C%2B%2B%20%E5%AD%A6%E4%B9%A0/">
+          
+  
+    
+  
+  Jottings 雜記
+
+        </a>
+</li>
+<li class="md-tabs__item md-tabs__item--active">
+<a class="md-tabs__link" href="../../">
+          
+  
+    
+  
+  Resources 資源庫
+
+        </a>
+</li>
+</ul>
+</div>
+</nav>
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="导航栏" class="md-nav md-nav--primary md-nav--lifted" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="1ntersection 交匯區" class="md-nav__button md-logo" data-md-component="logo" href="../../.." title="1ntersection 交匯區">
+<img alt="logo" src="../../../logo.png"/>
+</a>
+    1ntersection 交匯區
+  </label>
+<div class="md-nav__source">
+<a class="md-source" data-md-component="source" href="https://github.com/lzliangzh/lzliangzh" title="前往仓库">
+<div class="md-source__icon md-icon">
+<svg viewbox="0 0 448 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"></path></svg>
+</div>
+<div class="md-source__repository">
+    lzliangzh
+  </div>
+</a>
+</div>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../..">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Home
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../aboutme/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Whoami 關於我
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../tags/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Tags 標籤
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_4" type="checkbox">
+<!-- Toggle to expand nested items -->
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Academia 學術
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- Only render toggle if there's at least one more page -->
+<label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_4_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_4">
+<span class="md-nav__icon md-icon"></span>
+            Academia 學術
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/%E2%80%9C%E9%81%A9%E2%80%9D%E5%AF%A6%E8%A9%9E%E8%A9%9E%E7%BE%A9%E5%BC%95%E7%94%B3%E7%99%BC%E5%B1%95%E8%84%88%E7%B5%A1%E6%A2%B3%E7%90%86/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    “適” 實詞詞義引申發展脈絡梳理
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2023-12-29
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/%E3%80%8A%E5%88%A9%E7%BB%B4%E5%9D%A6%E3%80%8B%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0%3A%E7%A7%8B%E8%8D%89/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《利维坦》读书笔记
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/%E5%8F%A5%E6%B3%95%E7%BB%93%E6%9E%84%3A%E8%AF%BA%E5%A7%86%C2%B7%E4%B9%94%E5%A7%86%E6%96%AF%E5%9F%BA/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Syntactic Structure / 句法结构
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-03
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_4_5" type="checkbox">
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_4_5" id="__nav_4_5_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《左傳》精讀
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_4_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_5">
+<span class="md-nav__icon md-icon"></span>
+            《左傳》精讀
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/%E3%80%8A%E5%B7%A6%E5%82%B3%E3%80%8B%E7%B2%BE%E8%AE%80/%E3%80%8A%E5%B7%A6%E4%BC%A0%E3%80%8B%E8%8A%82%E9%80%89%EF%BC%88%E7%AE%80%E4%BD%93%E5%AD%97%E7%89%88%EF%BC%89/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《左传》节选
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-07
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/%E3%80%8A%E5%B7%A6%E5%82%B3%E3%80%8B%E7%B2%BE%E8%AE%80/%E3%80%8A%E5%B7%A6%E5%82%B3%E3%80%8B%E6%A6%82%E8%AB%96/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《左傳》概論
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-07
+          </font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</input></li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_4_6" type="checkbox">
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_4_6" id="__nav_4_6_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    漢語音韻學
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_4_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_4_6">
+<span class="md-nav__icon md-icon"></span>
+            漢語音韻學
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Academia%20%E5%AD%B8%E8%A1%93/%E6%BC%A2%E8%AA%9E%E9%9F%B3%E9%9F%BB%E5%AD%B8/%E6%96%B0%E5%BB%BA%20%E6%96%87%E6%9C%AC%E6%96%87%E6%A1%A3/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    luən mjuən piɛu
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</input></li>
+<!-- Currently active page -->
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</input></li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_5" type="checkbox">
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Jottings 雜記
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_5_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_5">
+<span class="md-nav__icon md-icon"></span>
+            Jottings 雜記
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/C%2B%2B%20%E5%AD%A6%E4%B9%A0/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    C++ 学习
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-09
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E9%80%92%E5%BD%92%E5%88%B7%E9%A2%98/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    递归刷题
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-09
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_5_3" type="checkbox">
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    折騰
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_5_3_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_3">
+<span class="md-nav__icon md-icon"></span>
+            折騰
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/Charge%20into%202024/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Charge into 2024
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2023-12-31
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/LAN-server/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    PC/Mac 与 Android Termux 互传实现
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-01-29
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/Operator%27s%20Memo%20%3A%20%E5%BB%BA%E7%AB%99%E7%A2%8E%E7%A2%8E%E5%94%B8/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Operator's Memo / 建站碎碎唸
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-01-07
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/easyuse-terminal/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    易用的 Linux/Unix 终端
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-02-02
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/obsidian-syncing-solution/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    obsidian/git/gitee 三端笔记同步解决方案
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-01-23
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/personal-git-repo/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    个人 Git 仓库使用设置
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-01-23
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/ubuntu-in-termux/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    倒腾札记: Android Termux 环境下 ubuntu 安装、配置与用法
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-01-24
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/%E5%A6%82%E4%BD%95%E6%9B%B4%E6%96%B0%201ntersection%20%E7%9A%84%E6%96%87%E4%BB%B6/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    如何更新 1ntersection 的文件
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-05
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/%E5%BB%BA%E8%A8%AD%E9%80%B2%E5%BA%A6%E5%B0%8F%E7%B5%90/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    建設進度小結
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-04
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%8A%98%E9%A8%B0/%E8%BF%91%E6%9C%9F%E6%8A%98%E8%85%BE%EF%BC%9A%E7%94%A8%E9%A6%99%E6%A9%99%E6%B4%BE%E6%90%AD%E5%BB%BA%E7%AE%80%E6%98%93%E7%BD%91%E7%AB%99%E6%9C%8D%E5%8A%A1%E5%99%A8/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    近期折腾：用香橙派搭建简易网站服务器
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-02
+          </font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</input></li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_5_4" type="checkbox">
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_5_4" id="__nav_5_4_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    日誌
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_5_4_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_4">
+<span class="md-nav__icon md-icon"></span>
+            日誌
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%97%A5%E8%AA%8C/2024-03-09/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    20240309
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-09
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%97%A5%E8%AA%8C/20240302/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    20240302
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-02
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%97%A5%E8%AA%8C/20240304/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    20240304
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-04
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E6%97%A5%E8%AA%8C/20240305/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    20240305待办
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-05
+          </font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</input></li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_5_5" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_5_5" id="__nav_5_5_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    生涯規劃資訊
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_5_5_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_5_5">
+<span class="md-nav__icon md-icon"></span>
+            生涯規劃資訊
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E7%94%9F%E6%B6%AF%E8%A6%8F%E5%8A%83%E8%B3%87%E8%A8%8A/US-AI-PhD-Application/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    搬运清华树洞经验贴
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2023-12-02
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E7%94%9F%E6%B6%AF%E8%A6%8F%E5%8A%83%E8%B3%87%E8%A8%8A/%E4%BA%92%E8%81%94%E7%BD%91%E8%A1%8C%E4%B8%9A%E5%B0%B1%E4%B8%9A%E5%88%86%E4%BA%AB%E2%80%94%E2%80%94%E6%9D%82%E8%AE%B0/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    互联网行业就业分享——杂记
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-03
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E7%94%9F%E6%B6%AF%E8%A6%8F%E5%8A%83%E8%B3%87%E8%A8%8A/%E5%85%B3%E4%BA%8E%E3%80%8C%E6%96%87%E7%A7%91%E7%94%9F%20%E5%9C%A8%20%E4%BA%92%E8%81%94%E7%BD%91%20%E5%B9%B2%20%E6%8A%80%E6%9C%AF%E5%B2%97%E3%80%8D%E7%9A%84%E5%88%86%E4%BA%AB%20By%20%E5%94%90%E4%B9%BE%E6%A1%90/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    关于「文科生 在 互联网 干 技术岗」的分享 By 唐乾桐
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-03
+          </font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../../Jottings%20%E9%9B%9C%E8%A8%98/%E7%94%9F%E6%B6%AF%E8%A6%8F%E5%8A%83%E8%B3%87%E8%A8%8A/%E7%A7%91%E6%8A%80%E4%BC%81%E4%B8%9A%E7%A7%8B%E6%8B%9B%E5%87%86%E5%A4%87%20By%20DianeWang/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    科技企业秋招准备 By DianeWang
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- 这里是修改：根据markdown文章的meta数据，显示Status值为new的文章的Modified时间 -->
+<span class="date"><font color="grey" size="0.5em">
+            / 更新於 2024-03-03
+          </font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</input></li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_6" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<div class="md-nav__link md-nav__container">
+<a class="md-nav__link" href="../../">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Resources 資源庫
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- Only render toggle if there's at least one more page -->
+<label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+<span class="md-nav__icon md-icon"></span>
+</label>
+</div>
+<!-- Nested navigation -->
+<nav aria-expanded="true" aria-labelledby="__nav_6_label" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_6">
+<span class="md-nav__icon md-icon"></span>
+            Resources 資源庫
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../Cheetsheet_for_CS101_Introduction_to_Computing/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    计算概论 B | Cheetsheet
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%86%9B%E4%BA%8B%E7%90%86%E8%AE%BA%20%7C%20%E5%A4%8D%E4%B9%A0%E9%A2%98/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    军事理论 | 复习题
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%20C%20%28%E4%B8%80%29%20%7C%20%20%E6%9C%9F%E6%9C%AB%E7%AC%94%E8%AE%B0/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    高等数学 C (一)  | 期末笔记
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6%20C%20%28%E4%BA%8C%29%20%7C%20%E7%9F%A5%E8%AF%86%E7%82%B9/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    高等数学 C (II) 知识点
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_6_6" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_6_6" id="__nav_6_6_label" tabindex="">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    MIT 6.006 Introduction to Algorithm
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_6_6_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_6">
+<span class="md-nav__icon md-icon"></span>
+            MIT 6.006 Introduction to Algorithm
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../MIT%206.006%20Introduction%20to%20Algorithm/MIT%206.006%20Introduction%20to%20Algorithm/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    MIT 6.006 Introduction to Algorithm
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_6_7" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_6_7" id="__nav_6_7_label" tabindex="">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代汉语 | 笔记
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_6_7_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_7">
+<span class="md-nav__icon md-icon"></span>
+            古代汉语 | 笔记
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/000%E5%AD%97%E6%9C%AC%E7%BE%A9%E5%88%86%E6%9E%90/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    字本義分析
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/0%E5%8F%A4%E4%BB%A3%E6%BC%A2%E8%AA%9E%EF%BC%88%E4%B8%8A%EF%BC%89%E6%96%87%E9%81%B8%E8%A4%87%E7%BF%92/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代漢語（上）文選
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/1%E6%B1%89%E5%AD%97%E7%9A%84%E7%BB%93%E6%9E%84%E5%92%8C%E5%8F%91%E5%B1%95/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    第一部分 漢字的結構與發展
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/2%E8%A9%9E%E7%BE%A9%E5%88%86%E6%9E%90/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    第二部分 詞義演變發展
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/3%E8%A9%9E%E9%A1%9E%E7%9A%84%E6%B4%BB%E7%94%A8/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代漢語語法
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/4%E5%8F%A4%E4%BB%A3%E6%BC%A2%E8%AA%9E%E7%9A%84%E8%A9%9E%E5%BA%8F/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代漢語的詞序
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/5%E5%88%A4%E6%96%AD%E5%8F%A5/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    判斷句
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/6%E5%8F%A4%E4%BB%A3%E6%BC%A2%E8%AA%9E%E7%9A%84%E8%A2%AB%E5%8B%95%E8%A1%A8%E7%A4%BA%E6%B3%95/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代漢語的被動表示法
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/7%E5%8F%A4%E4%BB%A3%E6%BC%A2%E8%AA%9E%E8%99%9B%E8%A9%9E/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代漢語虛詞
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/8%E5%8F%A4%E4%BB%A3%E6%BC%A2%E8%AA%9E%EF%BC%88%E4%B8%8B%EF%BC%89%E6%96%87%E9%81%B8%2B%E7%B7%92%E8%AB%96/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古代漢語（下）緒論+文選
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E5%8F%A4%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/9%E5%8F%A4%E6%9B%B8%E7%9A%84%E6%B3%A8%E8%A7%A3/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    古書的注解
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_6_8" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_6_8" id="__nav_6_8_label" tabindex="">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    数据结构与算法 B | 笔记
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_6_8_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_8">
+<span class="md-nav__icon md-icon"></span>
+            数据结构与算法 B | 笔记
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/0.%20%E3%80%8A%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E3%80%8B%E4%BF%A1%E6%81%AF%E6%B1%87%E6%80%BB/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《数据结构与算法》信息汇总
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/1.%20%E3%80%8A%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%E3%80%8B%E8%AF%BE%E7%A8%8B%E6%A6%82%E8%AE%BA/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《数据结构与算法》课程概论
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/2.%20Python%20%E5%85%A5%E9%97%A8/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    Python 入门
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/3.%20%E5%9F%BA%E6%9C%AC%E7%BB%93%E6%9E%84%28%E7%BA%BF%E6%80%A7%E8%A1%A8%29/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    基本结构（线性表）
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/4.%20%E9%80%92%E5%BD%92%E4%B8%8E%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    递归与动态规划
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/5.%20KMP%20Algorithm/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    KMP Algorithm
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/6.%20%E6%9F%A5%E6%89%BE%E4%B8%8E%E6%8E%92%E5%BA%8F/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    查找与排序 Find and Sort
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/7.%20%E6%A0%91%E5%8F%8A%E7%AE%97%E6%B3%95/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    树及算法
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/%E7%AE%97%E6%B3%95%E5%88%86%E6%9E%90/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    算法分析
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_6_8_10" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_6_8_10" id="__nav_6_8_10_label" tabindex="0">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    作业
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_6_8_10_label" class="md-nav" data-md-level="3">
+<label class="md-nav__title" for="__nav_6_8_10">
+<span class="md-nav__icon md-icon"></span>
+            作业
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95%20B%20%7C%20%E7%AC%94%E8%AE%B0/%E4%BD%9C%E4%B8%9A/hw1/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    数据结构与算法(python)作业一: 课程引言与概论
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--section md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input class="md-nav__toggle md-toggle" id="__nav_6_9" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_6_9" id="__nav_6_9_label" tabindex="">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    现代汉语 | 笔记
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="false" aria-labelledby="__nav_6_9_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_9">
+<span class="md-nav__icon md-icon"></span>
+            现代汉语 | 笔记
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/1.%20%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%EF%BC%88%E4%B8%8A%EF%BC%89%E7%BB%AA%E8%AE%BA/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    现代汉语（上）绪论
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/1.4%20%E8%AF%AD%E6%B3%95%E5%8D%95%E4%BD%8D/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    语法
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/2.%20%E8%AF%AD%E9%9F%B3%E7%AE%80%E4%BB%8B/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    语音简介
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/3.%20%E5%A3%B0%E6%AF%8D%E3%80%81%E9%9F%B5%E6%AF%8D%E5%92%8C%E5%A3%B0%E8%B0%83/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    声母、韵母和声调
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/4.%20%E6%99%AE%E9%80%9A%E8%AF%9D%E9%9F%B3%E8%8A%82%E7%BB%93%E6%9E%84/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    普通话音节结构
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/5.%20%E6%99%AE%E9%80%9A%E8%AF%9D%E7%9A%84%E8%AF%AD%E6%B5%81%E9%9F%B3%E5%8F%98/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    普通话的语流音变
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/6.%20%E6%B1%89%E8%AF%AD%E6%8B%BC%E9%9F%B3%E6%96%B9%E6%A1%88%E4%B8%8E%E6%99%AE%E9%80%9A%E8%AF%9D%E9%9F%B3%E4%BD%8D/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    汉语拼音方案与普通话音位
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/7.%20%E8%AF%8D%E6%B1%87%E5%AD%A6/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    词汇
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%20%7C%20%E7%AC%94%E8%AE%B0/%E7%8E%B0%E4%BB%A3%E6%B1%89%E8%AF%AD%EF%BC%88%E4%B8%8B%EF%BC%89%E7%BB%AA%E8%AE%BA/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    现代汉语（下）绪论：语法概说
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<!-- Determine all nested items that are index pages -->
+<!-- Navigation tabs -->
+<!-- Render 1st level active item as section -->
+<!-- Navigation tabs + sections -->
+<!-- Render 2nd level items with nested items as sections -->
+<!-- Navigation sections -->
+<!-- Navigation pruning -->
+<!-- Nested navigation item -->
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<!-- Determine checked and indeterminate state -->
+<!-- Active checkbox expands items contained within nested section -->
+<input checked="" class="md-nav__toggle md-toggle" id="__nav_6_10" type="checkbox"/>
+<!-- Toggle to expand nested items -->
+<label class="md-nav__link" for="__nav_6_10" id="__nav_6_10_label" tabindex="">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    社会科学中的计算方法 | 笔记
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<!-- Toggle to expand nested items with link to index page -->
+<!-- Nested navigation -->
+<nav aria-expanded="true" aria-labelledby="__nav_6_10_label" class="md-nav" data-md-level="2">
+<label class="md-nav__title" for="__nav_6_10">
+<span class="md-nav__icon md-icon"></span>
+            社会科学中的计算方法 | 笔记
+          </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<!-- Nested navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../%2A.%20%E4%BD%9C%E4%B8%9A/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    作业
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../0.%20%E3%80%8A%E7%A4%BE%E7%A7%91%E8%AE%A1%E7%AE%97%E3%80%8B%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    《社科计算》课程介绍
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item md-nav__item--active">
+<!-- State toggle -->
+<input class="md-nav__toggle md-toggle" id="__toc" type="checkbox"/>
+<!-- Hack: see partials/toc.html for more information -->
+<!-- Navigation link to table of contents -->
+<label class="md-nav__link md-nav__link--active" for="__toc">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    网络与图论
+  </span>
+<!-- Navigation link status -->
+<span class="md-nav__icon md-icon"></span>
+</label>
+<a class="md-nav__link md-nav__link--active" href="./">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    网络与图论
+  </span>
+<!-- Navigation link status -->
+</a>
+<!-- Table of contents -->
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1">
+<span class="md-ellipsis">
+      1. 无处不在的网络
+    </span>
+</a>
+<nav aria-label="1. 无处不在的网络" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#11">
+<span class="md-ellipsis">
+      1.1 从差序格局到社会网络
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#12">
+<span class="md-ellipsis">
+      1.2 形形色色的网络
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#13">
+<span class="md-ellipsis">
+      1.3 不同类型网络的依存
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#14-ict">
+<span class="md-ellipsis">
+      1.4 ICT技术的发展
+    </span>
+</a>
+<nav aria-label="1.4 ICT技术的发展" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#141-ict">
+<span class="md-ellipsis">
+      1.4.1 ICT技术发展的影响
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#15">
+<span class="md-ellipsis">
+      1.5 小结
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2">
+<span class="md-ellipsis">
+      2. 网络与图
+    </span>
+</a>
+<nav aria-label="2. 网络与图" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#21">
+<span class="md-ellipsis">
+      2.1 什么是图
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#22">
+<span class="md-ellipsis">
+      2.2 要点小结
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3">
+<span class="md-ellipsis">
+      3. 路径、连通图、连通分量
+    </span>
+</a>
+<nav aria-label="3. 路径、连通图、连通分量" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#31">
+<span class="md-ellipsis">
+      3.1 连通的、不连通的
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#4">
+<span class="md-ellipsis">
+      4. 二部图、图上的广度优先搜索
+    </span>
+</a>
+<nav aria-label="4. 二部图、图上的广度优先搜索" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#41">
+<span class="md-ellipsis">
+      4.1 图上的广度优先搜索
+    </span>
+</a>
+<nav aria-label="4.1 图上的广度优先搜索" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#411">
+<span class="md-ellipsis">
+      4.1.1 要点小结
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5-anatole-rapoport1953">
+<span class="md-ellipsis">
+      5. 三元闭包——社会网络演化的基本结构性原因 (Anatole Rapoport,1953)
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#6">
+<span class="md-ellipsis">
+      6. 从三元闭包模型的大数据验证看计算社科的研究范式
+    </span>
+</a>
+<nav aria-label="6. 从三元闭包模型的大数据验证看计算社科的研究范式" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#61">
+<span class="md-ellipsis">
+      6.1 需要先解决两个问题
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#62">
+<span class="md-ellipsis">
+      6.2 三元闭包原理的两种表达
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#63">
+<span class="md-ellipsis">
+      6.3 用什么数据验证?
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#64">
+<span class="md-ellipsis">
+      6.4 “可能性”怎么衡量?
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#7">
+<span class="md-ellipsis">
+      7. 刻画节点属性
+    </span>
+</a>
+<nav aria-label="7. 刻画节点属性" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#71">
+<span class="md-ellipsis">
+      7.1 聚集系数
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#72">
+<span class="md-ellipsis">
+      7.2 结构洞
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#8">
+<span class="md-ellipsis">
+      8. 刻画边的属性
+    </span>
+</a>
+<nav aria-label="8. 刻画边的属性" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#81">
+<span class="md-ellipsis">
+      8.1 强、弱
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#82">
+<span class="md-ellipsis">
+      8.2 嵌入性与邻里重叠度
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#9">
+<span class="md-ellipsis">
+      9. 弱关系与网络中的捷径
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<!-- Navigation item -->
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../2.%20%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%9B%BE%E8%AE%BA%E5%8A%A0%E5%BC%BA/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    网络与图论加强
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../3.%20%E7%A4%BE%E4%BC%9A%E9%80%89%E6%8B%A9%E4%B8%8E%E7%A4%BE%E4%BC%9A%E5%BD%B1%E5%93%8D/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    社会选择与社会影响
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+<!-- Determine classes -->
+<!-- Determine active page for paginated views -->
+<!-- Navigation item with nested items -->
+<li class="md-nav__item">
+<a class="md-nav__link" href="../5.%20%E5%B0%8F%E4%B8%96%E7%95%8C%E7%8E%B0%E8%B1%A1/">
+<!-- Navigation link icon -->
+<!-- Navigation link title -->
+<span class="md-ellipsis">
+    小世界现象
+  </span>
+<!-- Navigation link status -->
+</a>
+<span class="date"><font color="grey" size="0.5em">/ 更新於 1970-01-01</font></span>
+<!-- 修改结束 -->
+</li>
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+</ul>
+</nav>
+<!-- Pruned navigation item -->
+</li>
+<!-- Currently active page -->
+</ul>
+</nav>
+<br/>
+<br/>
+<div class="tag-cloud-nav">
+<style>
+    .tag-cloud {
+        margin-top:1em;
+        margin-bottom: 0.5em;
+    }
+    .tag-cloud-content {
+        padding: 0 0.6rem;
+        
+    }
+</style>
+<p class="md-nav tag-cloud">
+<label class="md-nav__title">Tag cloud</label>
+</p>
+<div class="tag-cloud-content">
+<a class="tag" href="http://10.7.13.228:8080/tags/#home">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkSlateGray;
+                ">home 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#古代漢語">
+<span class="tag-name" style="
+                    
+                        
+                            
+                        
+                    
+                        font-size:1.0rem;
+                    
+                    color:DarkTurquoise;
+                ">古代漢語 
+                </span>
+<!--<sup class="tag-count">12</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#《左傳》">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.6rem;
+                    
+                    color:DarkRed;
+                ">《左傳》 
+                </span>
+<!--<sup class="tag-count">2</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#編程學習">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.6rem;
+                    
+                    color:DarkCyan;
+                ">編程學習 
+                </span>
+<!--<sup class="tag-count">2</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#年終總結">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.55rem;
+                    
+                    color:DarkOliveGreen;
+                ">年終總結 
+                </span>
+<!--<sup class="tag-count">1</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#折騰">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.95rem;
+                    
+                    color:DarkMagenta;
+                ">折騰 
+                </span>
+<!--<sup class="tag-count">9</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#日誌">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.7rem;
+                    
+                    color:DarkOliveGreen;
+                ">日誌 
+                </span>
+<!--<sup class="tag-count">4</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#生涯規劃資訊">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.7rem;
+                    
+                    color:DarkViolet;
+                ">生涯規劃資訊 
+                </span>
+<!--<sup class="tag-count">4</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#課程筆記">
+<span class="tag-name" style="
+                    
+                        
+                            
+                        
+                    
+                        font-size:1.0rem;
+                    
+                    color:DarkBlue;
+                ">課程筆記 
+                </span>
+<!--<sup class="tag-count">22</sup>-->
+</a>
+<a class="tag" href="http://10.7.13.228:8080/tags/#現代漢語">
+<span class="tag-name" style="
+                    
+                        
+                    
+                        font-size:0.95rem;
+                    
+                    color:DarkOliveGreen;
+                ">現代漢語 
+                </span>
+<!--<sup class="tag-count">9</sup>-->
+</a>
+</div>
+</div>
+<br>
+</br></div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="目录" class="md-nav md-nav--secondary">
+<label class="md-nav__title" for="__toc">
+<span class="md-nav__icon md-icon"></span>
+      目录
+    </label>
+<ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#1">
+<span class="md-ellipsis">
+      1. 无处不在的网络
+    </span>
+</a>
+<nav aria-label="1. 无处不在的网络" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#11">
+<span class="md-ellipsis">
+      1.1 从差序格局到社会网络
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#12">
+<span class="md-ellipsis">
+      1.2 形形色色的网络
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#13">
+<span class="md-ellipsis">
+      1.3 不同类型网络的依存
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#14-ict">
+<span class="md-ellipsis">
+      1.4 ICT技术的发展
+    </span>
+</a>
+<nav aria-label="1.4 ICT技术的发展" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#141-ict">
+<span class="md-ellipsis">
+      1.4.1 ICT技术发展的影响
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#15">
+<span class="md-ellipsis">
+      1.5 小结
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#2">
+<span class="md-ellipsis">
+      2. 网络与图
+    </span>
+</a>
+<nav aria-label="2. 网络与图" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#21">
+<span class="md-ellipsis">
+      2.1 什么是图
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#22">
+<span class="md-ellipsis">
+      2.2 要点小结
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#3">
+<span class="md-ellipsis">
+      3. 路径、连通图、连通分量
+    </span>
+</a>
+<nav aria-label="3. 路径、连通图、连通分量" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#31">
+<span class="md-ellipsis">
+      3.1 连通的、不连通的
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#4">
+<span class="md-ellipsis">
+      4. 二部图、图上的广度优先搜索
+    </span>
+</a>
+<nav aria-label="4. 二部图、图上的广度优先搜索" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#41">
+<span class="md-ellipsis">
+      4.1 图上的广度优先搜索
+    </span>
+</a>
+<nav aria-label="4.1 图上的广度优先搜索" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#411">
+<span class="md-ellipsis">
+      4.1.1 要点小结
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#5-anatole-rapoport1953">
+<span class="md-ellipsis">
+      5. 三元闭包——社会网络演化的基本结构性原因 (Anatole Rapoport,1953)
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#6">
+<span class="md-ellipsis">
+      6. 从三元闭包模型的大数据验证看计算社科的研究范式
+    </span>
+</a>
+<nav aria-label="6. 从三元闭包模型的大数据验证看计算社科的研究范式" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#61">
+<span class="md-ellipsis">
+      6.1 需要先解决两个问题
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#62">
+<span class="md-ellipsis">
+      6.2 三元闭包原理的两种表达
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#63">
+<span class="md-ellipsis">
+      6.3 用什么数据验证?
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#64">
+<span class="md-ellipsis">
+      6.4 “可能性”怎么衡量?
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#7">
+<span class="md-ellipsis">
+      7. 刻画节点属性
+    </span>
+</a>
+<nav aria-label="7. 刻画节点属性" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#71">
+<span class="md-ellipsis">
+      7.1 聚集系数
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#72">
+<span class="md-ellipsis">
+      7.2 结构洞
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#8">
+<span class="md-ellipsis">
+      8. 刻画边的属性
+    </span>
+</a>
+<nav aria-label="8. 刻画边的属性" class="md-nav">
+<ul class="md-nav__list">
+<li class="md-nav__item">
+<a class="md-nav__link" href="#81">
+<span class="md-ellipsis">
+      8.1 强、弱
+    </span>
+</a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#82">
+<span class="md-ellipsis">
+      8.2 嵌入性与邻里重叠度
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="#9">
+<span class="md-ellipsis">
+      9. 弱关系与网络中的捷径
+    </span>
+</a>
+</li>
+</ul>
+</nav>
+<br>
+</br></div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<!--
+  Copyright (c) 2016-2024 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+<!-- Tags -->
+<nav class="md-tags">
+<a class="md-tag" href="../../../tags/#">課程筆記</a>
+</nav>
+<!-- Source file information -->
+<!-- Actions -->
+<!--
+  Hack: check whether the content contains a h1 headline. If it doesn't, the
+  page title (or respectively site name) is used as the main headline.
+-->
+<style>
+    <link rel="stylesheet" href="../../../css/footermatter.css">
+</style>
+<!-- Page content -->
+<h1 id="_1">网络与图论</h1>
+<p>网络的普遍性和多样性</p>
+<h2 id="1">1. 无处不在的网络</h2>
+<h3 id="11">1.1 从差序格局到社会网络</h3>
+<p>费孝通(1947.1985:23) :源与众</p>
+<p>一块石头丢在水面上所发生的一圈圈推(中国人的社会关系)好像是把会影响所推出去的圈子的中心，被圈子出去的波纹。每个人，都是他社的波纹做推及的，就发生联系。每个人在某一时间某一地点所动用的圈子是不一定相同的。</p>
+<p>林南(2004:37):网络</p>
+<p>一个特定的网络可以自然地形成，也可以有对一个特定的共同关注的焦点或关注一种资源利益的社会性建构</p>
+<p>只要有人群在，就一定有「网络」。</p>
+<p>在自然界，网络同样无处不在</p>
+<p>C.S.Elton(1927) ，在生态系统中，物种之间的“吃”与“被吃”也是一个网络，食物链是自然生态系统稳定的重要机制</p>
+<p>一些自然资源之间的关系，如水的转化关系，也是一个网络</p>
+<p>甚至可以说，网络是自然世界生发演变的机制之一</p>
+<h3 id="12">1.2 形形色色的网络</h3>
+<ul>
+<li>交通运输网，邮政网，电话通信网，计算机网，互联网，万维网</li>
+<li>社会关系网，产品供销网，金融借贷网</li>
+<li>智能电网，无线网，传感网，物联网</li>
+<li>神经网，生物代谢网，食物链(网)</li>
+<li>攻守同盟网，恐怖主义网络</li>
+<li>人人网，新浪微博网，QQ.团购网</li>
+</ul>
+<h3 id="13">1.3 不同类型网络的依存</h3>
+<ul>
+<li>互联网(Internet) 一物理的、技术的</li>
+<li>万维网(WorldWideWeb)一基于互联网的信息网络</li>
+<li>人人网一基于万维网的在线社会(社交)网络 (Online Social Network，OSN)</li>
+<li>社会关系网，与地域相关(尤其在古代)。地域上相邻或相近见面的机会多，建立关系的可能性就大，随着交通工具的发达,社会关系的地域范围扩大</li>
+</ul>
+<h3 id="14-ict">1.4 ICT技术的发展</h3>
+<ul>
+<li>
+<p>催化了各种网络的发展</p>
+<ul>
+<li>
+<p>规模变大，范围变广</p>
+</li>
+<li>
+<p>新型网络的涌现如兴趣网</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="141-ict">1.4.1 ICT技术发展的影响</h4>
+<p>ICT技术的发展使分析和理解大规模网络的结构与演变成为可能</p>
+<ul>
+<li>
+<p>行为 (痕迹)数据 (para data)与网络的运行伴生</p>
+</li>
+<li>
+<p>海量数据 (大数据，big data)分析的能力 (计算设施，算法工具)</p>
+</li>
+</ul>
+<p>以社会网络分析为例，从前的分析能力限制在上百个节点，现在可以分析上亿个节点的网络</p>
+<p>今天，人们很难想象一个不在网络中的个体能怎样工作和生活一个没有网络的世界又会是怎样的世界</p>
+<h3 id="15">1.5 小结</h3>
+<ul>
+<li>
+<p>“网络”并不是今天才出现的现象，自然界原本就有，人类社会自古也有</p>
+</li>
+<li>
+<p>对人类社会而言，凡是有人群的时间与空间，就有网络网络不仅无处不在，而且形形色色</p>
+</li>
+<li>
+<p>ICT环境的发展，使人群之间的网络现象及其意义更加凸显</p>
+</li>
+<li>
+<p>计算能力的发展，使得针对网络现象的可计算性越来越强，进而使得对人群的行为及其与网络之间互动的可预测性也越来越有意义</p>
+</li>
+</ul>
+<h2 id="2">2. 网络与图</h2>
+<p>如何用严格的语言讨论网络的结构？</p>
+<p>当我们想到“网络”这个词语——“事物”+“联系”</p>
+<h3 id="21">2.1 什么是图</h3>
+<p>图=事物+联系 </p>
+<p>节点(vertex, node, point)</p>
+<p>边 (连接, 链接,关系, 联系;edge, link, tie)</p>
+<p>同构:画法不同，但本质上(结构上)相同，即每个节点的相邻节点情况均相同。</p>
+<h3 id="22">2.2 要点小结</h3>
+<ul>
+<li>图是网络结构信息的抽象，表达的是网络中各种事物之间的关系。</li>
+<li>这里所说的“图”不同于日常生活中看到的“图像'，尽管图常常也可以被画出来，呈现出一种图像的形式。</li>
+<li>同一个图，可能有多种不同的画法。也就是说，同一个图可能呈现出不同的图像形式。</li>
+</ul>
+<h2 id="3">3. 路径、连通图、连通分量</h2>
+<p>路径、最短路径、距离=最短路径长度</p>
+<h3 id="31">3.1 连通的、不连通的</h3>
+<p>图中每两个节点都有路径通达，则图是连通的。</p>
+<p>不连通的图由多个连通分量组成。 </p>
+<p>连通分量的<strong>性质</strong>：</p>
+<ul>
+<li>节点之间存在路径</li>
+<li>不包含在其他的连通分量中</li>
+</ul>
+<h2 id="4">4. 二部图、图上的广度优先搜索</h2>
+<p>二部图：<strong>可以</strong>被「分成两个部分」，每个部分内的节点之间两两无边</p>
+<p><img alt="image-20240224104341168" src="../image-20240224104341168-8742624.png"/></p>
+<p>面对一个比较复杂的图，如何判断它是否二部图？</p>
+<p>结论：一个图是二部图的充分必要条件是它没有长度为奇数的圈</p>
+<h3 id="41">4.1 图上的广度优先搜索</h3>
+<p>通过广度优先搜索将图变成类似「树」的分层结构，如果存在层内边，就说明存在长度为奇数的圈。</p>
+<h4 id="411">4.1.1 要点小结</h4>
+<ul>
+<li>许多社会现象或状态的结构，都呈现出二部图的形式</li>
+<li>是否有长度为奇数的圈，是判断一个图是否为二部图的充分必要条件</li>
+<li>广度优先搜索 (遍历)，是考察一个图是否存在长度为奇数的圈的有效方法(算法)</li>
+</ul>
+<h2 id="5-anatole-rapoport1953">5. 三元闭包——社会网络演化的基本结构性原因 (Anatole Rapoport,1953)</h2>
+<p>从一个现象说起：考虑社会关系，不仅考虑一个时刻 (“快照”)上的状态，还要研究随时间发生的变化 (内部原因 vs 外部原因)</p>
+<p><mark><strong>三元闭包 (闭合)：如果两个互不相识的人有了一个共同的朋友，则他们俩将来成为朋友的可能性提高。（拉伯波特）</strong></mark></p>
+<ul>
+<li>机会 (opportunity) ?</li>
+<li>信任 (trust) ?</li>
+<li>动机 (incentive) ?</li>
+</ul>
+<blockquote>
+<p>林南(2004:37)</p>
+<p>一个特定的网络可以自然地形成，也可以有对一个特定的共同关注的焦点或关注一种资源利益的社会性建构</p>
+</blockquote>
+<p>小结</p>
+<ul>
+<li>节点之间的关系，会随着时间的变化而发生变化，有些之前没有关系的节点之间，也可能出现边</li>
+<li>是否出现边，其中的一个机制，是结构性机制，即在三个点之间如果有两条边，则没有边的节点之间极有可能发展出边</li>
+</ul>
+<h2 id="6">6. 从三元闭包模型的大数据验证看计算社科的研究范式</h2>
+<h3 id="61">6.1 需要先解决两个问题</h3>
+<p>第一，将三元闭包原理最初的定性陈述转变成一种可以定量考察的表达；</p>
+<p>第二，找到一种合适的社会网络数据</p>
+<h3 id="62">6.2 三元闭包原理的两种表达</h3>
+<p>最初的表述：如果两个互不相识的人有了一个共同朋友，则他们俩在未来成为朋友的可能性增加</p>
+<p>可以转变成：如果两个互不相识的人的共同朋友数越多，则他们俩在未来成为朋友的可能性越大。</p>
+<h3 id="63">6.3 用什么数据验证?</h3>
+<p>电子邮件网络约等于社会网络——一所大学的2万多学生在一年里的通信关系数据，只关心谁和谁何时有过通信，不关心内容</p>
+<h3 id="64">6.4 “可能性”怎么衡量?</h3>
+<p><strong>概率「参考系」</strong>：假设网络中有100对节点，某一时刻之前没边，但分别都恰好有5个共同的朋友如果，一个月里，其中有20对节点俩俩之间发生了通信，80对依然没有，就说：两个不相识但有5个共同朋友的人，在一个月里将成为朋友的概率为0.2。</p>
+<p>要求：网络规模足够大（两个快照之间得到比较多的数据点，体现趋势）、数据跨度时间足够长（足够多的快照对之间进行比较）</p>
+<p>以三元闭包原理的验证为例，我们看到了一种利用大数据分析，定量考察某些社会科学定性认识的方法。其中有两个关键</p>
+<ul>
+<li>
+<p>将社会科学原理的定性描述，转化为便于定量分析的表述，形成数据指标(与共同朋友数对应的概率)</p>
+</li>
+<li>
+<p>选择合适的数据，以及从原始数据中提炼出指标数据的方法</p>
+</li>
+</ul>
+<h2 id="7">7. 刻画节点属性</h2>
+<h3 id="71">7.1 聚集系数</h3>
+<p><mark><strong>节点A的聚集系数 = 与A相邻的任意两个朋友之间也是朋友的概率 <span class="arithmatex">\(=\frac{与A相邻的朋友【对】的个数(组合数)}{总(组合数)}\)</span></strong></mark></p>
+<p>例如，A的聚集系数：</p>
+<ul>
+<li>与A相邻的总(可能)的节点对数 <span class="arithmatex">\(B-C,B-D,B-E,C-D,C-E,D-E=6\)</span></li>
+<li>与A相邻的节点对数中相互有连接的对数 <span class="arithmatex">\(C-D=1\)</span></li>
+<li>A的聚集系数 = <span class="arithmatex">\(\frac{1}{6}\)</span></li>
+</ul>
+<p>聚集系数，就是三元闭包中，对里个节点属性的测度，表示“凝聚力”的大小，与其正相关。「凝聚性」=「权威性」，<strong>在一群相邻的节点中考察对其他节点的影响的测度</strong>。</p>
+<p>小结</p>
+<ul>
+<li>在一个网络结构中，某些位置的点是具有特殊意义的</li>
+<li>
+<p>刻画一个网络结构中节点的属性，可以采用聚集系数</p>
+</li>
+<li>
+<p>三元闭包、聚集系数都有特定的社会意义</p>
+</li>
+</ul>
+<h3 id="72">7.2 结构洞</h3>
+<p>对节点属性的另一种更有社会意义的刻画——换一个思路，从网络结构来看，相邻节点的关系→重要性（缺失性比较，缺失后网络是否会发生结构变化</p>
+<p><mark><strong>结构洞：一个节点，移除该节点就会使网络变成多个连通分量的节点</strong></mark></p>
+<p>结构洞A的意义，当然是指其在结构位置上所具有的意义。</p>
+<ul>
+<li>了解多个连通分量方面的信息</li>
+<li>处于捷径的一端，对其“长处”有放大影响</li>
+<li>对与其相邻的节点甚至具有“权力”</li>
+<li>冗余 (凝聚力冗余和结构等位冗余) 越小的结构洞，社会资本就越多</li>
+</ul>
+<div class="admonition note inline end">
+<p class="admonition-title">Note</p>
+<dl>
+<dt>社会资本</dt>
+<dd>
+<p>运用关系获益的能力</p>
+</dd>
+</dl>
+</div>
+<p>参考 Burt 的结构洞</p>
+<p>小结</p>
+<ul>
+<li>
+<p>对网络中某个时点结构中的边的属性，可以用强弱进行测度</p>
+</li>
+<li>
+<p>边的属性可以用嵌入性来测度，嵌入性越强，社会资本越强（与自身能力无关）</p>
+</li>
+<li>
+<p>点的属性除了聚集系数外，还有特殊的社会意义，即结构洞意义，冗余越小的结构洞，社会资本也越多</p>
+</li>
+</ul>
+<h2 id="8">8. 刻画边的属性</h2>
+<p>对边的属性的刻画、对节点属性的另一种刻画及其社会意义</p>
+<p>聚集系数这里仅仅讨论了两个节点之间是否有边，以及随时间推移而发生的节点之间边的变化，但并没有讨论边的属性，如:友好 - 敌对，强 - 弱等</p>
+<h3 id="81">8.1 强、弱</h3>
+<p>以3节点关系为例，在A-B，A-C有关系且为<strong>朋友关系</strong>的条件下B-C之间<strong>倾向于建立联系</strong>。</p>
+<p>然而显然，A-B，A-C的关系与B-C建立关系的瞬间是不一样的。如何表达这样的不一样呢? Granovetter (1973)提出了刻画边的属性的 <mark>一种测度：<strong>强 - 弱</strong>。显然，这是一种<strong>简化</strong>的测度，强度是可以为<strong>连续变量</strong>的；但是，二分法有时也足够用了。</mark></p>
+<p>现实案例：被动参与，体现了强弱关系的重要性</p>
+<p>Huberman et al. (2009) 三元闭包原理实际上暗含了一个随时间推移的可能：有的人会被动地加入某些网络</p>
+<p>Huberman et al.(2009) 对Twitter的研究表明，即使所有朋友的总数超过500，实际联系的总数也在10-20人之间;被动联系人的数量也不超过50人</p>
+<p>为了刻画边的重要性，强弱不够了，需要引入其他测度。</p>
+<h3 id="82">8.2 嵌入性与邻里重叠度</h3>
+<p>更有社会意义的刻画，体现边的<strong>重要性</strong>。嵌入性 (Embedness)概念：</p>
+<p>最初提出：Karl Polanyi (1944)《大转变》，行动嵌入制度</p>
+<p>Granovetter (1985) 在与经济学家的论战中，提出了经济行为与社会结构之间的关系问题，拓展了嵌入性概念，指出，经济行为是嵌入在社会结构之中的，是社会行为的一种。后来，这个概念的应用得到了极大的扩展，甚至被引入到了网络分析。网络分析，恰恰是 Granovetter 从他老师 Harrison White(1967) 那里得到的衣钵。由于这个概念在多个研究框架中出现，因此社会科学的学生在运用网络分析工具、社会资本概念的时候，需要特别地谨慎。注意：此处的嵌入性概念不是 Granovetter 意义上的，我们不涉及对宏观网络的刻画，而是对嵌入性的情景定义进行抽象后的嵌入性。</p>
+<p><mark><strong>抽象后的嵌入性：嵌入性 = 一条边两端共同的邻里数，即<u>邻里重叠度</u></strong></mark></p>
+<ul>
+<li>
+<p>看A-B边，有共同的邻里E和F</p>
+</li>
+<li>
+<p>则A-B边的嵌入性为2</p>
+</li>
+<li>
+<p>嵌入性越强的边，相互之间的信任就越强（不等于社会资本哈）</p>
+</li>
+<li>
+<p>嵌入性越强的边，社会资本也越多（谨慎：嵌入性与社会资本属于两个完全不同的分析框架，使用时一定要说明分析框架）</p>
+</li>
+</ul>
+<h2 id="9">9. 弱关系与网络中的捷径</h2>
+<p>依三元闭包精神，如果一个节点 (A)有两个强关系邻居B和C，则B和C不应该什么关系都没有。</p>
+<p><mark><strong>强三元闭包原理——如果A和B、C之间的关系分别为强关系，则B和C之间形成边的可能性应该很高。进而，我们说：若A有两个强关系邻居B和C，但B和C之间没有任何关系 (s或w)，则称节点A违背了强三元闭包原理。如果节点A没有违背强三元闭包原理，则称节点A符合强三元闭包原理。</strong></mark></p>
+<p><strong><mark>捷径≈弱关系：若节点A符合强三元闭包，且至少有两个强关系邻居，则与A相连的任何捷径必定意味着是弱关系。</mark></strong></p>
+<p>在社交网络中，若节点A满足强三元闭包性质，并有至少两个强联系边与之相连，则与其相连的任何捷径均为弱联系。换句话说，在假设满足强三元闭包性质及充分数目的强联系边存在的前提下，社交网络中的捷径必然为弱联系。（社会网络的结构特性与边的联系强度的关联） 就好比一个新的工作机会往往藏匿在与某个不太常联系的熟人关系中。其体现的精神为：两个人的关系强度与是否有共同朋友有关。而统计的推论是：共同朋友越多，关系强度越高。</p>
+<p>证明：捷径意味着「四元模型（四边形）」，其中，只要与A相连的关系一条边是S，另一边就不可能是S，因为如果两条都是S，理应会形成第三条关系（对角线）。</p>
+<p><strong>要点小结</strong>：我们证明了，在一定条件下，社交网络中的捷径意味着弱关系。这个结论的意义，在于它将来源于两个不同领域的概念巧妙地联系了起来，展示了学科交叉的魅力</p>
+<!-- Was this page helpful? -->
+<!-- Comment system -->
+</article>
+</div>
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+</div>
+<button class="md-top md-icon" data-md-component="top" hidden="" type="button">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12Z"></path></svg>
+  回到页面顶部
+</button>
+</main>
+<footer class="md-footer">
+<nav aria-label="页脚" class="md-footer__inner md-grid">
+<a aria-label="上一页: 《社科计算》课程介绍" class="md-footer__link md-footer__link--prev" href="../0.%20%E3%80%8A%E7%A4%BE%E7%A7%91%E8%AE%A1%E7%AE%97%E3%80%8B%E8%AF%BE%E7%A8%8B%E4%BB%8B%E7%BB%8D/">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                上一页
+              </span>
+<div class="md-ellipsis">
+                《社科计算》课程介绍
+              </div>
+</div>
+</a>
+<a aria-label="下一页: 网络与图论加强" class="md-footer__link md-footer__link--next" href="../2.%20%E7%BD%91%E7%BB%9C%E4%B8%8E%E5%9B%BE%E8%AE%BA%E5%8A%A0%E5%BC%BA/">
+<div class="md-footer__title">
+<span class="md-footer__direction">
+                下一页
+              </span>
+<div class="md-ellipsis">
+                网络与图论加强
+              </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+<div class="md-copyright__highlight">
+      本站所載文檔僅供參考學習，未同文檔原作者協商溝通謝絕轉載。如有侵權，請即時聯繫我刪除！
+    </div>
+</div>
+<div class="md-social">
+<a class="md-social__link" href="https://github.com/lzliangzh" rel="noopener" target="_blank" title="github.com">
+<svg viewbox="0 0 496 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg>
+</a>
+<a class="md-social__link" href="mailto:&lt;lzliangzh@gmail.com&gt;" rel="noopener" target="_blank" title="邮箱地址">
+<svg viewbox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><!--! Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M498.1 5.6c10.1 7 15.4 19.1 13.5 31.2l-64 416c-1.5 9.7-7.4 18.2-16 23s-18.9 5.4-28 1.6L284 427.7l-68.5 74.1c-8.9 9.7-22.9 12.9-35.2 8.1S160 493.2 160 480v-83.6c0-4 1.5-7.8 4.2-10.7l167.6-182.9c5.8-6.3 5.6-16-.4-22s-15.7-6.4-22-.7L106 360.8l-88.3-44.2C7.1 311.3.3 300.7 0 288.9s5.9-22.8 16.1-28.7l448-256c10.7-6.1 23.9-5.5 34 1.4z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<div class="md-progress" data-md-component="progress" role="progressbar"></div>
+<script id="__config" type="application/json">{"base": "../../..", "features": ["announce.dismiss", "content.code.annotate", "content.code.copy", "content.code.select", "content.tooltips", "header.autohide", "navigation.footer", "navigation.indexes", "navigation.instant", "navigation.instant.progress", "navigation.path", "navigation.sections", "navigation.tabs", "navigation.top", "navigation.tracking", "search.highlight", "search.share", "search.suggest", "toc.follow"], "search": "../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}}</script>
+<script src="../../../assets/javascripts/bundle.8fd75fb4.min.js"></script>
+<script src="../../../javascripts/config.js"></script>
+<script src="../../../javascripts/mathjax.js"></script>
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+</body>
+</html>

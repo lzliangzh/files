@@ -1,0 +1,403 @@
+
+
+:root, [data-md-color-scheme=default] {
+    --md-default-fg-color--light: #000;
+    --md-primary-fg-color: aqua
+}
+
+:root, [data-md-color-scheme=slate] {
+    --md-default-fg-color--light: #EEE
+}
+
+.md-content > .md-typeset, .md-post > .md-typeset {
+    font-feature-settings: 'halt';
+    text-align: justify;
+    font-family: 'lmroman', '思源宋体 CN';
+    /* display: flex; */
+    letter-spacing: 0.05em;
+}
+
+.md-typeset {
+    font-size: 18px;
+}
+
+.date {
+    padding: 0 .8rem;
+  }
+
+  
+/*
+.md-post > .md-typeset {
+}
+*/
+
+.md-search__form {
+    border-radius: 2em;
+}
+
+/* 
+.md-search__form {
+    border-radius: 2em;
+    height: 1;
+}
+.md-header__option {
+    background:aquamarine;
+    border-radius: 2em;
+}
+
+.md-source {
+    background-color: aqua;
+    border-radius: 2em;
+}
+*/
+
+.md-footer, .md-footer-meta, .md-copyright, .md-copyright__highlight {
+    background-color: rgba(255, 255, 255, 0);
+    color: var(--md-typeset-color);
+}
+
+html .md-footer-meta.md-typeset a {
+    color: var(--md-typeset-color);
+}
+
+
+
+
+
+article > p {
+    text-indent: 2em;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6em;
+}
+
+article > p > img {
+    display: block;
+    border-radius: .075rem;
+    padding: 0.5em 5% 0.5em 5%;
+}
+
+strong {
+    background-color: var(--md-typeset-mark-color);
+}
+
+[dir=ltr] .md-typeset blockquote {
+    border-left: 0px;
+    padding-left: 2em;
+    font-family: 'lmroman-it', 'ChillKai';
+    text-indent: 2em;
+    font-size: 0.95em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+[dir=ltr] .md-typeset blockquote > p {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.md-typeset dd {
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+
+
+
+/* material */
+
+[data-md-color-primary=white] .md-tabs {
+    border-bottom: 0;
+}
+
+.md-header {
+    box-shadow: 0 0 0 0;
+    border-radius: 0 0 2.5em 2.5em;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.md-header--shadow {
+    box-shadow:0 0 0 0;
+}
+
+.md-header__topic {
+    font-family: 'Work Sans', 'title';
+}
+
+[data-md-color-primary=black] .md-tabs, .md-tabs {
+    background-color: rgba(255, 255, 255, 0);
+    
+}
+
+.md-tabs__link {
+    transition: transform 0s cubic-bezier(.1,.7,.1,1), opacity 1s;
+    font-family: 'Work Sans', 'title';
+    font-weight: 600;
+}
+
+.md-tabs__item--active > .md-tabs__link {
+    transition: 0.3s;
+    border-bottom: 3px solid blue;
+}
+
+.md-tabs__link:hover {
+    border-bottom: 3px solid blue;
+    transition: 0.3s;
+}
+
+.md-overlay {
+    background: var(--md-default-bg-color);
+}
+
+[data-md-toggle=drawer]:checked~.md-overlay {
+    opacity: 0.8;
+}
+
+/* 響應式佈局改不好
+.md-container .md-sidebar--primary {
+    height: 50%;
+    margin-top: 2em;
+    margin-left: 1em;
+}
+
+@media screen and (max-width: 76.234375em)
+[data-md-toggle=drawer]:checked~.md-container .md-sidebar--primary {
+    border-radius: 2em;
+}
+*/
+
+/* 首页帖文形状设定，尝试瀑布流无果，转战简单修改 */
+
+.md-post--excerpt {
+    margin-bottom: 1rem;
+    box-shadow: 0 0 20px rgb(0,0,0,0.15);
+    padding: 1.5em;
+    border-top: 5px solid cadetblue;
+}
+
+.md-post:hover {
+    background: var(--md-accent-fg-color--transparent);
+    transition: 0.3s;
+}
+
+/*
+.md-post--excerpt {
+    margin-bottom: 0.5rem;
+    display: inline-block;
+    box-shadow: 0 0 10px;
+    padding: 1em;
+    border-radius: 2em;
+    width: 49%;
+    border: 1px solid darkgrey;
+}
+*/
+
+.md-typeset h1 {
+    border-left: 5px solid blue;
+    padding-left: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+	text-align: left;
+    font-family: 'Work Sans', 'title';
+    font-weight: 800;
+    margin-top: 1.5em;
+    margin-bottom: 2.5em;
+    font-size: 2.5em;
+    box-shadow: 0 0 20px rgb(0,0,0,0.15);
+}
+
+.md-post > .md-typeset h2 {
+	text-align: justify;
+    font-family: 'Work Sans', 'title';
+    font-weight: 300;
+    color: var(--md-typeset-color);
+}
+
+.md-content > .md-typeset h2 {
+	text-align: center;
+    font-weight: 700;
+}
+
+.md-content > .md-typeset h3 {
+    font-family: 'Work Sans';
+    font-weight: 700;
+}
+
+.md-content > .md-typeset h4 {
+    font-family: 'lmroman-it', 'ChillKai';
+    font-size: 1.2em;
+}
+
+.md-content > .md-typeset h5 {
+    font-size: 1em;
+}
+
+.md-content > .md-typeset h6 {
+    font-size: 1em;
+    font-family: 'lmroman-it', 'ChillKai';
+    font-weight: 400;
+}
+
+/* */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap')
+
+
+/* Gitbook 要开，否则无法打印 */
+/*
+.book-body {
+    height: max-content;
+}
+
+.book-summary {
+    position: fixed;
+}
+
+.book {
+    height: auto;
+    position: unset;
+}
+
+body, html {
+    height: auto;
+    max-width: 1200px;
+}
+
+@media print {
+    body {
+        height: auto;
+        display: block;
+    }
+}
+*/
+/*
+article > p {
+    text-indent: 2em;
+}
+*/
+
+@font-face {    font-family: 'title';}
+
+@font-face {
+    font-family: 'title';
+    src: url("https://lzliangzh.github.io/fonts/MYingHeiPRC-W3.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'title';
+    src: url("https://lzliangzh.github.io/fonts/MYingHeiPRC-W6.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'title';
+    src: url("https://lzliangzh.github.io/fonts/MYingHeiPRC-W8.ttf");
+    font-weight: 800;
+}
+
+
+@font-face {
+    font-family: '思源宋体 CN';
+    src: url("https://lzliangzh.github.io/fonts/SourceHanSerifCN-Medium.otf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: '思源宋体 CN';
+    src: url("https://lzliangzh.github.io/fonts/SourceHanSerifCN-Bold.otf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: '思源宋体 CN';
+    src: url("https://lzliangzh.github.io/fonts/SourceHanSerifCN-Medium.otf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: '思源宋体 CN';
+    src: url("https://lzliangzh.github.io/fonts/SourceHanSerifCN-Heavy.otf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'ChillKai';
+    src: url("https://lzliangzh.github.io/fonts/ChillKai.ttf");
+}
+
+@font-face {
+    font-family: 'lmroman';
+    src: url("https://lzliangzh.github.io/fonts/mlmr12.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'lmroman';
+    src: url("https://lzliangzh.github.io/fonts/mlmbx12.otf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'lmroman-it';
+    src: url("https://lzliangzh.github.io/fonts/mlmri12.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'lmroman-it';
+    src: url("https://lzliangzh.github.io/fonts/lmroman10-bolditalic.otf");
+    font-weight: 700;
+}
+
+
+
+em {
+    font-family: 'lmroman-it', 'ChillKai';
+    Font-style: normal
+}
+
+dt {
+    align-items: center;
+    background: var(--md-default-fg-color--lightest);
+    border-radius: 2.4rem;
+    display: inline-flex;
+    font-weight: 700;
+    gap: 0.5em;
+    letter-spacing: normal;
+    line-height: 1.6;
+    padding: 0.3125em 0.78125em;
+}
+
+dd > p {
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.md-tooltip {
+    font-family: 'lmroman-it', 'ChillKai';
+}
+
+/* ReadtheDocs 和 Gitbook 都要开 */
+/*
+details {
+    padding: 0.5em 1em 0.5em 1em;
+    box-shadow: 0px 0px 10px lightblue;
+    margin: 1em;
+    border-radius: 1em;
+}
+
+details > summary {
+    font-size: 1em;
+    padding: .25em;
+    border-bottom: 3px solid lightblue;
+    font-family: Helvetica;
+    font-weight: 700;
+    color: lightblue;
+}
+*/
+
+
+
