@@ -157,6 +157,15 @@ strong {
     opacity: 0.8;
 }
 
+.md-nav--primary .md-nav__link {
+    padding-bottom: 0;
+
+}
+
+.md-nav--primary .md-nav__item {
+    border-top: 0;
+}
+
 /* 響應式佈局改不好
 .md-container .md-sidebar--primary {
     height: 50%;
