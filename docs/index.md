@@ -7,6 +7,9 @@ hide:
   - footer
 ---
 
+<head>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
 <style>
   :root {
     --mainpage-bg-pic: url(./7.jpg);
@@ -28,23 +31,26 @@ hide:
 
 
   .md-typeset h1 {
-  	animation: fadeInAnimation ease 3s;
-		animation-iteration-count: 1;
-		animation-fill-mode: forwards;
     border:0;
     box-shadow:0 0 0;
     text-align:center;
     opacity: 0;
   }
 
+  .active {
+    opacity: 1;
+  }
+
   body:hover {
     .md-typeset h1 {
       opacity: 1;
-      transition: opacity 1s;
+      transition: opacity 2s;
     }
   }
 
-
+.md-typeset p {
+  text-indent:0;
+}
 
 
 
@@ -53,3 +59,5 @@ hide:
 
 
 # 歡迎來到我的小屋。
+
+<center>[瞭解更多](/files/aboutme){ .md-button }</center>
