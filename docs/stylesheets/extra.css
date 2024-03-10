@@ -14,7 +14,7 @@
     text-align: justify;
     font-family: 'lmroman', '思源宋体 CN';
     /* display: flex; */
-    letter-spacing: 0.05em;
+    letter-spacing: 0.02em;
 }
 
 .md-typeset {
@@ -77,9 +77,9 @@ article > p > img {
     padding: 0.5em 5% 0.5em 5%;
 }
 
-strong {
+/* strong {
     background-color: var(--md-typeset-mark-color);
-}
+} */
 
 [dir=ltr] .md-typeset blockquote {
     border-left: 0px;

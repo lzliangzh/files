@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0217f80e27062639",
+        "id": "876c34ab11ab2aa7",
         "type": "tabs",
         "children": [
           {
-            "id": "ae59f0a61f11a312",
+            "id": "e0ea34bb18ad0374",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,9 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "ae59f0a61f11a312",
+  "active": "e0ea34bb18ad0374",
   "lastOpenFiles": [
+    "Jottings 雜記/年度總結/charge-into-2024.md",
     "index~.md",
     "stylesheets/fonts/mlmri12.otf",
     "stylesheets/fonts/mlmr12.otf",

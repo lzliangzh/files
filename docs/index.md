@@ -12,7 +12,7 @@ hide:
 </head>
 <style>
   :root {
-    --mainpage-bg-pic: url(./7.jpg);
+    --mainpage-bg-pic: url(./example.gif);
   }
   [data-md-color-scheme=slate] {
     --mainpage-bg-pic: url(./3.jpg);
@@ -56,8 +56,6 @@ hide:
 
 </style>
 
-
-
-# 歡迎來到我的小屋。
+# 一壶浊酒喜相逢。
 
 <center>[瞭解更多](/files/aboutme){ .md-button }</center>

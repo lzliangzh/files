@@ -1,0 +1,10 @@
+mkdocs
+mkdocs-material
+mkdocs-blogging-plugin
+mkdocs-callouts
+mkdocs-meta-manager
+mkdocs-meta-descriptions-plugin
+mkdocs-mermaid2-plugin
+mkdocs-add-number-plugin
+mkdocs-footermatter
+mkdocs-encryptcontent-plugin
